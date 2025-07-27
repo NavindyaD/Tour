@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NavindyaD/Tour/static/css/main.d21f789e.css",
-    "main.js": "/NavindyaD/Tour/static/js/main.482868fd.js",
+    "main.css": "/NavindyaD/Tour/static/css/main.bb245ec6.css",
+    "main.js": "/NavindyaD/Tour/static/js/main.26efc68e.js",
     "static/js/453.ed3810f9.chunk.js": "/NavindyaD/Tour/static/js/453.ed3810f9.chunk.js",
     "index.html": "/NavindyaD/Tour/index.html",
-    "main.d21f789e.css.map": "/NavindyaD/Tour/static/css/main.d21f789e.css.map",
-    "main.482868fd.js.map": "/NavindyaD/Tour/static/js/main.482868fd.js.map",
+    "main.bb245ec6.css.map": "/NavindyaD/Tour/static/css/main.bb245ec6.css.map",
+    "main.26efc68e.js.map": "/NavindyaD/Tour/static/js/main.26efc68e.js.map",
     "453.ed3810f9.chunk.js.map": "/NavindyaD/Tour/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d21f789e.css",
-    "static/js/main.482868fd.js"
+    "static/css/main.bb245ec6.css",
+    "static/js/main.26efc68e.js"
   ]
 }
