@@ -1,0 +1,111 @@
+/* Unique Footer Styles */
+.footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-section {
+    width: 20%;
+    text-align: left;
+  }
+  
+  .footer-section h3 {
+    font-size: 1.2rem;
+    color: #f9a826;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    font-size: 0.9rem;
+    color: #ccc;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 6px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f9a826;
+  }
+  
+  /* Social Media Icons */
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+  }
+  
+  .social-icons a {
+    color: #bbb;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #f9a826;
+    transform: scale(1.2);
+  }
+  
+  /* Payment Icons */
+  .payment-icons {
+    font-size: 2rem;
+    display: flex;
+    gap: 15px;
+    color: #bbb;
+  }
+  
+  .payment-icons i:hover {
+    color: #f9a826;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    margin-top: 30px;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .footer-section {
+      width: 100%;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  
+    .payment-icons {
+      justify-content: center;
+    }
+  }
+  

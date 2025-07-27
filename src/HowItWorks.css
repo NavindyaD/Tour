@@ -1,0 +1,112 @@
+/* Unique CSS for HowItWorks Component */
+.howitworks-container {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .howitworks-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 40px;
+  }
+  
+  .howitworks-steps {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    margin: auto;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .howitworks-steps::before {
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 50%;
+    width: 85%;
+    height: 2px;
+    background-color: #7dd71d;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+  
+  .howitworks-step {
+    width: 23%;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .howitworks-icon {
+    background-color: #7dd71d;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    margin: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .howitworks-icon:hover {
+    transform: scale(1.1);
+  }
+  
+  .howitworks-time {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  .howitworks-step-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .howitworks-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .howitworks-list-item {
+    font-size: 1rem;
+    color: #555;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .howitworks-list-item::before {
+    content: "✔";
+    color: #7dd71d;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .howitworks-steps {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .howitworks-steps::before {
+      display: none;
+    }
+  
+    .howitworks-step {
+      width: 90%;
+      margin-bottom: 30px;
+    }
+  }
+  

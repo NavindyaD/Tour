@@ -1,0 +1,68 @@
+/* WhyChooseUs.css */
+.why-choose-us {
+    border: 1px solid #7dd71d;
+    padding: 40px;
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    background: #fdfdfd;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .reasons-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .reason-item {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    font-size: 1rem;
+    color: #444;
+    text-align: left;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #44c767;
+    margin-right: 15px;
+  }
+  
+  .read-more {
+    margin-top: 20px;
+  }
+  
+  .read-more a {
+    color: #44c767;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .read-more a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .reasons-grid {
+      flex-direction: column;
+    }
+    
+    .reason-item {
+      width: 100%;
+    }
+  }
+  

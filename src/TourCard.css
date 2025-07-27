@@ -1,0 +1,99 @@
+/* TourCard.css */
+.tour-card {
+    border: 2px solid #0073e6;  /* Box border */
+    border-radius: 10px; /* Rounded corners */
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Shadow for box effect */
+    text-align: center;
+    padding: 15px;
+    max-width: 280px;
+    width: 100%;
+    position: relative;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .tour-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .tour-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .badge {
+    background: #0073e6;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .stars {
+    color: gold;
+    font-size: 1.2rem;
+  }
+  
+  .tour-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .duration-badge {
+    background: #28a745;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  
+  .icons {
+    font-size: 1.3rem;
+    margin: 8px 0;
+  }
+  
+  .tags {
+    margin-top: 10px;
+  }
+  
+  .tag {
+    display: inline-block;
+    background: #ddd;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin: 3px;
+  }
+  
+  .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .price span {
+    color: #0073e6;
+    font-size: 1.3rem;
+  }
+  
+  .info-btn {
+    background: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .info-btn:hover {
+    background: #005bb5;
+  }
+  
