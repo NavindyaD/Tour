@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Navbar";
-import TourList from "./TourList";
+// import TourList from "./TourList";
 // import Footer from "./Footer";
 // import WhyChooseUs from "./WhyChooseUs";
-import HowItWorks from "./HowItWorks";
+// import HowItWorks from "./HowItWorks";
 import BlogPage from "./BlogPage";
 import Homes from "./Homes";
 // import Home from "./pages/Home";
@@ -19,9 +19,9 @@ function App() {
     <Router>
       <Navbar />
       <br/><br/><br/><br/><br/><br/>
-      <TourList />
+      {/* <TourList /> */}
       {/* <WhyChooseUs/> */}
-      <HowItWorks/>
+      {/* <HowItWorks/> */}
       <Routes>
       <Route path="/home" element={<Homes />} />
       <Route path="/blogs" element={<BlogPage />} />

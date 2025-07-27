@@ -19,12 +19,12 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Tours</a></li>
-            <li><a href="#">Deals</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="https://hello">Home</a></li>
+            <li><a href="https://hello">Tours</a></li>
+            <li><a href="https://hello">Deals</a></li>
+            <li><a href="https://hello">Testimonials</a></li>
+            <li><a href="https://hello">Blog</a></li>
+            <li><a href="https://hello">Contact</a></li>
           </ul>
         </div>
 
@@ -40,10 +40,10 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Follow Us</h3>
           <div className="social-icons">
-            <a href="#"><FaFacebook /></a>
-            <a href="#"><FaInstagram /></a>
-            <a href="#"><FaTwitter /></a>
-            <a href="#"><FaYoutube /></a>
+            <a href="https://hello"><FaFacebook /></a>
+            <a href="https://hello"><FaInstagram /></a>
+            <a href="https://hello"><FaTwitter /></a>
+            <a href="https://hello"><FaYoutube /></a>
           </div>
         </div>
 
