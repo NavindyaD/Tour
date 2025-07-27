@@ -56,7 +56,7 @@ const WhyChooseUs = () => {
       </div>
 
       <div className="read-more">
-        <a href="#">READ MORE</a>
+        <a href="https://hello">READ MORE</a>
       </div>
     </div>
   );
