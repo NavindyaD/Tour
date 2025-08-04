@@ -14,8 +14,9 @@ const ContactUs = () => {
 
           <div className="contact-details">
             <p><strong>📍 Address:</strong> 123 Travel Street, Colombo, Sri Lanka</p>
-            <p><strong>📞 Phone:</strong> +94 123 456 789</p>
-            <p><strong>✉ Email:</strong> info@olankatravels.com</p>
+            <p><strong>📞 Phone:</strong> +94 77 028 2915</p>
+            <p><strong>📞 Phone:</strong> +94 75 216 7167</p>
+            <p><strong>✉ Email:</strong> info@travels.com</p>
             <p><strong>🕘 Hours:</strong> Mon - Fri: 9 AM - 6 PM</p>
           </div>
         </div>
