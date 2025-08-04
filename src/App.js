@@ -23,6 +23,7 @@ function App() {
       {/* <WhyChooseUs/> */}
       {/* <HowItWorks/> */}
       <Routes>
+        <Route path="/Tour" element={<Homes />} />
          <Route path="/" element={<Homes />} />
       <Route path="/home" element={<Homes />} />
       <Route path="/blogs" element={<BlogPage />} />
