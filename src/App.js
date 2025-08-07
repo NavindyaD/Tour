@@ -14,6 +14,8 @@ import Contact from "./ContactUs";
 import ToursPage from "./ToursPage";
 import DealsPage from "./DealPage";
 import TestimonialsPage from "./TestimonialsPage";
+import Hello from "./hello"; // the component for hello.js
+import Bye from "./bye";     // the component for bye.js
 function App() {
   return (
     <Router>
@@ -31,7 +33,8 @@ function App() {
       <Route path="/tours" element={<ToursPage /> } />
       <Route path="/deals" element={<DealsPage /> } />
       <Route path="/testimonials" element={<TestimonialsPage /> } />
-
+ <Route path="/hello" element={<Hello />} />
+        <Route path="/bye" element={<Bye />} />
         {/* <Route path="/" element={<Home />} />
       
         <Route path="/destinations" element={<Destinations />} />

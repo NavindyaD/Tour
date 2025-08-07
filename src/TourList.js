@@ -1,7 +1,7 @@
 import React from "react";
 import TourCard from "./TourCard";
 import "./TourList.css";
-
+import snorkelingImg from './adventure.jpg';
 const tourData = [
   {
     title: "Sri Lanka Adventure Tour",
@@ -9,7 +9,7 @@ const tourData = [
     price: 620,
     duration: 7,
     tags: ["Diving", "Snorkeling", "Wild Life", "Nature"],
-    image: "https://source.unsplash.com/400x250/?snorkeling,beach",
+    image: snorkelingImg,
   },
   {
     title: "Family Trip to Sri Lanka",
