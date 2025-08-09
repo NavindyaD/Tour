@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/Tour/static/css/main.1d4b1d02.css",
-    "main.js": "/Tour/static/js/main.3332e0ab.js",
+    "main.css": "/Tour/static/css/main.4606e4e2.css",
+    "main.js": "/Tour/static/js/main.79d31578.js",
     "static/js/453.ed3810f9.chunk.js": "/Tour/static/js/453.ed3810f9.chunk.js",
-    "static/media/lotus.jpg": "/Tour/static/media/lotus.801c35f86e5bac4734cc.jpg",
-    "static/media/adventure.jpg": "/Tour/static/media/adventure.1c268232d98673446baf.jpg",
-    "static/media/madu.jpg": "/Tour/static/media/madu.23ed4e8e87cdf0ed7956.jpg",
-    "static/media/turtle.jpg": "/Tour/static/media/turtle.8e771a44b024c89caee4.jpg",
-    "static/media/bentota.jpg": "/Tour/static/media/bentota.d94a7b5c596c40e1a267.jpg",
+    "static/media/hotel2.jpg": "/Tour/static/media/hotel2.a1bb95f0c1e1b8aa0901.jpg",
+    "static/media/hotel1.jpg": "/Tour/static/media/hotel1.49917303908707b0f3de.jpg",
+    "static/media/gangaramaya.jpg": "/Tour/static/media/gangaramaya.1d028a38b6e57ab05074.jpg",
+    "static/media/galleFace.jpg": "/Tour/static/media/galleFace.cab7d1476a2063fbcbf3.jpg",
     "index.html": "/Tour/index.html",
-    "main.1d4b1d02.css.map": "/Tour/static/css/main.1d4b1d02.css.map",
-    "main.3332e0ab.js.map": "/Tour/static/js/main.3332e0ab.js.map",
+    "main.4606e4e2.css.map": "/Tour/static/css/main.4606e4e2.css.map",
+    "main.79d31578.js.map": "/Tour/static/js/main.79d31578.js.map",
     "453.ed3810f9.chunk.js.map": "/Tour/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d4b1d02.css",
-    "static/js/main.3332e0ab.js"
+    "static/css/main.4606e4e2.css",
+    "static/js/main.79d31578.js"
   ]
 }
