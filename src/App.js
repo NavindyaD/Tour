@@ -16,6 +16,7 @@ import DealsPage from "./DealPage";
 import TestimonialsPage from "./TestimonialsPage";
 import Hello from "./hello"; // the component for hello.js
 import Bye from "./bye";     // the component for bye.js
+import Buy from './Buy';
 function App() {
   return (
     <Router>
@@ -35,6 +36,7 @@ function App() {
       <Route path="/testimonials" element={<TestimonialsPage /> } />
  <Route path="/hello" element={<Hello />} />
         <Route path="/bye" element={<Bye />} />
+         <Route path="/buy" element={<Buy />} />
         {/* <Route path="/" element={<Home />} />
       
         <Route path="/destinations" element={<Destinations />} />

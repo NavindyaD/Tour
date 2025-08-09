@@ -1,118 +1,106 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Itinerary.css";
-import bentota from './bentota.jpg';
-import madu from './madu.jpg';
-import turtle from './turtle.jpg';
-import lotus from './lotus.jpg'
-const Hello = () => {
+
+// Images - replace with your actual image imports or URLs
+import colomboFort from './colomboFort.jpg';
+import gangaramaya from './gangaramaya.jpg';
+import galleFace from './galleFace.jpg';
+import hotel1 from './hotel1.jpg';
+import hotel2 from './hotel2.jpg';
+import hotel3 from './hotel3.jpg';
+
+const ThreeDayColomboTrip = () => {
+  const navigate = useNavigate();
+
+  const handleBookNow = () => {
+    navigate("/buy");
+  };
+
+  const days = [
+    {
+      day: "Day One",
+      activities: [
+        "Arrival at Bandaranaike International Airport",
+        "Transfer to hotel and check-in",
+        "Explore Colombo Fort area – colonial buildings, markets, and shopping",
+      ],
+      hotel: "Cinnamon Grand Colombo",
+      hotelImg: hotel1,
+      hotelAlt: "Cinnamon Grand Colombo",
+      notes: "Dinner at hotel restaurant and overnight stay.",
+    },
+    {
+      day: "Day Two",
+      activities: [
+        "Breakfast at hotel",
+        "Visit Gangaramaya Temple and museum",
+        "Lunch at local restaurant",
+        "Afternoon visit to National Museum and Viharamahadevi Park",
+      ],
+      hotel: "Shangri-La Colombo",
+      hotelImg: hotel2,
+      hotelAlt: "Shangri-La Colombo",
+      notes: "Dinner and overnight stay.",
+    },
+    {
+      day: "Day Three",
+      activities: [
+        "Breakfast at hotel",
+        "Relax at Galle Face Green and watch the ocean",
+        "Shopping at Odel or Barefoot Gallery",
+        "Prepare for departure",
+      ],
+      hotel: "The Kingsbury Colombo",
+      hotelImg: hotel3,
+      hotelAlt: "The Kingsbury Colombo",
+      notes: "Check-out and transfer to airport.",
+    },
+  ];
+
   return (
-    <div className="itinerary-container">
-      <h1>Sri Lanka Adventure Tour - Itinerary</h1>
-      <table className="itinerary-table">
-        <thead>
-          <tr>
-            <th>Day</th>
-            <th>Details</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Day One: Airport – Bentota</strong></td>
-            <td>
-              <p>Meeting and Greeting at the Airport by MY HOLIDAY representative.</p>
-              <p>Transfer from Airport to Hotel in Bentota</p>
-              <p>Leisure at the Hotel</p>
+    <div className="itinerary-wrapper">
+      <header className="itinerary-header">
+        <h1>3-Day Colombo Trip - Sri Lanka</h1>
+        <p className="intro-text">
+          Experience the best of Colombo with luxury hotels, cultural visits, shopping, and relaxation by the ocean.
+        </p>
+      </header>
+
+      {/* Book Now button above itinerary, right aligned */}
+      <div className="book-now-wrapper top-right">
+        <button className="book-now-button" onClick={handleBookNow}>
+          Book Now
+        </button>
+      </div>
+
+      <div className="itinerary-cards-container">
+        {days.map(({ day, activities, hotel, hotelImg, hotelAlt, notes }, index) => (
+          <div key={index} className="itinerary-card">
+            <div className="card-header">
+              <div className="day-badge">{day}</div>
+              <h2>{hotel}</h2>
+            </div>
+
+            <div className="card-content">
+              <h3>Activities</h3>
+              <ul>
+                {activities.map((activity, i) => (
+                  <li key={i}>{activity}</li>
+                ))}
+              </ul>
               <img
-  src={bentota}
-  alt="Leisure at Hotel"
-  style={{ width: "50%", margin: "1rem 0", borderRadius: "8px" }}
-/>
-              <p>Dinner and Overnight Stay at Bentota Hotel</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td><strong>Day Two: Bentota</strong></td>
-            <td>
-              <p>Breakfast at the Hotel</p>
-              <p><strong>Madu River Safari</strong></p>
-              <p>
-                Madu ganga flows across Balapitiya (pprox.. 80kms down south of Colombo) and is
-                one of the rarely visited, unspoiled attractions any nature lover can find in Sri Lanka.
-                She boasts of having a cluster of 64 small islands scattered along her path and the
-                most of which are covered with mangroves and uninhabited. The largest island is
-                known as “Ma Doowa” is the largest inhabited island within the country where about
-                300 families live. The smallest islet of the lot is called “Satha Paha Doowa” where
-                there is a tiny shrine with a statue built in respect of the gods of Kataragama.
-              </p>
-                           <img
-  src={madu}
-  alt="Leisure at Hotel"
-  style={{ width: "50%", margin: "1rem 0", borderRadius: "8px" }}
-/>
-              <p><strong>Kosgoda Sea Turtle Conservation Project (“KSTCP”)</strong></p>
-              <p>
-                Dudley Perera’s project has been underway since 1988. The main aim of the project
-                is to monitor local sea turtle activity and conserve the local nesting sites. We aim to
-                make the public more aware of how endangered these beautiful creatures are and
-                just how important it is to help protect them before it is too late. One of the most
-                important activities of the project is its hatchery. Within the sanctuary of the project,
-                collected and rescued eggs can hatch safely away from predators before being
-                released into the sea at night-time. In addition, a certain number from each hatching
-                are kept back for a short period for ‘head starting’ before release. The hatchery
-                program is designed to maximize the number of hatchlings reaching the sea and
-                surviving through the critical stages of their early life. Only a few hatchlings from
-                each batch will ever make it to adulthood. Therefore, every nest-ground, every egg,
-                every hatchling and every turtle is crucial to the survival of the species.
-                Unfortunately, sea turtles face many dangers.
-              </p>
-                           <img
-  src={turtle}
-  alt="Leisure at Hotel"
-  style={{ width: "50%", margin: "1rem 0", borderRadius: "8px" }}
-/>
-            </td>
-          </tr>
-
-
-
-
-
-
-
-          <tr>
-  <td><strong>Day Three: Bentota - Colombo</strong></td>
-  <td>
-    <p>Breakfast at the Hotel</p>
-    <p>Transfer to Colombo</p>
-    <p>Colombo city tour</p>
-    <p>
-      The largest city and commercial capital of Sri Lanka is Colombo which is located in
-      the western province adjacent to Sri Jayewardenepura Kotte (the capital city of Sri
-      Lanka). Colombo is a vibrant city with a mixture of modern life, colonial buildings and
-      ruins.
-    </p>
-    <p>
-      Due to its very large harbor and its position along the East-West Sea trade routes,
-      Colombo was very popular among ancient traders 2000 years ago.
-    </p>
-    <p>
-      Colombo houses a majority of the Sri Lanka’s corporate offices, restaurants and
-      entertainment venues. Famous land marks in Colombo include the National
-      Museum, World Trade Center, Vihara Maha Devi Park and the Galle Face Green.
-    </p>
-               <img
-  src={lotus}
-  alt="Leisure at Hotel"
-  style={{ width: "50%", margin: "1rem 0", borderRadius: "8px" }}
-/>
-  </td>
-</tr>
-
-        </tbody>
-      </table>
+                src={hotelImg}
+                alt={hotelAlt}
+                className="hotel-image"
+              />
+              <p className="notes">{notes}</p>
+            </div>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
 
-export default Hello;
+export default ThreeDayColomboTrip;

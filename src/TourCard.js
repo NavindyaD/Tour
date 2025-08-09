@@ -6,7 +6,7 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
   const navigate = useNavigate();
 
   const handleMoreInfoClick = () => {
-    if (title === "Sri Lanka Adventure Tour") {
+    if (title === "3-Day Colombo City Experience") {
       navigate("/hello");
     } else if (title === "Family Trip to Sri Lanka") {
       navigate("/bye");

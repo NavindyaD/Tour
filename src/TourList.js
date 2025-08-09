@@ -1,15 +1,15 @@
 import React from "react";
 import TourCard from "./TourCard";
 import "./TourList.css";
-import snorkelingImg from './adventure.jpg';
+import snorkelingImg from './colombo.jpg';
 const tourData = [
   {
-    title: "Sri Lanka Adventure Tour",
-    country: "Sri Lanka",
-    price: 620,
-    duration: 7,
-    tags: ["Diving", "Snorkeling", "Wild Life", "Nature"],
-    image: snorkelingImg,
+    title: "3-Day Colombo City Experience",
+  country: "Sri Lanka",
+  price: 350, // example price in USD
+  duration: 3, // days
+  tags: ["City Tour", "Culture", "Shopping", "Luxury Hotels", "Sightseeing"],
+  image: snorkelingImg,
   },
   {
     title: "Family Trip to Sri Lanka",
