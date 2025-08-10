@@ -1,20 +1,23 @@
 import React from "react";
 import "./BlogPage.css";
+import explore from "./explore.jpg";
+import beaches from "./beaches.jpg";
+import wild from "./wild.jpg";
 
 const blogs = [
   {
     title: "Exploring the Beauty of Sri Lanka",
-    image: "https://www.olankatravels.com/wp-content/uploads/2023/05/sri-lanka.jpg",
+    image: explore,
     excerpt: "Discover the breathtaking landscapes, rich history, and cultural wonders of Sri Lanka in this comprehensive travel guide.",
   },
   {
     title: "Best Beaches in Sri Lanka",
-    image: "https://www.olankatravels.com/wp-content/uploads/2023/05/beach-sri-lanka.jpg",
+    image: beaches,
     excerpt: "From golden sandy shores to stunning turquoise waters, explore the best beach destinations in Sri Lanka for a perfect getaway.",
   },
   {
     title: "Wildlife Safari Adventures",
-    image: "https://www.olankatravels.com/wp-content/uploads/2023/05/wildlife-sri-lanka.jpg",
+    image: wild,
     excerpt: "Experience the thrill of spotting elephants, leopards, and exotic birds in Sri Lanka's renowned national parks.",
   },
 ];

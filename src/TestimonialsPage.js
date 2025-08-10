@@ -1,30 +1,36 @@
 import React from "react";
 import "./TestimonialsPage.css";
+import john from "./john.jpg";
+import ema from "./ema.jpg";
+import car from "./Carlos.jpg";
+import lee from "./lee.jpg";
+
+
 
 const testimonials = [
   {
     name: "John Doe",
     location: "United States",
-    image: "https://www.olankatravels.com/wp-content/uploads/2023/05/testimonial1.jpg",
-    review: "Our trip to Sri Lanka was absolutely fantastic! The planning and organization were perfect, and we felt well taken care of throughout the journey. Highly recommend Olanka Travels!",
+    image: john,
+    review: "Our trip to Sri Lanka was absolutely fantastic! The planning and organization were perfect, and we felt well taken care of throughout the journey. Highly recommend HERE Travels!",
   },
   {
     name: "Emma Smith",
     location: "United Kingdom",
-    image: "https://www.olankatravels.com/wp-content/uploads/2023/05/testimonial2.jpg",
+    image: ema,
     review: "A truly memorable experience! From the beautiful beaches to the stunning cultural sites, everything was perfectly planned. Can't wait to visit again!",
   },
   {
     name: "Carlos Garcia",
     location: "Spain",
-    image: "https://www.olankatravels.com/wp-content/uploads/2023/05/testimonial3.jpg",
+    image: car,
     review: "The best travel agency I've ever booked with! Everything was well organized, and the guides were knowledgeable and friendly. Thank you for an amazing experience!",
   },
   {
     name: "Sophia Lee",
     location: "Australia",
-    image: "https://www.olankatravels.com/wp-content/uploads/2023/05/testimonial4.jpg",
-    review: "A seamless and unforgettable trip! The team was professional, and the itinerary was well thought out. I highly recommend Olanka Travels to anyone visiting Sri Lanka.",
+    image: lee,
+    review: "A seamless and unforgettable trip! The team was professional, and the itinerary was well thought out. I highly recommend HERE Travels to anyone visiting Sri Lanka.",
   },
 ];
 

@@ -5,9 +5,6 @@ const Buy = () => {
   const [departureDate, setDepartureDate] = useState('');
   const [returnDate, setReturnDate] = useState('');
   const [phone, setPhone] = useState('');
-  const [adults, setAdults] = useState('');
-  const [children, setChildren] = useState('');
-  const [rooms, setRooms] = useState('');
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = (e) => {
@@ -18,20 +15,12 @@ const Buy = () => {
       return;
     }
 
-    if (!adults || !rooms || adults <= 0 || rooms <= 0) {
-      alert('Please enter a valid number of adults and rooms.');
-      return;
-    }
-
     setLoading(true);
 
     const templateParams = {
       departure_date: departureDate,
       return_date: returnDate,
       phone: phone,
-      adults: adults,
-      children: children,
-      rooms: rooms,
       time: new Date().toLocaleString(),
     };
 
@@ -49,9 +38,6 @@ const Buy = () => {
           setDepartureDate('');
           setReturnDate('');
           setPhone('');
-          setAdults('');
-          setChildren('');
-          setRooms('');
         },
         (error) => {
           setLoading(false);
@@ -110,48 +96,6 @@ const Buy = () => {
           <small style={styles.helperText}>Include country code, e.g., +1 123 456 7890</small>
         </div>
 
-        <div style={styles.formGroup}>
-          <label htmlFor="adults" style={styles.label}>Number of Adults</label>
-          <input
-            id="adults"
-            type="number"
-            min="1"
-            value={adults}
-            onChange={(e) => setAdults(e.target.value)}
-            required
-            style={styles.input}
-            aria-required="true"
-          />
-        </div>
-
-        <div style={styles.formGroup}>
-          <label htmlFor="children" style={styles.label}>Number of Children</label>
-          <input
-            id="children"
-            type="number"
-            min="0"
-            value={children}
-            onChange={(e) => setChildren(e.target.value)}
-            required
-            style={styles.input}
-            aria-required="true"
-          />
-        </div>
-
-        <div style={styles.formGroup}>
-          <label htmlFor="rooms" style={styles.label}>Number of Rooms</label>
-          <input
-            id="rooms"
-            type="number"
-            min="1"
-            value={rooms}
-            onChange={(e) => setRooms(e.target.value)}
-            required
-            style={styles.input}
-            aria-required="true"
-          />
-        </div>
-
         <button
           type="submit"
           disabled={loading}
@@ -171,18 +115,18 @@ const styles = {
     margin: '2rem auto',
     padding: '1.5rem',
     fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-    backgroundColor: '#f0f4ff',
+    backgroundColor: '#f0f4ff', // light blue background
     borderRadius: '8px',
-    boxShadow: '0 2px 12px rgba(0, 67, 148, 0.15)',
+    boxShadow: '0 2px 12px rgba(0, 67, 148, 0.15)', // subtle blue shadow
   },
   heading: {
     textAlign: 'center',
-    color: '#0d47a1',
+    color: '#0d47a1', // dark blue
     marginBottom: '0.25rem',
   },
   subtitle: {
     textAlign: 'center',
-    color: '#1976d2',
+    color: '#1976d2', // medium blue
     marginBottom: '1.5rem',
   },
   form: {
@@ -197,18 +141,18 @@ const styles = {
   label: {
     marginBottom: '0.5rem',
     fontWeight: '600',
-    color: '#1565c0',
+    color: '#1565c0', // blue label text
   },
   input: {
     padding: '0.6rem 0.8rem',
     fontSize: '1rem',
     borderRadius: '4px',
-    border: '1px solid #90caf9',
+    border: '1px solid #90caf9', // light blue border
     transition: 'border-color 0.2s ease-in-out',
   },
   helperText: {
     fontSize: '0.8rem',
-    color: '#64b5f6',
+    color: '#64b5f6', // lighter blue
     marginTop: '0.25rem',
   },
   button: {
@@ -216,7 +160,7 @@ const styles = {
     fontSize: '1.1rem',
     fontWeight: '700',
     color: '#fff',
-    backgroundColor: '#1565c0',
+    backgroundColor: '#1565c0', // strong blue
     border: 'none',
     borderRadius: '5px',
     cursor: 'pointer',
@@ -227,7 +171,7 @@ const styles = {
     fontSize: '1.1rem',
     fontWeight: '700',
     color: '#fff',
-    backgroundColor: '#90a4ae',
+    backgroundColor: '#90a4ae', // grayish blue disabled
     border: 'none',
     borderRadius: '5px',
     cursor: 'not-allowed',

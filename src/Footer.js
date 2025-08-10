@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* About Section */}
         <div className="footer-section">
-          <h3>Olanka Travels</h3>
+          <h3>HERE Travels</h3>
           <p>
             We are a dedicated travel destination management company in Sri Lanka,
             offering custom tours & holiday packages.
@@ -31,7 +31,7 @@ const Footer = () => {
         {/* Contact Section */}
         <div className="footer-section">
           <h3>Contact Us</h3>
-          <p>Email: info@olankatravels.com</p>
+          <p>Email: info@heretravels.com</p>
           <p>Phone: +61 483 909 556</p>
           <p>Location: Sri Lanka | Australia | India</p>
         </div>
@@ -61,7 +61,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>© 2025 Olanka Travels | All Rights Reserved</p>
+        <p>© 2025 HERE Travels | All Rights Reserved</p>
       </div>
     </footer>
   );
