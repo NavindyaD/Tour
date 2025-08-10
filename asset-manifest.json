@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/Tour/static/css/main.4606e4e2.css",
-    "main.js": "/Tour/static/js/main.79d31578.js",
+    "main.css": "/Tour/static/css/main.5ca0ef21.css",
+    "main.js": "/Tour/static/js/main.8edcf089.js",
     "static/js/453.ed3810f9.chunk.js": "/Tour/static/js/453.ed3810f9.chunk.js",
     "static/media/hotel2.jpg": "/Tour/static/media/hotel2.a1bb95f0c1e1b8aa0901.jpg",
+    "static/media/Personalized Travel Planning.jpg": "/Tour/static/media/Personalized Travel Planning.4b9a6960d7708e8d7834.jpg",
     "static/media/hotel1.jpg": "/Tour/static/media/hotel1.49917303908707b0f3de.jpg",
     "static/media/gangaramaya.jpg": "/Tour/static/media/gangaramaya.1d028a38b6e57ab05074.jpg",
     "static/media/galleFace.jpg": "/Tour/static/media/galleFace.cab7d1476a2063fbcbf3.jpg",
     "index.html": "/Tour/index.html",
-    "main.4606e4e2.css.map": "/Tour/static/css/main.4606e4e2.css.map",
-    "main.79d31578.js.map": "/Tour/static/js/main.79d31578.js.map",
+    "main.5ca0ef21.css.map": "/Tour/static/css/main.5ca0ef21.css.map",
+    "main.8edcf089.js.map": "/Tour/static/js/main.8edcf089.js.map",
     "453.ed3810f9.chunk.js.map": "/Tour/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4606e4e2.css",
-    "static/js/main.79d31578.js"
+    "static/css/main.5ca0ef21.css",
+    "static/js/main.8edcf089.js"
   ]
 }
