@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/Tour/static/css/main.b8acd9fb.css",
-    "main.js": "/Tour/static/js/main.6afa7db9.js",
+    "main.css": "/Tour/static/css/main.c101b142.css",
+    "main.js": "/Tour/static/js/main.b1e4227a.js",
     "static/js/453.ed3810f9.chunk.js": "/Tour/static/js/453.ed3810f9.chunk.js",
+    "static/media/tour.jpeg": "/Tour/static/media/tour.2b6055045ae45d79540f.jpeg",
     "static/media/sigiriyaRock.jpg": "/Tour/static/media/sigiriyaRock.f1b4dc9de0b5e6d3693e.jpg",
     "static/media/hotel2.jpg": "/Tour/static/media/hotel2.a1bb95f0c1e1b8aa0901.jpg",
     "static/media/ellaTrain.jpg": "/Tour/static/media/ellaTrain.45c423677c9ddc9fa9fd.jpg",
@@ -16,12 +17,12 @@
     "static/media/sea.jpg": "/Tour/static/media/sea.88ba49ccb713fbd6534f.jpg",
     "static/media/lux.jpg": "/Tour/static/media/lux.d9cc429060f3bde2bcc4.jpg",
     "index.html": "/Tour/index.html",
-    "main.b8acd9fb.css.map": "/Tour/static/css/main.b8acd9fb.css.map",
-    "main.6afa7db9.js.map": "/Tour/static/js/main.6afa7db9.js.map",
+    "main.c101b142.css.map": "/Tour/static/css/main.c101b142.css.map",
+    "main.b1e4227a.js.map": "/Tour/static/js/main.b1e4227a.js.map",
     "453.ed3810f9.chunk.js.map": "/Tour/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8acd9fb.css",
-    "static/js/main.6afa7db9.js"
+    "static/css/main.c101b142.css",
+    "static/js/main.b1e4227a.js"
   ]
 }
