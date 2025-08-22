@@ -286,8 +286,8 @@ const Buy = () => {
 • Phone: ${phone}
 
 📅 *Travel Dates:*
-• Departure: ${departureDate}
-• Return: ${returnDate}
+• Arrival: ${departureDate}
+• Departure: ${returnDate}
 
 👥 *Group Size:*
 • Adults: ${adults}
@@ -369,7 +369,7 @@ Please contact me to confirm this booking! 🙏`;
 
         <div className="buy-row-group">
           <div className="buy-half-width">
-            <label htmlFor="departureDate" className="buy-label">Departure Date</label>
+            <label htmlFor="departureDate" className="buy-label">Arrival Date</label>
             <input
               id="departureDate"
               type="date"
@@ -382,7 +382,7 @@ Please contact me to confirm this booking! 🙏`;
             />
           </div>
           <div className="buy-half-width">
-            <label htmlFor="returnDate" className="buy-label">Return Date</label>
+            <label htmlFor="returnDate" className="buy-label">Departure Date</label>
             <input
               id="returnDate"
               type="date"
