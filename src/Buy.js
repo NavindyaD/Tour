@@ -1,6 +1,8 @@
 import React, { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Buy.css';
+import PhoneInput from 'react-phone-number-input';
+import 'react-phone-number-input/style.css';
 
 const RadioDropdown = ({ label, name, value, onChange, options, placeholder }) => {
   const [open, setOpen] = useState(false);
@@ -70,6 +72,172 @@ const Buy = () => {
   const [message, setMessage] = useState('');
   const [loading, setLoading] = useState(false);
 
+  // Updated bot configuration - PLEASE UPDATE THESE VALUES
+  const BOT_TOKEN = '8079018314:AAGwVeXMJJZwtwGfksvK2daTTWYGYmgrivo'; // Your new bot token
+  const CHAT_ID = '-4883974617'; // Group chat ID
+
+  // Function to get your chat ID - send a message to your bot first, then click this button
+  const getChatId = async () => {
+    if (BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE') {
+      alert('⚠️ Bot token not configured!');
+      return;
+    }
+
+    try {
+      // First, let's get updates to see recent messages
+      const response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/getUpdates`);
+      const data = await response.json();
+      
+      console.log('Bot updates:', data);
+      
+      if (data.ok && data.result.length > 0) {
+        const lastMessage = data.result[data.result.length - 1];
+        const chatId = lastMessage.message?.chat?.id;
+        const chatType = lastMessage.message?.chat?.type; // 'private', 'group', 'supergroup'
+        const chatTitle = lastMessage.message?.chat?.title || 'Private Chat';
+        
+        if (chatId) {
+          const chatInfo = `Chat Type: ${chatType}\nChat Title: ${chatTitle}\nChat ID: ${chatId}`;
+          alert(`✅ Chat Information:\n\n${chatInfo}\n\nPlease update the CHAT_ID constant in the code with this value.`);
+          console.log('Found Chat Info:', { chatId, chatType, chatTitle });
+        } else {
+          alert('❌ No chat ID found. Please send a message to your bot first, then try again.');
+        }
+      } else {
+        alert('❌ No messages found. Please send a message to your bot first, then try again.');
+      }
+    } catch (error) {
+      alert('❌ Error getting chat ID: ' + error.message);
+      console.error('Error:', error);
+    }
+  };
+
+  // Function to get all available chats (groups, channels, private chats)
+  const getAllChats = async () => {
+    if (BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE') {
+      alert('⚠️ Bot token not configured!');
+      return;
+    }
+
+    try {
+      const response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/getUpdates`);
+      const data = await response.json();
+      
+      console.log('All bot updates:', data);
+      
+      if (data.ok && data.result.length > 0) {
+        const chats = data.result.map(update => {
+          if (update.message) {
+            return {
+              chatId: update.message.chat.id,
+              chatType: update.message.chat.type,
+              chatTitle: update.message.chat.title || update.message.chat.first_name || 'Unknown',
+              lastMessage: update.message.text || 'No text'
+            };
+          }
+          return null;
+        }).filter(Boolean);
+
+        // Remove duplicates based on chatId
+        const uniqueChats = chats.filter((chat, index, self) => 
+          index === self.findIndex(c => c.chatId === chat.chatId)
+        );
+
+        if (uniqueChats.length > 0) {
+          const chatList = uniqueChats.map(chat => 
+            `${chat.chatType.toUpperCase()}: ${chat.chatTitle}\nChat ID: ${chat.chatId}\n`
+          ).join('\n');
+          
+          alert(`📋 Available Chats:\n\n${chatList}\n\nCopy the Chat ID you want to use and update the CHAT_ID constant.`);
+          console.log('Available chats:', uniqueChats);
+        } else {
+          alert('❌ No chats found. Please send messages to your bot first, then try again.');
+        }
+      } else {
+        alert('❌ No messages found. Please send a message to your bot first, then try again.');
+      }
+    } catch (error) {
+      alert('❌ Error getting chats: ' + error.message);
+      console.error('Error:', error);
+    }
+  };
+
+  // Test function to verify bot setup
+  const testTelegramBot = async () => {
+    if (BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE' || CHAT_ID === 'YOUR_CHAT_ID_HERE') {
+      alert('⚠️ Please update the bot token and chat ID in the code first!');
+      return;
+    }
+
+    const testMessage = '🧪 *BOT TEST MESSAGE* 🧪\n\nThis is a test message to verify your bot is working correctly!\n\nTime: ' + new Date().toLocaleString();
+    
+    console.log('Testing Telegram bot...');
+    console.log('Bot Token:', BOT_TOKEN);
+    console.log('Chat ID:', CHAT_ID);
+    
+    try {
+      const response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          chat_id: CHAT_ID,
+          text: testMessage,
+          parse_mode: 'Markdown'
+        })
+      });
+      
+      const data = await response.json();
+      console.log('Test Response:', data);
+      
+      if (data.ok) {
+        alert('✅ Bot test successful! Check your Telegram for the test message.');
+      } else {
+        alert(`❌ Bot test failed: ${data.description || 'Unknown error'}`);
+        console.error('Test failed:', data);
+      }
+    } catch (error) {
+      alert('❌ Bot test failed: Network error');
+      console.error('Test error:', error);
+    }
+  };
+
+  // Function to send message to Telegram
+  const sendTelegramMessage = async (messageText) => {
+    if (BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE' || CHAT_ID === 'YOUR_CHAT_ID_HERE') {
+      console.warn('Telegram bot not configured, skipping Telegram message');
+      return false;
+    }
+
+    try {
+      const response = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          chat_id: CHAT_ID,
+          text: messageText,
+          parse_mode: 'Markdown'
+        })
+      });
+      
+      const data = await response.json();
+      
+      if (data.ok) {
+        console.log('Telegram message sent successfully');
+        return true;
+      } else {
+        console.error('Telegram API Error:', data);
+        return false;
+      }
+    } catch (error) {
+      console.error('Telegram API Network Error:', error);
+      return false;
+    }
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -106,11 +274,10 @@ const Buy = () => {
         'n1caSqRqsuEpFT6aU'
       )
       .then(
-        () => {
+        async () => {
           setLoading(false);
-          alert('Thank you! Your booking request has been sent successfully via email and Telegram.');
           
-          // Also send to Telegram
+          // Prepare Telegram message
           const telegramMessage = `🚀 *NEW TOUR BOOKING REQUEST* 🚀
 
 👤 *Customer Details:*
@@ -134,33 +301,14 @@ ${message || 'No additional message'}
 
 Please contact me to confirm this booking! 🙏`;
 
-          // Send to Telegram using bot API
-          const botToken = '8494726599:AAE38axQj0u_5HdfYPowtCCPR1o1mI--zbw';
-          const chatId = '7751266794';
-          const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
+          // Send to Telegram
+          const telegramSuccess = await sendTelegramMessage(telegramMessage);
           
-          fetch(telegramUrl, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              chat_id: chatId,
-              text: telegramMessage,
-              parse_mode: 'Markdown'
-            })
-          })
-          .then(response => response.json())
-          .then(data => {
-            if (data.ok) {
-              console.log('Telegram message sent successfully');
-            } else {
-              console.error('Telegram error:', data);
-            }
-          })
-          .catch(error => {
-            console.error('Telegram API error:', error);
-          });
+          if (telegramSuccess) {
+            alert('Thank you! Your booking request has been sent successfully via email and Telegram.');
+          } else {
+            alert('Thank you! Your booking request has been sent via email. There was an issue sending to Telegram, but your request has been received.');
+          }
           
           // Reset form
           setTitle('');
@@ -202,9 +350,6 @@ Please contact me to confirm this booking! 🙏`;
               <option value="Mr">Mr</option>
               <option value="Ms">Ms</option>
               <option value="Mrs">Mrs</option>
-              <option value="Dr">Dr</option>
-              <option value="Prof">Prof</option>
-              <option value="Other">Other</option>
             </select>
           </div>
           <div className="buy-half-width">
@@ -253,19 +398,16 @@ Please contact me to confirm this booking! 🙏`;
 
         <div className="buy-form-group">
           <label htmlFor="phone" className="buy-label">Phone Number</label>
-          <input
+          <PhoneInput
             id="phone"
-            type="tel"
+            name="phone"
+            international
+            defaultCountry="LK"
             value={phone}
-            onChange={(e) => setPhone(e.target.value)}
-            placeholder="+1 123 456 7890"
-            required
-            pattern="^\+?[0-9\s\-()]{7,}$"
-            title="Please enter a valid phone number"
-            className="buy-input"
+            onChange={(value) => setPhone(value || '')}
             aria-required="true"
           />
-          <small className="buy-helper-text">Include country code, e.g., +1 123 456 7890</small>
+          <small className="buy-helper-text">Include your country code if outside Sri Lanka</small>
         </div>
 
         <div className="buy-row-group">

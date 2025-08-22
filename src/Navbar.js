@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
+import tourImage from "./tour.jpeg";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,7 +17,8 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
         <Link to="/Tour" className="logo">
-          Travels
+          <img src={tourImage} alt="Sri Yatra Travels" style={{ height: "48px", width: "48px", objectFit: "cover", marginRight: "10px", verticalAlign: "middle" }} />
+          <span>Sri Yatra Travels</span>
         </Link>
         <button
           className="mobile-menu-toggle"

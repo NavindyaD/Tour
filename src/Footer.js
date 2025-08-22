@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* About Section */}
         <div className="footer-section">
-          <h3>HERE Travels</h3>
+          <h3>Sri Yatra Travels</h3>
           <p>
             We are a dedicated travel destination management company in Sri Lanka,
             offering custom tours & holiday packages.
@@ -61,7 +61,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="footer-bottom">
-        <p>© 2025 HERE Travels | All Rights Reserved</p>
+        <p>© 2025 Sri Yatra Travels | All Rights Reserved</p>
       </div>
     </footer>
   );

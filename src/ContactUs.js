@@ -1,11 +1,14 @@
 import React, { useState } from "react";
 import "./ContactUs.css";
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    message: ''
+    message: '',
+    phone: ''
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState(null);
@@ -29,7 +32,7 @@ const ContactUs = () => {
       await new Promise(resolve => setTimeout(resolve, 1000)); // Simulate API call
       
       setSubmitStatus('success');
-      setFormData({ name: '', email: '', message: '' });
+      setFormData({ name: '', email: '', message: '', phone: '' });
     } catch (error) {
       setSubmitStatus('error');
     } finally {
@@ -49,7 +52,7 @@ const ContactUs = () => {
 
   return (
     <div className="contact-container">
-      <h1 className="contact-title">Get in Touch with HERE Travels</h1>
+      <h1 className="contact-title">Get in Touch with Sri Yatra Travels</h1>
 
       <div className="contact-content">
         {/* Contact Info Section */}
@@ -143,6 +146,23 @@ const ContactUs = () => {
             </div>
             
             <div className="input-group">
+              <label htmlFor="phone">Phone Number *</label>
+              <PhoneInput
+                id="phone"
+                name="phone"
+                international
+                defaultCountry="LK"
+                value={formData.phone}
+                onChange={(value) => setFormData(prev => ({ ...prev, phone: value || '' }))}
+                aria-required="true"
+                aria-describedby="phone-error"
+              />
+              {submitStatus === 'error' && !formData.phone && (
+                <span id="phone-error" className="error-message">Phone number is required</span>
+              )}
+            </div>
+
+            <div className="input-group">
               <label htmlFor="message">Message *</label>
               <textarea 
                 id="message" 
@@ -186,11 +206,11 @@ const ContactUs = () => {
       {/* Google Map */}
       <div className="map-container">
         <iframe
-          title="HERE Travels Location - Watabage Junction, Panadura, Sri Lanka"
+          title="Sri Yatra Travels Location - Watabage Junction, Panadura, Sri Lanka"
           src="https://www.google.com/maps?q=Watabage+Junction,+Panadura,+Sri+Lanka&output=embed"
           allowFullScreen=""
           loading="lazy"
-          aria-label="Map showing HERE Travels office location at Watabage Junction, Panadura, Sri Lanka"
+          aria-label="Map showing Sri Yatra Travels office location at Watabage Junction, Panadura, Sri Lanka"
         ></iframe>
       </div>
     </div>

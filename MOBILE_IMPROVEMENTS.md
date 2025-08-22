@@ -1,6 +1,6 @@
 # Mobile-Friendly Improvements
 
-This document outlines the mobile-friendly improvements made to the HERE Travels website.
+This document outlines the mobile-friendly improvements made to the Sri Yatra Travels website.
 
 ## Overview
 

@@ -12,7 +12,7 @@ const testimonials = [
     name: "John Doe",
     location: "United States",
     image: john,
-    review: "Our trip to Sri Lanka was absolutely fantastic! The planning and organization were perfect, and we felt well taken care of throughout the journey. Highly recommend HERE Travels!",
+    review: "Our trip to Sri Lanka was absolutely fantastic! The planning and organization were perfect, and we felt well taken care of throughout the journey. Highly recommend Sri Yatra Travels!",
   },
   {
     name: "Emma Smith",
@@ -30,7 +30,7 @@ const testimonials = [
     name: "Sophia Lee",
     location: "Australia",
     image: lee,
-    review: "A seamless and unforgettable trip! The team was professional, and the itinerary was well thought out. I highly recommend HERE Travels to anyone visiting Sri Lanka.",
+    review: "A seamless and unforgettable trip! The team was professional, and the itinerary was well thought out. I highly recommend Sri Yatra Travels to anyone visiting Sri Lanka.",
   },
 ];
 

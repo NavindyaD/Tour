@@ -42,7 +42,7 @@ const whyChooseUs = [
 const WhyHERE = () => {
   return (
     <div className="why-container">
-      <h1 className="why-title">Why Choose HERE Travels?</h1>
+      <h1 className="why-title">Why Choose Sri Yatra Travels?</h1>
       <p className="why-subtitle">
         We are committed to providing you with the best travel experiences with exceptional service and personalized packages.
       </p>
