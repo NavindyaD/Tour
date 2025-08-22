@@ -89,6 +89,13 @@
   color: #333;
   font-size: 1rem;
   line-height: 1.6;
+  text-align: left;
+  padding-left: 0;
+}
+
+.card-content li {
+  text-align: left;
+  margin-bottom: 0.5rem;
 }
 
 .hotel-image {
@@ -232,6 +239,13 @@
   .card-content ul {
     margin-left: 1.25rem;
     font-size: 0.95rem;
+    text-align: left;
+    padding-left: 0;
+  }
+  
+  .card-content li {
+    text-align: left;
+    margin-bottom: 0.4rem;
   }
   
   .hotel-image {
@@ -297,6 +311,13 @@
   .card-content ul {
     margin-left: 1rem;
     font-size: 0.9rem;
+    text-align: left;
+    padding-left: 0;
+  }
+  
+  .card-content li {
+    text-align: left;
+    margin-bottom: 0.35rem;
   }
   
   .notes {
