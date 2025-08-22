@@ -17,6 +17,7 @@ import TestimonialsPage from "./TestimonialsPage";
 import Hello from "./hello"; // the component for hello.js
 import Bye from "./bye";     // the component for bye.js
 import Buy from './Buy';
+import FiveDayTrip from "./5daytrip";
 function App() {
   return (
     <Router>
@@ -37,6 +38,7 @@ function App() {
  <Route path="/hello" element={<Hello />} />
         <Route path="/bye" element={<Bye />} />
          <Route path="/buy" element={<Buy />} />
+         <Route path="/5daytrip" element={<FiveDayTrip />} />
         {/* <Route path="/" element={<Home />} />
       
         <Route path="/destinations" element={<Destinations />} />

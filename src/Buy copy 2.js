@@ -32,6 +32,7 @@ const RadioDropdown = ({ label, name, value, onChange, options, placeholder }) =
           style={styles.input}
           required
           aria-haspopup="listbox"
+          aria-expanded={open}
         />
         {open && (
           <div style={styles.dropdown} role="listbox" aria-label={label}>
@@ -73,7 +74,7 @@ const Buy = () => {
     e.preventDefault();
 
     if (new Date(returnDate) <= new Date(departureDate)) {
-      alert('Return date must be at least one day after departure date.');
+      alert('Return date must be after departure date.');
       return;
     }
 
@@ -107,61 +108,7 @@ const Buy = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you! Your booking request has been sent successfully via email and Telegram.');
-          
-          // Also send to Telegram
-          const telegramMessage = `🚀 *NEW TOUR BOOKING REQUEST* 🚀
-
-👤 *Customer Details:*
-• Title: ${title}
-• Name: ${name}
-• Phone: ${phone}
-
-📅 *Travel Dates:*
-• Departure: ${departureDate}
-• Return: ${returnDate}
-
-👥 *Group Size:*
-• Adults: ${adults}
-• Children: ${children || 0}
-• Rooms: ${rooms}
-
-💬 *Message:*
-${message || 'No additional message'}
-
-⏰ *Requested at:* ${new Date().toLocaleString()}
-
-Please contact me to confirm this booking! 🙏`;
-
-          // Send to Telegram using bot API
-          const botToken = '8494726599:AAE38axQj0u_5HdfYPowtCCPR1o1mI--zbw';
-          const chatId = '7751266794';
-          const telegramUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
-          
-          fetch(telegramUrl, {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-              chat_id: chatId,
-              text: telegramMessage,
-              parse_mode: 'Markdown'
-            })
-          })
-          .then(response => response.json())
-          .then(data => {
-            if (data.ok) {
-              console.log('Telegram message sent successfully');
-            } else {
-              console.error('Telegram error:', data);
-            }
-          })
-          .catch(error => {
-            console.error('Telegram API error:', error);
-          });
-          
-          // Reset form
+          alert('Thank you! Your booking request has been sent successfully.');
           setTitle('');
           setName('');
           setDepartureDate('');
@@ -174,7 +121,7 @@ Please contact me to confirm this booking! 🙏`;
         },
         (error) => {
           setLoading(false);
-          alert('Oops! Something went wrong with email. Please try again later.');
+          alert('Oops! Something went wrong. Please try again later.');
           console.error('EmailJS error:', error);
         }
       );
@@ -229,7 +176,6 @@ Please contact me to confirm this booking! 🙏`;
               type="date"
               value={departureDate}
               onChange={(e) => setDepartureDate(e.target.value)}
-              min={new Date().toISOString().split('T')[0]}
               required
               style={styles.input}
               aria-required="true"
@@ -242,7 +188,6 @@ Please contact me to confirm this booking! 🙏`;
               type="date"
               value={returnDate}
               onChange={(e) => setReturnDate(e.target.value)}
-              min={departureDate ? new Date(new Date(departureDate).getTime() + 24 * 60 * 60 * 1000).toISOString().split('T')[0] : ''}
               required
               style={styles.input}
               aria-required="true"

@@ -3,9 +3,6 @@ import { useNavigate } from "react-router-dom";
 import "./Itinerary.css";
 
 // Images - replace with your actual image imports or URLs
-import colomboFort from './colomboFort.jpg';
-import gangaramaya from './gangaramaya.jpg';
-import galleFace from './galleFace.jpg';
 import hotel1 from './hotel1.jpg';
 import hotel2 from './hotel2.jpg';
 import hotel3 from './hotel3.jpg';

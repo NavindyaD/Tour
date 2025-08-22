@@ -16,7 +16,7 @@ const ContactUs = () => {
           </p>
 
           <div className="contact-details">
-            <p><strong>📍 Office:</strong> 123 Travel Street, Colombo, Sri Lanka</p>
+            <p><strong>📍 Office:</strong> Watabage Junction, Panadura, Sri Lanka</p>
             <p><strong>📞 Phone:</strong> +94 77 028 2915</p>
             <p><strong>📞 Support:</strong> +94 75 216 7167</p>
             <p><strong>✉ Email:</strong> info@heretravels.com</p>
@@ -49,7 +49,7 @@ const ContactUs = () => {
       <div className="map-container">
         <iframe
           title="HERE Travels Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.842582086295!2d79.86075381535404!3d6.914743595007997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259287645645b%3A0x2e1e8b1188d8f95!2sColombo%2C%20Sri%20Lanka!5e0!3m2!1sen!2s!4v1630936359083!5m2!1sen!2s"
+          src="https://www.google.com/maps?q=Watabage+Junction,+Panadura,+Sri+Lanka&output=embed"
           allowFullScreen=""
           loading="lazy"
         ></iframe>

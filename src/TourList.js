@@ -2,7 +2,16 @@ import React from "react";
 import TourCard from "./TourCard";
 import "./TourList.css";
 import snorkelingImg from './colombo.jpg';
+import sea from './sea.jpg'
 const tourData = [
+  {
+    title: "5-Days Budget Pack (Highlights of Sri Lanka)",
+    country: "Sri Lanka",
+    price: 650,
+    duration: 5,
+    tags: ["Budget", "Highlights", "Culture", "History", "Nature"],
+    image: sea,
+  },
   {
     title: "3-Day Colombo City Experience",
   country: "Sri Lanka",
@@ -35,6 +44,7 @@ const tourData = [
     tags: ["Nature", "Beach", "Wild Life", "History"],
     image: "https://source.unsplash.com/400x250/?romantic,couple",
   },
+
 ];
 
 const TourList = () => {

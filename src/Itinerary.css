@@ -106,7 +106,7 @@
 /* Fixed position for top-right aligned button */
 .book-now-wrapper.top-right {
   position: fixed;
-  top: 1rem;
+  top: 1.5rem;
   right: 1rem;
   margin: 0;
   z-index: 1000;
@@ -116,11 +116,11 @@
 .book-now-button {
   background-color: #1a73e8;
   color: white;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 700;
   border: none;
   border-radius: 30px;
-  padding: 0.8rem 3rem;
+  padding: 0.6rem 2.2rem;
   cursor: pointer;
   box-shadow: 0 6px 12px rgb(26 115 232 / 0.6);
   transition: background-color 0.3s ease;

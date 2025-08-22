@@ -6,6 +6,9 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
   const navigate = useNavigate();
 
   const handleMoreInfoClick = () => {
+    if (title === "5-Days Budget Pack (Highlights of Sri Lanka)") {
+      navigate("/5daytrip");
+    } else 
     if (title === "3-Day Colombo City Experience") {
       navigate("/hello");
     } else if (title === "Family Trip to Sri Lanka") {

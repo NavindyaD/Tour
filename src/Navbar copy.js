@@ -8,8 +8,6 @@ const Navbar = () => {
   // Close the mobile menu when a link is clicked
   const handleLinkClick = () => {
     setMobileMenuOpen(false);
-    // Scroll to top when navigating to another page
-    window.scrollTo(0, 0);
   };
 
   return (
