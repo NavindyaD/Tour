@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/Tour/static/css/main.33bae095.css",
-    "main.js": "/Tour/static/js/main.6d94c0b2.js",
+    "main.css": "/Tour/static/css/main.b8acd9fb.css",
+    "main.js": "/Tour/static/js/main.6afa7db9.js",
     "static/js/453.ed3810f9.chunk.js": "/Tour/static/js/453.ed3810f9.chunk.js",
+    "static/media/sigiriyaRock.jpg": "/Tour/static/media/sigiriyaRock.f1b4dc9de0b5e6d3693e.jpg",
     "static/media/hotel2.jpg": "/Tour/static/media/hotel2.a1bb95f0c1e1b8aa0901.jpg",
+    "static/media/ellaTrain.jpg": "/Tour/static/media/ellaTrain.45c423677c9ddc9fa9fd.jpg",
     "static/media/guide.jpg": "/Tour/static/media/guide.a958b8711391365f7988.jpg",
     "static/media/explore.jpg": "/Tour/static/media/explore.4907e2ce6d07f33d3654.jpg",
+    "static/media/kandyTemple.jpg": "/Tour/static/media/kandyTemple.fbb4c344da7ba97d598d.jpg",
     "static/media/Personalized Travel Planning.jpg": "/Tour/static/media/Personalized Travel Planning.4b9a6960d7708e8d7834.jpg",
+    "static/media/katunayakeAirport.jpg": "/Tour/static/media/katunayakeAirport.a62ee3f81694fb96ce24.jpg",
     "static/media/desti.jpg": "/Tour/static/media/desti.5e6036873eb33c6b0d4e.jpg",
     "static/media/hotel1.jpg": "/Tour/static/media/hotel1.49917303908707b0f3de.jpg",
+    "static/media/sea.jpg": "/Tour/static/media/sea.88ba49ccb713fbd6534f.jpg",
     "static/media/lux.jpg": "/Tour/static/media/lux.d9cc429060f3bde2bcc4.jpg",
-    "static/media/gangaramaya.jpg": "/Tour/static/media/gangaramaya.1d028a38b6e57ab05074.jpg",
-    "static/media/galleFace.jpg": "/Tour/static/media/galleFace.cab7d1476a2063fbcbf3.jpg",
     "index.html": "/Tour/index.html",
-    "main.33bae095.css.map": "/Tour/static/css/main.33bae095.css.map",
-    "main.6d94c0b2.js.map": "/Tour/static/js/main.6d94c0b2.js.map",
+    "main.b8acd9fb.css.map": "/Tour/static/css/main.b8acd9fb.css.map",
+    "main.6afa7db9.js.map": "/Tour/static/js/main.6afa7db9.js.map",
     "453.ed3810f9.chunk.js.map": "/Tour/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.33bae095.css",
-    "static/js/main.6d94c0b2.js"
+    "static/css/main.b8acd9fb.css",
+    "static/js/main.6afa7db9.js"
   ]
 }
