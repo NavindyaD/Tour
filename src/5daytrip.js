@@ -22,11 +22,11 @@ const FiveDaySriLankaTrip = () => {
       location: "Katunayake",
       activities: [
         "Arrival at Bandaranaike International Airport",
-        "Meet and greet, transfer to nearby budget stay",
+        "Meet and greet, transfer to nearby stay",
         "Optional visit to Negombo Beach (time permitting)",
         "Rest and recover from flight",
       ],
-      hotel: "Budget stay near Katunayake",
+      hotel: "Comfortable stay near Katunayake",
       hotelImg: katunayakeAirport,
       hotelAlt: "Katunayake - Bandaranaike International Airport",
       notes: "Start your Sri Lankan highlights with a convenient first night near the airport.",
@@ -40,7 +40,7 @@ const FiveDaySriLankaTrip = () => {
         "Explore the water gardens and frescoes",
         "Village experience or bicycle ride (optional)",
       ],
-      hotel: "Budget guesthouse in Sigiriya",
+      hotel: "Guesthouse in Sigiriya",
       hotelImg: sigiriyaRock,
       hotelAlt: "Sigiriya Rock Fortress",
       notes: "Iconic UNESCO World Heritage site with sweeping views.",
@@ -54,7 +54,7 @@ const FiveDaySriLankaTrip = () => {
         "Royal Botanical Gardens, Peradeniya",
         "Kandy Lake walk and local market",
       ],
-      hotel: "Budget hotel in Kandy",
+      hotel: "Hotel in Kandy",
       hotelImg: kandyTemple,
       hotelAlt: "Temple of the Sacred Tooth Relic, Kandy",
       notes: "Cultural capital with sacred heritage and lush gardens.",
@@ -68,7 +68,7 @@ const FiveDaySriLankaTrip = () => {
         "Nine Arches Bridge viewpoint",
         "Explore tea country vibes in town",
       ],
-      hotel: "Cozy budget stay in Ella",
+      hotel: "Cozy stay in Ella",
       hotelImg: ellaTrain,
       hotelAlt: "Scenic train near Ella",
       notes: "Cool-climate hill escape with stunning mountain scenery.",
@@ -83,7 +83,7 @@ const FiveDaySriLankaTrip = () => {
         "Cafés, boutiques, and seaside views",
         "Continue to airport or extend beach stay",
       ],
-      hotel: "Budget hotel in Galle (or late departure)",
+      hotel: "Hotel in Galle (or late departure)",
       hotelImg: galleFort,
       hotelAlt: "Galle Fort ramparts and lighthouse",
       notes: "Historic coastal charm to wrap up your highlights tour.",
@@ -93,9 +93,9 @@ const FiveDaySriLankaTrip = () => {
   return (
     <div className="itinerary-wrapper">
       <header className="itinerary-header">
-        <h1>5-Day Budget Pack - Highlights of Sri Lanka</h1>
+        <h1>5-Day Highlights of Sri Lanka</h1>
         <p className="intro-text">
-          Highlights: Katunayake, Sigiriya, Kandy, Ella, Galle. A compact and affordable journey through Sri Lanka's must-see destinations.
+          Highlights: Katunayake, Sigiriya, Kandy, Ella, Galle. A compact journey through Sri Lanka's must-see destinations.
         </p>
       </header>
 

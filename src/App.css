@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -34,5 +37,112 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Main content area */
+main {
+  flex: 1;
+  padding-top: 80px; /* Account for fixed navbar */
+}
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  main {
+    padding-top: 70px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding-top: 65px;
+  }
+}
+
+/* Container for consistent spacing */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 0.75rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 0.5rem;
+  }
+}
+
+/* Utility classes for mobile responsiveness */
+.mobile-hidden {
+  display: block;
+}
+
+.desktop-hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .mobile-hidden {
+    display: none;
+  }
+  
+  .desktop-hidden {
+    display: block;
+  }
+}
+
+/* Improved button styles for mobile */
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-height: 44px;
+  line-height: 1.2;
+}
+
+.btn-primary {
+  background-color: #0073e6;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #005bb5;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background-color: #545b62;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    padding: 14px 20px;
+    font-size: 1rem;
+    min-height: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .btn {
+    padding: 12px 16px;
+    font-size: 0.95rem;
+    min-height: 44px;
   }
 }

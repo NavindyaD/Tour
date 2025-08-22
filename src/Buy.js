@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import './Buy.css';
 
 const RadioDropdown = ({ label, name, value, onChange, options, placeholder }) => {
   const [open, setOpen] = useState(false);
@@ -20,23 +21,23 @@ const RadioDropdown = ({ label, name, value, onChange, options, placeholder }) =
   }, []);
 
   return (
-    <div style={styles.formGroup}>
-      <label style={styles.label}>{label}</label>
-      <div ref={containerRef} style={styles.selectWrapper}>
+    <div className="buy-form-group">
+      <label className="buy-label">{label}</label>
+      <div ref={containerRef} className="buy-select-wrapper">
         <input
           type="text"
           readOnly
           value={value ? String(value) : ''}
           placeholder={placeholder}
           onClick={() => setOpen((prev) => !prev)}
-          style={styles.input}
+          className="buy-input"
           required
           aria-haspopup="listbox"
         />
         {open && (
-          <div style={styles.dropdown} role="listbox" aria-label={label}>
+          <div className="buy-dropdown" role="listbox" aria-label={label}>
             {options.map((n) => (
-              <label key={`${name}-${n}`} style={styles.dropdownOption}>
+              <label key={`${name}-${n}`} className="buy-dropdown-option">
                 <input
                   type="radio"
                   name={name}
@@ -181,20 +182,20 @@ Please contact me to confirm this booking! 🙏`;
   };
 
   return (
-    <section style={styles.container} aria-label="Tour Booking Form">
-      <h1 style={styles.heading}>Book Your Tour</h1>
-      <p style={styles.subtitle}>Complete your booking by filling out the form below.</p>
+    <section className="buy-container" aria-label="Tour Booking Form">
+      <h1 className="buy-heading">Book Your Tour</h1>
+      <p className="buy-subtitle">Complete your booking by filling out the form below.</p>
 
-      <form onSubmit={handleSubmit} style={styles.form} noValidate>
-        <div style={styles.rowGroup}>
-          <div style={styles.halfWidth}>
-            <label htmlFor="title" style={styles.label}>Title</label>
+      <form onSubmit={handleSubmit} className="buy-form" noValidate>
+        <div className="buy-row-group">
+          <div className="buy-half-width">
+            <label htmlFor="title" className="buy-label">Title</label>
             <select
               id="title"
               value={title}
               onChange={(e) => setTitle(e.target.value)}
               required
-              style={styles.input}
+              className="buy-input"
               aria-required="true"
             >
               <option value="">Select title</option>
@@ -206,8 +207,8 @@ Please contact me to confirm this booking! 🙏`;
               <option value="Other">Other</option>
             </select>
           </div>
-          <div style={styles.halfWidth}>
-            <label htmlFor="name" style={styles.label}>Full Name</label>
+          <div className="buy-half-width">
+            <label htmlFor="name" className="buy-label">Full Name</label>
             <input
               id="name"
               type="text"
@@ -215,15 +216,15 @@ Please contact me to confirm this booking! 🙏`;
               onChange={(e) => setName(e.target.value)}
               placeholder="Enter your full name"
               required
-              style={styles.input}
+              className="buy-input"
               aria-required="true"
             />
           </div>
         </div>
 
-        <div style={styles.rowGroup}>
-          <div style={styles.halfWidth}>
-            <label htmlFor="departureDate" style={styles.label}>Departure Date</label>
+        <div className="buy-row-group">
+          <div className="buy-half-width">
+            <label htmlFor="departureDate" className="buy-label">Departure Date</label>
             <input
               id="departureDate"
               type="date"
@@ -231,12 +232,12 @@ Please contact me to confirm this booking! 🙏`;
               onChange={(e) => setDepartureDate(e.target.value)}
               min={new Date().toISOString().split('T')[0]}
               required
-              style={styles.input}
+              className="buy-input"
               aria-required="true"
             />
           </div>
-          <div style={styles.halfWidth}>
-            <label htmlFor="returnDate" style={styles.label}>Return Date</label>
+          <div className="buy-half-width">
+            <label htmlFor="returnDate" className="buy-label">Return Date</label>
             <input
               id="returnDate"
               type="date"
@@ -244,14 +245,14 @@ Please contact me to confirm this booking! 🙏`;
               onChange={(e) => setReturnDate(e.target.value)}
               min={departureDate ? new Date(new Date(departureDate).getTime() + 24 * 60 * 60 * 1000).toISOString().split('T')[0] : ''}
               required
-              style={styles.input}
+              className="buy-input"
               aria-required="true"
             />
           </div>
         </div>
 
-        <div style={styles.formGroup}>
-          <label htmlFor="phone" style={styles.label}>Phone Number</label>
+        <div className="buy-form-group">
+          <label htmlFor="phone" className="buy-label">Phone Number</label>
           <input
             id="phone"
             type="tel"
@@ -261,14 +262,14 @@ Please contact me to confirm this booking! 🙏`;
             required
             pattern="^\+?[0-9\s\-()]{7,}$"
             title="Please enter a valid phone number"
-            style={styles.input}
+            className="buy-input"
             aria-required="true"
           />
-          <small style={styles.helperText}>Include country code, e.g., +1 123 456 7890</small>
+          <small className="buy-helper-text">Include country code, e.g., +1 123 456 7890</small>
         </div>
 
-        <div style={styles.rowGroup}>
-          <div style={styles.halfWidth}>
+        <div className="buy-row-group">
+          <div className="buy-half-width">
             <RadioDropdown
               label="Number of Adults"
               name="adults"
@@ -278,7 +279,7 @@ Please contact me to confirm this booking! 🙏`;
               placeholder="Select adults"
             />
           </div>
-          <div style={styles.halfWidth}>
+          <div className="buy-half-width">
             <RadioDropdown
               label="Number of Children"
               name="children"
@@ -290,7 +291,7 @@ Please contact me to confirm this booking! 🙏`;
           </div>
         </div>
 
-        <div style={styles.formGroup}>
+        <div className="buy-form-group">
           <RadioDropdown
             label="Number of Rooms"
             name="rooms"
@@ -301,18 +302,18 @@ Please contact me to confirm this booking! 🙏`;
           />
         </div>
 
-        <div style={styles.formGroup}>
-          <label htmlFor="message" style={styles.label}>Your Message</label>
+        <div className="buy-form-group">
+          <label htmlFor="message" className="buy-label">Your Message</label>
           <textarea
             id="message"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             placeholder="Tell us about your travel preferences, special requests, or any additional information..."
             rows="4"
-            style={styles.textarea}
+            className="buy-textarea"
             aria-describedby="message-help"
           />
-          <small id="message-help" style={styles.helperText}>
+          <small id="message-help" className="buy-helper-text">
             Optional: Share any special requirements or preferences for your tour
           </small>
         </div>
@@ -320,7 +321,7 @@ Please contact me to confirm this booking! 🙏`;
         <button
           type="submit"
           disabled={loading}
-          style={loading ? styles.buttonDisabled : styles.button}
+          className="buy-button"
           aria-busy={loading}
         >
           {loading ? 'Sending...' : 'Submit Booking'}
@@ -328,137 +329,6 @@ Please contact me to confirm this booking! 🙏`;
       </form>
     </section>
   );
-};
-
-const styles = {
-  container: {
-    maxWidth: '450px',
-    margin: '2rem auto',
-    padding: '1.5rem',
-    fontFamily: "'Segoe UI', Tahoma, Geneva, Verdana, sans-serif",
-    backgroundColor: '#f0f4ff',
-    borderRadius: '8px',
-    boxShadow: '0 2px 12px rgba(0, 67, 148, 0.15)',
-  },
-  heading: {
-    textAlign: 'center',
-    color: '#0d47a1',
-    marginBottom: '0.25rem',
-  },
-  subtitle: {
-    textAlign: 'center',
-    color: '#1976d2',
-    marginBottom: '1.5rem',
-  },
-  form: {
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '1.25rem',
-  },
-  formGroup: {
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  rowGroup: {
-    display: 'flex',
-    gap: '1rem',
-  },
-  halfWidth: {
-    flex: '1',
-    display: 'flex',
-    flexDirection: 'column',
-  },
-  label: {
-    marginBottom: '0.5rem',
-    fontWeight: '600',
-    color: '#1565c0',
-  },
-  input: {
-    padding: '0.6rem 0.8rem',
-    fontSize: '1rem',
-    borderRadius: '4px',
-    border: '1px solid #90caf9',
-    transition: 'border-color 0.2s ease-in-out',
-  },
-  selectWrapper: {
-    position: 'relative',
-  },
-  helperText: {
-    fontSize: '0.8rem',
-    color: '#64b5f6',
-    marginTop: '0.25rem',
-  },
-  button: {
-    padding: '0.75rem',
-    fontSize: '1.1rem',
-    fontWeight: '700',
-    color: '#fff',
-    backgroundColor: '#1565c0',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'pointer',
-    transition: 'background-color 0.3s ease',
-  },
-  buttonDisabled: {
-    padding: '0.75rem',
-    fontSize: '1.1rem',
-    fontWeight: '700',
-    color: '#fff',
-    backgroundColor: '#90a4ae',
-    border: 'none',
-    borderRadius: '5px',
-    cursor: 'not-allowed',
-  },
-  fieldset: {
-    border: 'none',
-    margin: 0,
-    padding: 0,
-  },
-  dropdown: {
-    position: 'absolute',
-    zIndex: 10,
-    top: 'calc(100% + 4px)',
-    left: 0,
-    right: 0,
-    backgroundColor: '#fff',
-    border: '1px solid #90caf9',
-    borderRadius: '6px',
-    boxShadow: '0 4px 12px rgba(0,0,0,0.08)',
-    padding: '0.5rem',
-    maxHeight: '220px',
-    overflowY: 'auto',
-  },
-  dropdownOption: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '0.5rem',
-    padding: '0.4rem 0.25rem',
-    cursor: 'pointer',
-  },
-  radioGroup: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    gap: '0.5rem',
-  },
-  radioOption: {
-    display: 'inline-flex',
-    alignItems: 'center',
-    gap: '0.35rem',
-    padding: '0.4rem 0.6rem',
-    border: '1px solid #90caf9',
-    borderRadius: '16px',
-    cursor: 'pointer',
-    userSelect: 'none',
-  },
-  textarea: {
-    padding: '0.6rem 0.8rem',
-    fontSize: '1rem',
-    borderRadius: '4px',
-    border: '1px solid #90caf9',
-    transition: 'border-color 0.2s ease-in-out',
-    resize: 'vertical',
-    minHeight: '80px',
-  },
 };
 
 export default Buy;
