@@ -417,7 +417,7 @@ Please contact me to confirm this booking! 🙏`;
               name="adults"
               value={adults}
               onChange={setAdults}
-              options={[1, 2, 3, 4, 5, 6]}
+              options={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
               placeholder="Select adults"
             />
           </div>
@@ -427,7 +427,7 @@ Please contact me to confirm this booking! 🙏`;
               name="children"
               value={children}
               onChange={setChildren}
-              options={[0, 1, 2, 3, 4, 5, 6]}
+              options={[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]}
               placeholder="Select children"
             />
           </div>
@@ -439,7 +439,7 @@ Please contact me to confirm this booking! 🙏`;
             name="rooms"
             value={rooms}
             onChange={setRooms}
-            options={[1, 2, 3, 4, 5]}
+            options={[1, 2, 3, 4, 5, 6, 7, 8, 9]}
             placeholder="Select rooms"
           />
         </div>
