@@ -569,5 +569,92 @@ export const en = {
   colomboWildlifeTemple: "Visit Gangaramaya Temple",
   colomboWildlifeShopping: "Shopping and city tour",
   colomboWildlifeLocation: "Colombo City",
-  colomboWildlifeDescription: "Explore the capital city's attractions and prepare for departure."
+  colomboWildlifeDescription: "Explore the capital city's attractions and prepare for departure.",
+  
+  // Hill Country & Beach Adventure Tour
+  hillCountryBeachTitle: "Hill Country & Beach Adventure",
+  hillCountryBeachSubtitle: "8 Days",
+  hillCountryBeachFeatures: "🏨 ✈ 🚗 🍽",
+  hillCountryBeachType: "Adventure",
+  hillCountryBeachHighlights: "Highlights",
+  hillCountryBeachNature: "Nature",
+  hillCountryBeachBeach: "Beach",
+  hillCountryBeachCulture: "Culture",
+  hillCountryBeachHistory: "History",
+  hillCountryBeachAdventure: "Adventure",
+  hillCountryBeachPrice: "From US $1200 Per Person",
+  
+  // 8-Day Hill Country & Beach Adventure Details
+  hillCountryBeachCircuitTitle: "Hill Country & Beach Adventure - 8 Days",
+  hillCountryBeachCircuitSubtitle: "Experience the best of Sri Lanka's hill country and beautiful beaches in this exciting 8-day adventure.",
+  
+  // Day 2 - Sigiriya
+  sigiriyaAdventureTitle: "Sigiriya",
+  sigiriyaAdventureStay: "Hotel in Sigiriya",
+  sigiriyaAdventureTransfer: "Transfer to Sigiriya",
+  sigiriyaAdventureClimb: "Climb the Sigiriya Rock Fortress",
+  sigiriyaAdventureExplore: "Explore water gardens and frescoes",
+  sigiriyaAdventureVillage: "Village experience",
+  sigiriyaAdventureLocation: "Sigiriya Rock Fortress",
+  sigiriyaAdventureDescription: "Iconic UNESCO World Heritage site with sweeping views.",
+  
+  // Day 3 - Kandy
+  kandyAdventureTitle: "Kandy",
+  kandyAdventureStay: "Hotel in Kandy",
+  kandyAdventureTransfer: "Transfer to Kandy",
+  kandyAdventureTemple: "Temple of the Sacred Tooth Relic",
+  kandyAdventureGardens: "Royal Botanical Gardens",
+  kandyAdventureLake: "Kandy Lake walk",
+  kandyAdventureLocation: "Temple of the Sacred Tooth Relic",
+  kandyAdventureDescription: "Cultural capital with sacred heritage and lush gardens.",
+  
+  // Day 4 - Nuwara Eliya
+  nuwaraEliyaAdventureTitle: "Nuwara Eliya",
+  nuwaraEliyaAdventureStay: "Hotel in Nuwara Eliya",
+  nuwaraEliyaAdventureTransfer: "Transfer to Nuwara Eliya",
+  nuwaraEliyaAdventureTea: "Tea plantation and factory tour",
+  nuwaraEliyaAdventureLake: "Gregory Lake boat ride",
+  nuwaraEliyaAdventureExplore: "Explore Little England",
+  nuwaraEliyaAdventureLocation: "Nuwara Eliya Tea Country",
+  nuwaraEliyaAdventureDescription: "Experience the cool climate and tea country charm of Little England.",
+  
+  // Day 5 - Ella
+  ellaAdventureTitle: "Ella",
+  ellaAdventureStay: "Hotel in Ella",
+  ellaAdventureTransfer: "Transfer to Ella",
+  ellaAdventureTrain: "Scenic train journey to Ella",
+  ellaAdventurePeak: "Little Adam's Peak hike",
+  ellaAdventureBridge: "Nine Arches Bridge viewpoint",
+  ellaAdventureLocation: "Ella Hill Station",
+  ellaAdventureDescription: "Explore the beautiful hill country with stunning mountain views and tea plantations.",
+  
+  // Day 6 - Arugam Bay
+  arugamBayTitle: "Arugam Bay",
+  arugamBayStay: "Beach resort in Arugam Bay",
+  arugamBayTransfer: "Transfer to Arugam Bay",
+  arugamBaySurf: "Surfing lessons and beach activities",
+  arugamBayBeach: "Relax on Arugam Bay beach",
+  arugamBaySunset: "Sunset beach walk",
+  arugamBayLocation: "Arugam Bay Beach",
+  arugamBayDescription: "Enjoy the famous surfing beach and beautiful east coast scenery.",
+  
+  // Day 7 - Mirissa
+  mirissaAdventureTitle: "Mirissa",
+  mirissaAdventureStay: "Beach resort in Mirissa",
+  mirissaAdventureTransfer: "Transfer to Mirissa",
+  mirissaAdventureBeach: "Relax on Mirissa Beach",
+  mirissaAdventureWhale: "Whale watching tour (seasonal)",
+  mirissaAdventureSnorkel: "Snorkeling and water sports",
+  mirissaAdventureLocation: "Mirissa Beach",
+  mirissaAdventureDescription: "Enjoy the beautiful beaches and whale watching opportunities.",
+  
+  // Day 8 - Colombo
+  colomboAdventureTitle: "Colombo",
+  colomboAdventureStay: "Hotel in Colombo",
+  colomboAdventureTransfer: "Transfer to Colombo",
+  colomboAdventureFort: "Explore Colombo Fort",
+  colomboAdventureTemple: "Visit Gangaramaya Temple",
+  colomboAdventureShopping: "Shopping and city tour",
+  colomboAdventureLocation: "Colombo City",
+  colomboAdventureDescription: "Explore the capital city's attractions and prepare for departure."
 };

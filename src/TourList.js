@@ -26,6 +26,14 @@ const TourList = () => {
       image: "https://source.unsplash.com/400x250/?wildlife,safari,sri-lanka",
     },
     {
+      title: t.hillCountryBeachTitle,
+      country: "Sri Lanka",
+      price: 1200,
+      duration: 8,
+      tags: [t.hillCountryBeachType, t.hillCountryBeachHighlights, t.hillCountryBeachNature, t.hillCountryBeachBeach, t.hillCountryBeachCulture, t.hillCountryBeachAdventure],
+      image: "https://source.unsplash.com/400x250/?hill-country,beach,sri-lanka",
+    },
+    {
       title: t.fiveDayBudgetPackTitle,
       country: "Sri Lanka",
       price: 650,

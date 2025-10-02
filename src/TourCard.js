@@ -12,6 +12,8 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
       navigate("/14daytrip");
     } else if (title === t.wildlifeCulturalTitle) {
       navigate("/wildlifetrip");
+    } else if (title === t.hillCountryBeachTitle) {
+      navigate("/hillbeachtrip");
     } else if (title === t.fiveDayBudgetPackTitle) {
       navigate("/5daytrip");
     } else if (title === t.threeDayColomboCityTitle) {
