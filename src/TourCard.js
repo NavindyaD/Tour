@@ -10,6 +10,8 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
   const handleMoreInfoClick = () => {
     if (title === t.completeSriLankaTitle) {
       navigate("/14daytrip");
+    } else if (title === t.wildlifeCulturalTitle) {
+      navigate("/wildlifetrip");
     } else if (title === t.fiveDayBudgetPackTitle) {
       navigate("/5daytrip");
     } else if (title === t.threeDayColomboCityTitle) {

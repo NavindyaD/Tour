@@ -462,5 +462,112 @@ export const en = {
   departureTransfer: "Transfer to airport",
   departureAirport: "Departure from Bandaranaike International Airport",
   departureLocation: "Bandaranaike International Airport",
-  departureDescription: "Final day with airport transfer and departure."
+  departureDescription: "Final day with airport transfer and departure.",
+  
+  // Wildlife & Cultural Heritage Tour
+  wildlifeCulturalTitle: "Wildlife & Cultural Heritage Tour",
+  wildlifeCulturalSubtitle: "10 Days",
+  wildlifeCulturalFeatures: "🏨 ✈ 🚗 🍽",
+  wildlifeCulturalType: "Wildlife & Culture",
+  wildlifeCulturalHighlights: "Highlights",
+  wildlifeCulturalWildlife: "Wildlife",
+  wildlifeCulturalCulture: "Culture",
+  wildlifeCulturalHistory: "History",
+  wildlifeCulturalNature: "Nature",
+  wildlifeCulturalBeach: "Beach",
+  wildlifeCulturalPrice: "From US $1450 Per Person",
+  
+  // 10-Day Wildlife & Cultural Heritage Details
+  wildlifeCulturalCircuitTitle: "Wildlife & Cultural Heritage Tour - 10 Days",
+  wildlifeCulturalCircuitSubtitle: "Experience Sri Lanka's wildlife, ancient cities, and cultural heritage in this comprehensive 10-day journey.",
+  
+  // Day 2 - Udawalawe
+  udawalaweTitle: "Udawalawe",
+  udawalaweStay: "Safari lodge in Udawalawe",
+  udawalaweTransfer: "Transfer to Udawalawe",
+  udawalaweSafari: "Udawalawe National Park safari",
+  udawalaweElephants: "Elephant watching and photography",
+  udawalaweBirds: "Bird watching tour",
+  udawalaweLocation: "Udawalawe National Park",
+  udawalaweDescription: "Experience Sri Lanka's wildlife with elephants, birds, and other animals in their natural habitat.",
+  
+  // Day 3 - Ella
+  ellaWildlifeTitle: "Ella",
+  ellaWildlifeStay: "Hotel in Ella",
+  ellaWildlifeTransfer: "Transfer to Ella",
+  ellaWildlifeTrain: "Scenic train journey to Ella",
+  ellaWildlifePeak: "Little Adam's Peak hike",
+  ellaWildlifeBridge: "Nine Arches Bridge viewpoint",
+  ellaWildlifeLocation: "Ella Hill Station",
+  ellaWildlifeDescription: "Explore the beautiful hill country with stunning mountain views and tea plantations.",
+  
+  // Day 4 - Nuwara Eliya
+  nuwaraEliyaWildlifeTitle: "Nuwara Eliya",
+  nuwaraEliyaWildlifeStay: "Hotel in Nuwara Eliya",
+  nuwaraEliyaWildlifeTransfer: "Transfer to Nuwara Eliya",
+  nuwaraEliyaWildlifeTea: "Tea plantation and factory tour",
+  nuwaraEliyaWildlifeLake: "Gregory Lake boat ride",
+  nuwaraEliyaWildlifeExplore: "Explore Little England",
+  nuwaraEliyaWildlifeLocation: "Nuwara Eliya Tea Country",
+  nuwaraEliyaWildlifeDescription: "Experience the cool climate and tea country charm of Little England.",
+  
+  // Day 5 - Kandy
+  kandyWildlifeTitle: "Kandy",
+  kandyWildlifeStay: "Hotel in Kandy",
+  kandyWildlifeTransfer: "Transfer to Kandy",
+  kandyWildlifeTemple: "Temple of the Sacred Tooth Relic",
+  kandyWildlifeGardens: "Royal Botanical Gardens",
+  kandyWildlifeLake: "Kandy Lake walk",
+  kandyWildlifeLocation: "Temple of the Sacred Tooth Relic",
+  kandyWildlifeDescription: "Cultural capital with sacred heritage and lush gardens.",
+  
+  // Day 6 - Sigiriya
+  sigiriyaWildlifeTitle: "Sigiriya",
+  sigiriyaWildlifeStay: "Hotel in Sigiriya",
+  sigiriyaWildlifeTransfer: "Transfer to Sigiriya",
+  sigiriyaWildlifeClimb: "Climb the Sigiriya Rock Fortress",
+  sigiriyaWildlifeExplore: "Explore water gardens and frescoes",
+  sigiriyaWildlifeVillage: "Village experience",
+  sigiriyaWildlifeLocation: "Sigiriya Rock Fortress",
+  sigiriyaWildlifeDescription: "Iconic UNESCO World Heritage site with sweeping views.",
+  
+  // Day 7 - Anuradhapura
+  anuradhapuraWildlifeTitle: "Anuradhapura",
+  anuradhapuraWildlifeStay: "Hotel in Anuradhapura",
+  anuradhapuraWildlifeTransfer: "Transfer to Anuradhapura",
+  anuradhapuraWildlifeExplore: "Explore ancient ruins and stupas",
+  anuradhapuraWildlifeTemple: "Visit Sri Maha Bodhi tree",
+  anuradhapuraWildlifeMuseum: "Archaeological Museum",
+  anuradhapuraWildlifeLocation: "Anuradhapura Ancient City",
+  anuradhapuraWildlifeDescription: "Discover Sri Lanka's ancient capital and UNESCO World Heritage site.",
+  
+  // Day 8 - Polonnaruwa
+  polonnaruwaTitle: "Polonnaruwa",
+  polonnaruwaStay: "Hotel in Polonnaruwa",
+  polonnaruwaTransfer: "Transfer to Polonnaruwa",
+  polonnaruwaExplore: "Explore ancient city ruins",
+  polonnaruwaGalVihara: "Visit Gal Vihara rock temple",
+  polonnaruwaMuseum: "Archaeological Museum",
+  polonnaruwaLocation: "Polonnaruwa Ancient City",
+  polonnaruwaDescription: "Explore the medieval capital with well-preserved ruins and sculptures.",
+  
+  // Day 9 - Trincomalee
+  trincomaleeTitle: "Trincomalee",
+  trincomaleeStay: "Beach resort in Trincomalee",
+  trincomaleeTransfer: "Transfer to Trincomalee",
+  trincomaleeBeach: "Relax on beautiful beaches",
+  trincomaleeWhale: "Whale watching (seasonal)",
+  trincomaleeFort: "Visit Trincomalee Fort",
+  trincomaleeLocation: "Trincomalee Beach",
+  trincomaleeDescription: "Enjoy the beautiful beaches and historical sites of the east coast.",
+  
+  // Day 10 - Colombo
+  colomboWildlifeTitle: "Colombo",
+  colomboWildlifeStay: "Hotel in Colombo",
+  colomboWildlifeTransfer: "Transfer to Colombo",
+  colomboWildlifeFort: "Explore Colombo Fort",
+  colomboWildlifeTemple: "Visit Gangaramaya Temple",
+  colomboWildlifeShopping: "Shopping and city tour",
+  colomboWildlifeLocation: "Colombo City",
+  colomboWildlifeDescription: "Explore the capital city's attractions and prepare for departure."
 };

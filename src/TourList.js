@@ -18,6 +18,14 @@ const TourList = () => {
       image: "https://source.unsplash.com/400x250/?sri-lanka,travel,landscape",
     },
     {
+      title: t.wildlifeCulturalTitle,
+      country: "Sri Lanka",
+      price: 1450,
+      duration: 10,
+      tags: [t.wildlifeCulturalType, t.wildlifeCulturalHighlights, t.wildlifeCulturalWildlife, t.wildlifeCulturalCulture, t.wildlifeCulturalHistory, t.wildlifeCulturalNature],
+      image: "https://source.unsplash.com/400x250/?wildlife,safari,sri-lanka",
+    },
+    {
       title: t.fiveDayBudgetPackTitle,
       country: "Sri Lanka",
       price: 650,

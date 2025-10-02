@@ -21,6 +21,7 @@ import Bye from "./bye";     // the component for bye.js
 import Buy from './Buy';
 import FiveDayTrip from "./5daytrip";
 import FourteenDayTrip from "./14daytrip";
+import WildlifeTrip from "./wildlifetrip";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
               <Route path="/buy" element={<Buy />} />
               <Route path="/5daytrip" element={<FiveDayTrip />} />
               <Route path="/14daytrip" element={<FourteenDayTrip />} />
+              <Route path="/wildlifetrip" element={<WildlifeTrip />} />
               {/* <Route path="/" element={<Home />} />
               <Route path="/destinations" element={<Destinations />} />
               <Route path="/contact" element={<Contact />} /> */}
