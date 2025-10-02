@@ -1,49 +1,50 @@
 import React from "react";
-import "./WhyChooseUs.css"; // Import CSS
+import "./WhyChooseUs.css";
+import { useTranslation } from "./hooks/useTranslation";
 
 const WhyChooseUs = () => {
+  const { t } = useTranslation();
+
   const reasons = [
     {
       icon: "🌍",
-      text: "We are one of the top destination management companies in Sri Lanka.",
+      text: t.whyChooseUsReason1,
     },
     {
       icon: "🚶‍♂️",
-      text: "We are one of the leading tour operators in Sri Lanka.",
+      text: t.whyChooseUsReason2,
     },
     {
       icon: "🎒",
-      text: "We offer a complete travel package to travelers and travel agents.",
+      text: t.whyChooseUsReason3,
     },
     {
       icon: "💬",
-      text: "We have a passionate and professional team of 40 representatives with extensive knowledge of Sri Lanka tourism.",
+      text: t.whyChooseUsReason4,
     },
     {
       icon: "🕒",
-      text: "We are one of the leading travel agents in Sri Lanka.",
+      text: t.whyChooseUsReason5,
     },
     {
       icon: "🧑‍🤝‍🧑",
-      text: "We provide custom-made & specialized tours to our clients.",
+      text: t.whyChooseUsReason6,
     },
     {
       icon: "💲",
-      text: "We are a leading travel agent in Sri Lanka who provides tours and holiday packages to exotic destinations.",
+      text: t.whyChooseUsReason7,
     },
     {
       icon: "📞",
-      text: "We offer 24/7 customer support to our clients.",
+      text: t.whyChooseUsReason8,
     },
   ];
 
   return (
     <div className="why-choose-us">
-      <h2>Why Choose Us</h2>
+      <h2>{t.whyChooseUsTitle}</h2>
       <p>
-        A number of people have chosen us as their number one travel destination
-        management company, and you will also choose us for the following
-        reasons.
+        {t.whyChooseUsSubtitle}
       </p>
 
       <div className="reasons-grid">
@@ -56,7 +57,7 @@ const WhyChooseUs = () => {
       </div>
 
       <div className="read-more">
-        <a href="https://hello">READ MORE</a>
+        <a href="https://hello">{t.readMore}</a>
       </div>
     </div>
   );

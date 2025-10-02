@@ -1,50 +1,54 @@
 import React from "react";
 import "./AboutUs.css";
+import { useTranslation } from "./hooks/useTranslation";
 import personalized from "./Personalized Travel Planning.jpg";
 import customer from "./customer.jpg";
 import desti from "./desti.jpg";
 import price from "./price.png";
 import lux from "./lux.jpg";
-import guide from "./guide.jpg"
-const whyChooseUs = [
-  {
-    title: "Personalized Travel Planning",
-    image: personalized,
-    description: "We tailor each journey to suit your unique needs, ensuring a one-of-a-kind travel experience.",
-  },
-  {
-    title: "24/7 Customer Support",
-    image: customer,
-    description: "Our dedicated travel experts are available around the clock to assist you with any queries.",
-  },
-  {
-    title: "Handpicked Destinations",
-    image: desti,
-    description: "Explore the best destinations carefully selected to offer you unforgettable experiences.",
-  },
-  {
-    title: "Best Price Guarantee",
-    image: price,
-    description: "We offer competitive prices without compromising on the quality of your travel experience.",
-  },
-  {
-    title: "Luxury & Comfort",
-    image: lux,
-    description: "Enjoy luxurious accommodations and seamless travel arrangements for ultimate comfort.",
-  },
-  {
-    title: "Expert Tour Guides",
-    image: guide,
-    description: "Our knowledgeable and friendly guides ensure you make the most of your trip.",
-  },
-];
+import guide from "./guide.jpg";
 
 const WhyHERE = () => {
+  const { t } = useTranslation();
+  
+  const whyChooseUs = [
+    {
+      title: t.personalizedTitle,
+      image: personalized,
+      description: t.personalizedDesc,
+    },
+    {
+      title: t.customerSupportTitle,
+      image: customer,
+      description: t.customerSupportDesc,
+    },
+    {
+      title: t.destinationsTitle,
+      image: desti,
+      description: t.destinationsDesc,
+    },
+    {
+      title: t.priceGuaranteeTitle,
+      image: price,
+      description: t.priceGuaranteeDesc,
+    },
+    {
+      title: t.luxuryTitle,
+      image: lux,
+      description: t.luxuryDesc,
+    },
+    {
+      title: t.guidesTitle,
+      image: guide,
+      description: t.guidesDesc,
+    },
+  ];
+
   return (
     <div className="why-container">
-      <h1 className="why-title">Why Choose Sri Yatra Travels?</h1>
+      <h1 className="why-title">{t.whyChooseTitle}</h1>
       <p className="why-subtitle">
-        We are committed to providing you with the best travel experiences with exceptional service and personalized packages.
+        {t.whyChooseSubtitle}
       </p>
       
       <div className="why-grid">

@@ -1,17 +1,19 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./TourCard.css";
+import { useTranslation } from "./hooks/useTranslation";
 
 const TourCard = ({ title, country, price, duration, tags, image }) => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleMoreInfoClick = () => {
-    if (title === "5-Days Budget Pack (Highlights of Sri Lanka)") {
+    if (title === t.fiveDayBudgetPackTitle) {
       navigate("/5daytrip");
     } else 
-    if (title === "3-Day Colombo City Experience") {
+    if (title === t.threeDayColomboCityTitle) {
       navigate("/hello");
-    } else if (title === "Family Trip to Sri Lanka") {
+    } else if (title === t.familyTripTitle) {
       navigate("/bye");
     } else {
       alert("No page defined for this tour.");
@@ -25,7 +27,7 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
       <div className="stars">⭐⭐⭐⭐⭐</div>
       <img src={image} alt={title} className="tour-image" />
       <div className="duration">
-        <span className="duration-badge">{duration} Days</span>
+        <span className="duration-badge">{duration} {t.days}</span>
       </div>
       <div className="icons">🏨 ✈ 🚗 🍽</div>
       <div className="tags">
@@ -33,9 +35,9 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
           <span key={index} className="tag">{tag}</span>
         ))}
       </div>
-      <p className="price">From <span>US ${price}</span> Per Person</p>
+      <p className="price">{t.from} <span>US ${price}</span> {t.perPerson}</p>
       <button className="info-btn" onClick={handleMoreInfoClick}>
-        More Information ➜
+        {t.moreInformation}
       </button>
     </div>
   );

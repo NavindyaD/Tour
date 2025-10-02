@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./ContactUs.css";
+import { useTranslation } from "./hooks/useTranslation";
 import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 
 const ContactUs = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -52,101 +54,100 @@ const ContactUs = () => {
 
   return (
     <div className="contact-container">
-      <h1 className="contact-title">Get in Touch with Sri Yatra Travels</h1>
+      <h1 className="contact-title">{t.getInTouchTitle}</h1>
 
       <div className="contact-content">
         {/* Contact Info Section */}
         <div className="contact-info">
-          <h2>We'd Love to Hear From You</h2>
+          <h2>{t.loveToHearTitle}</h2>
           <p>
-            Whether you have a question about our tours, pricing, or anything
-            else, our team is ready to answer all your questions.
+            {t.loveToHearDesc}
           </p>
 
           <div className="contact-details">
             <p>
-              <strong>📍 Office:</strong> 
-              <span className="contact-detail-text">Watabage Junction, Panadura, Sri Lanka</span>
+              <strong>📍 {t.office}:</strong> 
+              <span className="contact-detail-text">{t.officeAddress}</span>
             </p>
             <p>
-              <strong>📞 Phone:</strong> 
+              <strong>📞 {t.phone}:</strong> 
               <button 
                 className="contact-link-button"
                 onClick={() => handlePhoneClick('+94770282915')}
-                aria-label="Call +94 77 028 2915"
+                aria-label={`Call ${t.phoneNumber}`}
               >
-                +94 77 028 2915
+                {t.phoneNumber}
               </button>
             </p>
             <p>
-              <strong>📞 Support:</strong> 
+              <strong>📞 {t.support}:</strong> 
               <button 
                 className="contact-link-button"
                 onClick={() => handlePhoneClick('+94752167167')}
-                aria-label="Call +94 75 216 7167"
+                aria-label={`Call ${t.supportNumber}`}
               >
-                +94 75 216 7167
+                {t.supportNumber}
               </button>
             </p>
             <p>
-              <strong>✉ Email:</strong> 
+              <strong>✉ {t.email}:</strong> 
               <button 
                 className="contact-link-button"
                 onClick={() => handleEmailClick('info@heretravels.com')}
-                aria-label="Send email to info@heretravels.com"
+                aria-label={`Send email to ${t.emailAddress}`}
               >
-                info@heretravels.com
+                {t.emailAddress}
               </button>
             </p>
             <p>
-              <strong>🕘 Working Hours:</strong> 
-              <span className="contact-detail-text">Monday – Friday: 9:00 AM – 6:00 PM</span>
+              <strong>🕘 {t.workingHours}:</strong> 
+              <span className="contact-detail-text">{t.workingHoursText}</span>
             </p>
           </div>
         </div>
 
         {/* Contact Form Section */}
         <div className="contact-form">
-          <h2>Send Us a Message</h2>
+          <h2>{t.contactFormTitle}</h2>
           <form onSubmit={handleSubmit} noValidate>
             <div className="input-group">
-              <label htmlFor="name">Full Name *</label>
+              <label htmlFor="name">{t.name} *</label>
               <input 
                 type="text" 
                 id="name" 
                 name="name" 
                 value={formData.name}
                 onChange={handleInputChange}
-                placeholder="Your Name" 
+                placeholder={t.namePlaceholder} 
                 required 
                 aria-required="true"
                 aria-describedby="name-error"
               />
               {submitStatus === 'error' && !formData.name && (
-                <span id="name-error" className="error-message">Name is required</span>
+                <span id="name-error" className="error-message">{t.name} is required</span>
               )}
             </div>
             
             <div className="input-group">
-              <label htmlFor="email">Email Address *</label>
+              <label htmlFor="email">{t.email} *</label>
               <input 
                 type="email" 
                 id="email" 
                 name="email" 
                 value={formData.email}
                 onChange={handleInputChange}
-                placeholder="your.email@example.com" 
+                placeholder={t.emailPlaceholder} 
                 required 
                 aria-required="true"
                 aria-describedby="email-error"
               />
               {submitStatus === 'error' && !formData.email && (
-                <span id="email-error" className="error-message">Valid email is required</span>
+                <span id="email-error" className="error-message">Valid {t.email.toLowerCase()} is required</span>
               )}
             </div>
             
             <div className="input-group">
-              <label htmlFor="phone">Phone Number *</label>
+              <label htmlFor="phone">{t.phone} *</label>
               <PhoneInput
                 id="phone"
                 name="phone"
@@ -158,37 +159,37 @@ const ContactUs = () => {
                 aria-describedby="phone-error"
               />
               {submitStatus === 'error' && !formData.phone && (
-                <span id="phone-error" className="error-message">Phone number is required</span>
+                <span id="phone-error" className="error-message">{t.phone} is required</span>
               )}
             </div>
 
             <div className="input-group">
-              <label htmlFor="message">Message *</label>
+              <label htmlFor="message">{t.message} *</label>
               <textarea 
                 id="message" 
                 name="message" 
                 value={formData.message}
                 onChange={handleInputChange}
-                placeholder="How can we help you? Please share your questions or requirements..." 
+                placeholder={t.messagePlaceholder} 
                 rows="5" 
                 required
                 aria-required="true"
                 aria-describedby="message-error"
               ></textarea>
               {submitStatus === 'error' && !formData.message && (
-                <span id="message-error" className="error-message">Message is required</span>
+                <span id="message-error" className="error-message">{t.message} is required</span>
               )}
             </div>
             
             {submitStatus === 'success' && (
               <div className="success-message">
-                Thank you! Your message has been sent successfully. We'll get back to you soon.
+                {t.messageSent}
               </div>
             )}
             
             {submitStatus === 'error' && (
               <div className="error-message">
-                Sorry, there was an error sending your message. Please try again.
+                {t.messageError}
               </div>
             )}
             
@@ -197,7 +198,7 @@ const ContactUs = () => {
               disabled={isSubmitting}
               aria-busy={isSubmitting}
             >
-              {isSubmitting ? 'Sending...' : 'Submit Inquiry'}
+              {isSubmitting ? t.submitting : t.submitButton}
             </button>
           </form>
         </div>

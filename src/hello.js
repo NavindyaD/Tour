@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Itinerary.css";
+import { useTranslation } from "./hooks/useTranslation"; // Added import
 
 // Images - replace with your actual image imports or URLs
 import hotel1 from './hotel1.jpg';
@@ -9,6 +10,7 @@ import hotel3 from './hotel3.jpg';
 
 const ThreeDayColomboTrip = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation(); // Added useTranslation hook
 
   const handleBookNow = () => {
     navigate("/buy");
@@ -16,58 +18,58 @@ const ThreeDayColomboTrip = () => {
 
   const days = [
     {
-      day: "Day One",
+      day: t.dayOneTitle,
       activities: [
-        "Arrival at Bandaranaike International Airport",
-        "Transfer to hotel and check-in",
-        "Explore Colombo Fort area – colonial buildings, markets, and shopping",
+        t.colomboArrival,
+        t.colomboTransfer,
+        t.colomboFort,
       ],
-      hotel: "Cinnamon Grand Colombo",
+      hotel: t.cinnamonGrand,
       hotelImg: hotel1,
-      hotelAlt: "Cinnamon Grand Colombo",
-      notes: "Dinner at hotel restaurant and overnight stay.",
+      hotelAlt: t.cinnamonGrand,
+      notes: t.colomboDinner,
     },
     {
-      day: "Day Two",
+      day: t.dayTwoTitle,
       activities: [
-        "Breakfast at hotel",
-        "Visit Gangaramaya Temple and museum",
-        "Lunch at local restaurant",
-        "Afternoon visit to National Museum and Viharamahadevi Park",
+        t.colomboBreakfast,
+        t.colomboTemple,
+        t.colomboLunch,
+        t.colomboMuseum,
       ],
-      hotel: "Shangri-La Colombo",
+      hotel: t.shangriLa,
       hotelImg: hotel2,
-      hotelAlt: "Shangri-La Colombo",
-      notes: "Dinner and overnight stay.",
+      hotelAlt: t.shangriLa,
+      notes: t.colomboOvernight,
     },
     {
-      day: "Day Three",
+      day: t.dayThreeTitle,
       activities: [
-        "Breakfast at hotel",
-        "Relax at Galle Face Green and watch the ocean",
-        "Shopping at Odel or Barefoot Gallery",
-        "Prepare for departure",
+        t.colomboBreakfast,
+        t.colomboRelax,
+        t.colomboShopping,
+        t.colomboPrepare,
       ],
-      hotel: "The Kingsbury Colombo",
+      hotel: t.kingsbury,
       hotelImg: hotel3,
-      hotelAlt: "The Kingsbury Colombo",
-      notes: "Check-out and transfer to airport.",
+      hotelAlt: t.kingsbury,
+      notes: t.colomboCheckout,
     },
   ];
 
   return (
     <div className="itinerary-wrapper">
       <header className="itinerary-header">
-        <h1>3-Day Colombo Trip - Sri Lanka</h1>
+        <h1>{t.threeDayColomboTitle}</h1>
         <p className="intro-text">
-          Experience the best of Colombo with luxury hotels, cultural visits, shopping, and relaxation by the ocean.
+          {t.threeDayColomboSubtitle}
         </p>
       </header>
 
       {/* Book Now button above itinerary, right aligned */}
       <div className="book-now-wrapper top-right">
         <button className="book-now-button" onClick={handleBookNow}>
-          Book Now
+          {t.bookNow}
         </button>
       </div>
 
@@ -80,7 +82,7 @@ const ThreeDayColomboTrip = () => {
             </div>
 
             <div className="card-content">
-              <h3>Activities</h3>
+              <h3>{t.katunayakeActivities}</h3> {/* Using a generic 'Activities' key */}
               <ul>
                 {activities.map((activity, i) => (
                   <li key={i}>{activity}</li>

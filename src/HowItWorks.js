@@ -1,53 +1,57 @@
 import React from "react";
 import "./HowItWorks.css"; // Unique CSS file
 import { FaPhone, FaHeadset, FaFileInvoiceDollar, FaHandshake } from "react-icons/fa"; // Import icons
+import { useTranslation } from "./hooks/useTranslation";
 
 const HowItWorks = () => {
+  const { t } = useTranslation();
+
   const steps = [
     {
       icon: <FaPhone />,
-      title: "Enquire Now",
-      time: "5 Minutes",
+      title: t.step1Title,
+      time: t.step1Time,
       description: [
-        "Filling the web form",
-        "Web live chat",
-        "Email",
-        "Call us",
+        t.step1FillingForm,
+        t.step1WebChat,
+        t.step1Email,
+        t.step1Call,
       ],
     },
     {
       icon: <FaHeadset />,
-      title: "Connect Travel Expert",
-      time: "30 Minutes",
+      title: t.step2Title,
+      time: t.step2Time,
       description: [
-        "Discuss your requirement",
-        "Free expert travel advice",
+        t.step2Discuss,
+        t.step2FreeAdvice,
+        t.step2Support,
       ],
     },
     {
       icon: <FaFileInvoiceDollar />,
-      title: "Received 3 Travel Options",
-      time: "24/7 Support",
+      title: t.step3Title,
+      time: "",
       description: [
-        "Discuss changes",
-        "Finalise trip plan",
-        "Pay 10%",
+        t.step3Discuss,
+        t.step3Finalise,
+        t.step3Pay,
       ],
     },
     {
       icon: <FaHandshake />,
-      title: "Receive Your Trip Confirmation",
+      title: t.step4Title,
       time: "",
       description: [
-        "Filling the web form",
-        "100% satisfaction guaranteed",
+        t.step4FillingForm,
+        t.step4Satisfaction,
       ],
     },
   ];
 
   return (
     <div className="howitworks-container">
-      <h2 className="howitworks-title">HOW IT WORKS?</h2>
+      <h2 className="howitworks-title">{t.howItWorksTitle}</h2>
       <div className="howitworks-steps">
         {steps.map((step, index) => (
           <div key={index} className="howitworks-step">

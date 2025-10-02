@@ -1,6 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Itinerary.css";
+import { useTranslation } from "./hooks/useTranslation";
 
 // Images - replace with your actual image imports or URLs
 import katunayakeAirport from './katunayakeAirport.jpg';
@@ -11,6 +12,7 @@ import galleFort from './galleFort.jpg';
 
 const FiveDaySriLankaTrip = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleBookNow = () => {
     navigate("/buy");
@@ -18,91 +20,91 @@ const FiveDaySriLankaTrip = () => {
 
   const days = [
     {
-      day: "Day 1",
-      location: "Katunayake",
+      day: t.day1Title,
+      location: t.katunayakeTitle,
       activities: [
-        "Arrival at Bandaranaike International Airport",
-        "Meet and greet, transfer to nearby stay",
-        "Optional visit to Negombo Beach (time permitting)",
-        "Rest and recover from flight",
+        t.katunayakeArrival,
+        t.katunayakeMeetGreet,
+        t.katunayakeNegombo,
+        t.katunayakeRest,
       ],
-      hotel: "Comfortable stay near Katunayake",
+      hotel: t.katunayakeStay,
       hotelImg: katunayakeAirport,
-      hotelAlt: "Katunayake - Bandaranaike International Airport",
-      notes: "Start your Sri Lankan highlights with a convenient first night near the airport.",
+      hotelAlt: t.katunayakeLocation,
+      notes: t.katunayakeDescription,
     },
     {
-      day: "Day 2",
-      location: "Sigiriya",
+      day: t.day2Title,
+      location: t.sigiriyaTitle,
       activities: [
-        "Transfer to Sigiriya",
-        "Climb the Sigiriya Rock Fortress",
-        "Explore the water gardens and frescoes",
-        "Village experience or bicycle ride (optional)",
+        t.sigiriyaTransfer,
+        t.sigiriyaClimb,
+        t.sigiriyaExplore,
+        t.sigiriyaVillage,
       ],
-      hotel: "Guesthouse in Sigiriya",
+      hotel: t.sigiriyaStay,
       hotelImg: sigiriyaRock,
-      hotelAlt: "Sigiriya Rock Fortress",
-      notes: "Iconic UNESCO World Heritage site with sweeping views.",
+      hotelAlt: t.sigiriyaLocation,
+      notes: t.sigiriyaDescription,
     },
     {
-      day: "Day 3",
-      location: "Kandy",
+      day: t.day3Title,
+      location: t.kandyTitle,
       activities: [
-        "Transfer to Kandy",
-        "Temple of the Sacred Tooth Relic",
-        "Royal Botanical Gardens, Peradeniya",
-        "Kandy Lake walk and local market",
+        t.kandyTransfer,
+        t.kandyTemple,
+        t.kandyGardens,
+        t.kandyLake,
       ],
-      hotel: "Hotel in Kandy",
+      hotel: t.kandyStay,
       hotelImg: kandyTemple,
-      hotelAlt: "Temple of the Sacred Tooth Relic, Kandy",
-      notes: "Cultural capital with sacred heritage and lush gardens.",
+      hotelAlt: t.kandyLocation,
+      notes: t.kandyDescription,
     },
     {
-      day: "Day 4",
-      location: "Ella",
+      day: t.day4Title,
+      location: t.ellaTitle,
       activities: [
-        "Scenic train journey to Ella",
-        "Little Adam's Peak hike",
-        "Nine Arches Bridge viewpoint",
-        "Explore tea country vibes in town",
+        t.ellaTrain,
+        t.ellaPeak,
+        t.ellaBridge,
+        t.ellaExplore,
       ],
-      hotel: "Cozy stay in Ella",
+      hotel: t.ellaStay,
       hotelImg: ellaTrain,
-      hotelAlt: "Scenic train near Ella",
-      notes: "Cool-climate hill escape with stunning mountain scenery.",
+      hotelAlt: t.ellaLocation,
+      notes: t.ellaDescription,
     },
     {
-      day: "Day 5",
-      location: "Galle",
+      day: t.day5Title,
+      location: t.galleTitle,
       activities: [
-        "Transfer to Galle",
-        "Explore the UNESCO-listed Galle Fort",
-        "Lighthouse and ramparts walk",
-        "Cafés, boutiques, and seaside views",
-        "Continue to airport or extend beach stay",
+        t.galleTransfer,
+        t.galleFort,
+        t.galleLighthouse,
+        t.galleCafes,
+        t.galleContinue,
       ],
-      hotel: "Hotel in Galle (or late departure)",
+      hotel: t.galleStay,
       hotelImg: galleFort,
-      hotelAlt: "Galle Fort ramparts and lighthouse",
-      notes: "Historic coastal charm to wrap up your highlights tour.",
+      hotelAlt: t.galleLocation,
+      notes: t.galleDescription,
     },
   ];
 
   return (
     <div className="itinerary-wrapper">
       <header className="itinerary-header">
-        <h1>5-Day Highlights of Sri Lanka</h1>
+        <h1>{t.fiveDayHighlightsTitle}</h1>
         <p className="intro-text">
-          Highlights: Katunayake, Sigiriya, Kandy, Ella, Galle. A compact journey through Sri Lanka's must-see destinations.
+          {t.fiveDayHighlightsSubtitle}
         </p>
       </header>
 
       {/* Book Now button above itinerary, right aligned */}
       <div className="book-now-wrapper top-right">
         <button className="book-now-button" onClick={handleBookNow}>
-          Book Now
+          {t.bookNow}
         </button>
       </div>
 
@@ -116,7 +118,7 @@ const FiveDaySriLankaTrip = () => {
             </div>
 
             <div className="card-content">
-              <h3>Activities</h3>
+              <h3>{t.katunayakeActivities}</h3>
               <ul>
                 {activities.map((activity, i) => (
                   <li key={i}>{activity}</li>

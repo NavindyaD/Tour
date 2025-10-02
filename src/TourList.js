@@ -3,51 +3,54 @@ import TourCard from "./TourCard";
 import "./TourList.css";
 import snorkelingImg from './colombo.jpg';
 import sea from './sea.jpg'
-const tourData = [
-  {
-    title: "5-Days Budget Pack (Highlights of Sri Lanka)",
-    country: "Sri Lanka",
-    price: 650,
-    duration: 5,
-    tags: ["Budget", "Highlights", "Culture", "History", "Nature"],
-    image: sea,
-  },
-  {
-    title: "3-Day Colombo City Experience",
-  country: "Sri Lanka",
-  price: 350, // example price in USD
-  duration: 3, // days
-  tags: ["City Tour", "Culture", "Shopping", "Luxury Hotels", "Sightseeing"],
-  image: snorkelingImg,
-  },
-  {
-    title: "Family Trip to Sri Lanka",
-    country: "Sri Lanka",
-    price: 850,
-    duration: 9,
-    tags: ["Wild Life", "Nature", "Culture", "History"],
-    image: "https://source.unsplash.com/400x250/?family,travel",
-  },
-  {
-    title: "Best of Sri Lanka",
-    country: "Sri Lanka",
-    price: 1250,
-    duration: 12,
-    tags: ["Beach", "Wild Life", "Nature", "Culture"],
-    image: "https://source.unsplash.com/400x250/?beach,resort",
-  },
-  {
-    title: "Romantic Getaway in Sri Lanka",
-    country: "Sri Lanka",
-    price: 1700,
-    duration: 15,
-    tags: ["Nature", "Beach", "Wild Life", "History"],
-    image: "https://source.unsplash.com/400x250/?romantic,couple",
-  },
-
-];
+import { useTranslation } from "./hooks/useTranslation";
 
 const TourList = () => {
+  const { t } = useTranslation();
+
+  const tourData = [
+    {
+      title: t.fiveDayBudgetPackTitle,
+      country: "Sri Lanka",
+      price: 650,
+      duration: 5,
+      tags: [t.fiveDayBudgetPackType, t.fiveDayBudgetPackHighlights, t.fiveDayBudgetPackCulture, t.fiveDayBudgetPackHistory, t.fiveDayBudgetPackNature],
+      image: sea,
+    },
+    {
+      title: t.threeDayColomboCityTitle,
+      country: "Sri Lanka",
+      price: 350,
+      duration: 3,
+      tags: [t.threeDayColomboCityType, t.threeDayColomboCityCulture, t.threeDayColomboCityShopping, t.threeDayColomboCityLuxury, t.threeDayColomboCitySightseeing],
+      image: snorkelingImg,
+    },
+    {
+      title: t.familyTripTitle,
+      country: "Sri Lanka",
+      price: 850,
+      duration: 9,
+      tags: [t.familyTripWildlife, t.familyTripNature, t.familyTripCulture, t.familyTripHistory],
+      image: "https://source.unsplash.com/400x250/?family,travel",
+    },
+    {
+      title: t.bestOfSriLankaTitle,
+      country: "Sri Lanka",
+      price: 1250,
+      duration: 12,
+      tags: [t.bestOfSriLankaBeach, t.bestOfSriLankaWildlife, t.bestOfSriLankaNature, t.bestOfSriLankaCulture],
+      image: "https://source.unsplash.com/400x250/?beach,resort",
+    },
+    {
+      title: t.romanticGetawayTitle,
+      country: "Sri Lanka",
+      price: 1700,
+      duration: 15,
+      tags: [t.romanticGetawayNature, t.romanticGetawayBeach, t.romanticGetawayWildlife, t.romanticGetawayHistory],
+      image: "https://source.unsplash.com/400x250/?romantic,couple",
+    },
+  ];
+
   return (
     <div className="tour-list">
       {tourData.map((tour, index) => (

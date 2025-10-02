@@ -1,44 +1,45 @@
 import React from "react";
 import "./TestimonialsPage.css";
+import { useTranslation } from "./hooks/useTranslation";
 import john from "./john.jpg";
 import ema from "./ema.jpg";
 import car from "./Carlos.jpg";
 import lee from "./lee.jpg";
 
-
-
-const testimonials = [
-  {
-    name: "John Doe",
-    location: "United States",
-    image: john,
-    review: "Our trip to Sri Lanka was absolutely fantastic! The planning and organization were perfect, and we felt well taken care of throughout the journey. Highly recommend Sri Yatra Travels!",
-  },
-  {
-    name: "Emma Smith",
-    location: "United Kingdom",
-    image: ema,
-    review: "A truly memorable experience! From the beautiful beaches to the stunning cultural sites, everything was perfectly planned. Can't wait to visit again!",
-  },
-  {
-    name: "Carlos Garcia",
-    location: "Spain",
-    image: car,
-    review: "The best travel agency I've ever booked with! Everything was well organized, and the guides were knowledgeable and friendly. Thank you for an amazing experience!",
-  },
-  {
-    name: "Sophia Lee",
-    location: "Australia",
-    image: lee,
-    review: "A seamless and unforgettable trip! The team was professional, and the itinerary was well thought out. I highly recommend Sri Yatra Travels to anyone visiting Sri Lanka.",
-  },
-];
-
 const TestimonialsPage = () => {
+  const { t } = useTranslation();
+  
+  const testimonials = [
+    {
+      name: "John Doe",
+      location: "United States",
+      image: john,
+      review: t.johnReview,
+    },
+    {
+      name: "Emma Smith",
+      location: "United Kingdom",
+      image: ema,
+      review: t.emmaReview,
+    },
+    {
+      name: "Carlos Garcia",
+      location: "Spain",
+      image: car,
+      review: t.carlosReview,
+    },
+    {
+      name: "Sophia Lee",
+      location: "Australia",
+      image: lee,
+      review: t.sophiaReview,
+    },
+  ];
+  
   return (
     <div className="testimonials-container">
-      <h1 className="testimonials-title">What Our Clients Say</h1>
-      <p className="testimonials-subtitle">Real experiences from happy travelers around the world.</p>
+      <h1 className="testimonials-title">{t.customerReviewsTitle}</h1>
+      <p className="testimonials-subtitle">{t.customerReviewsSubtitle}</p>
 
       <div className="testimonials-grid">
         {testimonials.map((testimonial, index) => (
