@@ -10,6 +10,14 @@ const TourList = () => {
 
   const tourData = [
     {
+      title: t.completeSriLankaTitle,
+      country: "Sri Lanka",
+      price: 1850,
+      duration: 14,
+      tags: [t.completeSriLankaType, t.completeSriLankaHighlights, t.completeSriLankaCulture, t.completeSriLankaHistory, t.completeSriLankaNature, t.completeSriLankaBeach],
+      image: "https://source.unsplash.com/400x250/?sri-lanka,travel,landscape",
+    },
+    {
       title: t.fiveDayBudgetPackTitle,
       country: "Sri Lanka",
       price: 650,

@@ -8,10 +8,11 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
   const { t } = useTranslation();
 
   const handleMoreInfoClick = () => {
-    if (title === t.fiveDayBudgetPackTitle) {
+    if (title === t.completeSriLankaTitle) {
+      navigate("/14daytrip");
+    } else if (title === t.fiveDayBudgetPackTitle) {
       navigate("/5daytrip");
-    } else 
-    if (title === t.threeDayColomboCityTitle) {
+    } else if (title === t.threeDayColomboCityTitle) {
       navigate("/hello");
     } else if (title === t.familyTripTitle) {
       navigate("/bye");

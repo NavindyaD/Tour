@@ -352,5 +352,115 @@ export const en = {
   
   step4Title: "4. Receive Your Trip Confirmation",
   step4FillingForm: "Filling the web form",
-  step4Satisfaction: "100% satisfaction guaranteed"
+  step4Satisfaction: "100% satisfaction guaranteed",
+  
+  // Complete Sri Lanka Circuit Tour
+  completeSriLankaTitle: "Complete Sri Lanka Circuit",
+  completeSriLankaSubtitle: "14 Days",
+  completeSriLankaFeatures: "🏨 ✈ 🚗 🍽",
+  completeSriLankaType: "Comprehensive",
+  completeSriLankaHighlights: "Highlights",
+  completeSriLankaCulture: "Culture",
+  completeSriLankaHistory: "History",
+  completeSriLankaNature: "Nature",
+  completeSriLankaBeach: "Beach",
+  completeSriLankaPrice: "From US $1850 Per Person",
+  
+  // 14-Day Complete Sri Lanka Circuit Details
+  completeSriLankaCircuitTitle: "Complete Sri Lanka Circuit - 14 Days",
+  completeSriLankaCircuitSubtitle: "Experience the complete beauty of Sri Lanka with this comprehensive 14-day journey covering all major destinations.",
+  
+  // Day 2 - Anuradhapura
+  ancientCityTitle: "Anuradhapura",
+  ancientCityStay: "Hotel in Anuradhapura",
+  ancientCityTransfer: "Transfer to Anuradhapura",
+  ancientCityExplore: "Explore ancient ruins and stupas",
+  ancientCityTemple: "Visit Sri Maha Bodhi tree",
+  ancientCityMuseum: "Visit Archaeological Museum",
+  ancientCityLocation: "Anuradhapura Ancient City",
+  ancientCityDescription: "Discover Sri Lanka's ancient capital and UNESCO World Heritage site.",
+  
+  // Day 5 - Nuwara Eliya
+  day5Title: "Day 5",
+  nuwaraEliyaTitle: "Nuwara Eliya",
+  nuwaraEliyaStay: "Hotel in Nuwara Eliya",
+  nuwaraEliyaTransfer: "Transfer to Nuwara Eliya",
+  nuwaraEliyaTea: "Visit tea plantations and factory",
+  nuwaraEliyaLake: "Explore Gregory Lake",
+  nuwaraEliyaExplore: "Explore Little England",
+  nuwaraEliyaLocation: "Nuwara Eliya Tea Country",
+  nuwaraEliyaDescription: "Experience the cool climate and tea country charm of Little England.",
+  
+  // Day 6 - Ella
+  day6Title: "Day 6",
+  
+  // Day 7 - Ella (Second Day)
+  day7Title: "Day 7",
+  ellaWaterfall: "Visit Ravana Falls",
+  ellaTea: "Tea plantation tour",
+  ellaRelax: "Relax and enjoy the mountain views",
+  ellaLocal: "Local village experience",
+  ellaDay2Description: "Second day in Ella to explore waterfalls and tea country.",
+  
+  // Day 8 - Mirissa
+  day8Title: "Day 8",
+  mirissaTitle: "Mirissa",
+  mirissaStay: "Beach resort in Mirissa",
+  mirissaTransfer: "Transfer to Mirissa",
+  mirissaBeach: "Relax on Mirissa Beach",
+  mirissaWhale: "Whale watching tour (seasonal)",
+  mirissaRelax: "Beach relaxation and sunset",
+  mirissaLocation: "Mirissa Beach",
+  mirissaDescription: "Enjoy the beautiful beaches and whale watching opportunities.",
+  
+  // Day 9 - Mirissa (Second Day)
+  day9Title: "Day 9",
+  mirissaSnorkel: "Snorkeling and water sports",
+  mirissaDiving: "Scuba diving (optional)",
+  mirissaSunset: "Sunset beach walk",
+  mirissaDay2Description: "Second day in Mirissa for water activities and beach relaxation.",
+  
+  // Day 10 - Galle
+  day10Title: "Day 10",
+  
+  // Day 11 - Galle (Second Day)
+  day11Title: "Day 11",
+  galleShopping: "Shopping in Galle Fort",
+  galleMuseum: "Visit Galle Maritime Museum",
+  galleBeach: "Beach time at Unawatuna",
+  galleDining: "Dining at fort restaurants",
+  galleDay2Description: "Second day in Galle to explore more of the historic fort.",
+  
+  // Day 12 - Bentota
+  day12Title: "Day 12",
+  bentotaTitle: "Bentota",
+  bentotaStay: "Resort in Bentota",
+  bentotaTransfer: "Transfer to Bentota",
+  bentotaRiver: "Bentota River safari",
+  bentotaBeach: "Beach activities",
+  bentotaSpa: "Spa and wellness treatments",
+  bentotaLocation: "Bentota Beach Resort",
+  bentotaDescription: "Relax at the beautiful beach resort with river activities.",
+  
+  // Day 13 - Colombo
+  day13Title: "Day 13",
+  colomboTitle: "Colombo",
+  colomboStay: "Hotel in Colombo",
+  colomboTransfer: "Transfer to Colombo",
+  colomboFort: "Explore Colombo Fort",
+  colomboTemple: "Visit Gangaramaya Temple",
+  colomboShopping: "Shopping at Odel and Barefoot",
+  colomboLocation: "Colombo City",
+  colomboDescription: "Explore the capital city's attractions and shopping.",
+  
+  // Day 14 - Departure
+  day14Title: "Day 14",
+  departureTitle: "Departure",
+  departureStay: "Airport hotel or departure",
+  departureBreakfast: "Final breakfast",
+  departureShopping: "Last minute shopping",
+  departureTransfer: "Transfer to airport",
+  departureAirport: "Departure from Bandaranaike International Airport",
+  departureLocation: "Bandaranaike International Airport",
+  departureDescription: "Final day with airport transfer and departure."
 };
