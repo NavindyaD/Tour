@@ -1,9 +1,22 @@
 {
   "files": {
-    "main.css": "/Tour/static/css/main.3080e56e.css",
-    "main.js": "/Tour/static/js/main.bb0f27bb.js",
+    "main.css": "/Tour/static/css/main.c8d85684.css",
+    "main.js": "/Tour/static/js/main.4445f6fc.js",
     "static/js/453.ed3810f9.chunk.js": "/Tour/static/js/453.ed3810f9.chunk.js",
     "static/media/tour.jpeg": "/Tour/static/media/tour.2b6055045ae45d79540f.jpeg",
+    "static/media/anu.png": "/Tour/static/media/anu.6cf1f9f0338692acbd88.png",
+    "static/media/classic.png": "/Tour/static/media/classic.e8543b27dd0ebf301e10.png",
+    "static/media/nuwaraeliya.png": "/Tour/static/media/nuwaraeliya.5c529f727accfc7d3e9f.png",
+    "static/media/beach.png": "/Tour/static/media/beach.1a17650bb7072e1cb47d.png",
+    "static/media/trinco.png": "/Tour/static/media/trinco.f8894e875697319b4948.png",
+    "static/media/colo.png": "/Tour/static/media/colo.8496ae8584c739a815c4.png",
+    "static/media/polo.png": "/Tour/static/media/polo.97339f36ec1f0cb73bf7.png",
+    "static/media/miri.png": "/Tour/static/media/miri.2aaeb795d22b579e6db5.png",
+    "static/media/bentota.png": "/Tour/static/media/bentota.9b4477b1e6c3c89c71bb.png",
+    "static/media/wildlife.png": "/Tour/static/media/wildlife.455740974dc242ff2020.png",
+    "static/media/udawalawa.png": "/Tour/static/media/udawalawa.50a0eaae3976ffafc2cc.png",
+    "static/media/aru.png": "/Tour/static/media/aru.5f3c41d6ceebd63115de.png",
+    "static/media/hill.png": "/Tour/static/media/hill.1f025354697317f7ed5d.png",
     "static/media/sigiriyaRock.jpg": "/Tour/static/media/sigiriyaRock.f1b4dc9de0b5e6d3693e.jpg",
     "static/media/hotel2.jpg": "/Tour/static/media/hotel2.a1bb95f0c1e1b8aa0901.jpg",
     "static/media/ellaTrain.jpg": "/Tour/static/media/ellaTrain.45c423677c9ddc9fa9fd.jpg",
@@ -17,12 +30,12 @@
     "static/media/sea.jpg": "/Tour/static/media/sea.88ba49ccb713fbd6534f.jpg",
     "static/media/lux.jpg": "/Tour/static/media/lux.d9cc429060f3bde2bcc4.jpg",
     "index.html": "/Tour/index.html",
-    "main.3080e56e.css.map": "/Tour/static/css/main.3080e56e.css.map",
-    "main.bb0f27bb.js.map": "/Tour/static/js/main.bb0f27bb.js.map",
+    "main.c8d85684.css.map": "/Tour/static/css/main.c8d85684.css.map",
+    "main.4445f6fc.js.map": "/Tour/static/js/main.4445f6fc.js.map",
     "453.ed3810f9.chunk.js.map": "/Tour/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3080e56e.css",
-    "static/js/main.bb0f27bb.js"
+    "static/css/main.c8d85684.css",
+    "static/js/main.4445f6fc.js"
   ]
 }
