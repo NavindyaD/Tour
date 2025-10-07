@@ -7,10 +7,11 @@ import { useTranslation } from "./hooks/useTranslation";
 import katunayakeAirport from './katunayakeAirport.jpg';
 import sigiriyaRock from './sigiriyaRock.jpg';
 import kandyTemple from './kandyTemple.jpg';
-import ellaTrain from './ellaTrain.jpg';
-import galleFort from './galleFort.jpg';
+import nuwaraEliya from './nuwaraeliya.png';
+import bentota from './bentota.png';
+import colombo from './colo.png';
 
-const FourteenDaySriLankaTrip = () => {
+const CulturalBeachTrip = () => {
   const navigate = useNavigate();
   const { t } = useTranslation();
 
@@ -35,110 +36,82 @@ const FourteenDaySriLankaTrip = () => {
     },
     {
       day: t.day2Title,
-      location: t.ancientCityTitle,
+      location: t.sigiriyaCulturalTitle,
       activities: [
-        t.ancientCityTransfer,
-        t.ancientCityExplore,
-        t.ancientCityTemple,
-        t.ancientCityMuseum,
+        t.sigiriyaCulturalTransfer,
+        t.sigiriyaCulturalClimb,
+        t.sigiriyaCulturalExplore,
+        t.sigiriyaCulturalVillage,
       ],
-      hotel: t.ancientCityStay,
-      hotelImg: "https://source.unsplash.com/400x250/?ancient,temple,sri-lanka",
-      hotelAlt: t.ancientCityLocation,
-      notes: t.ancientCityDescription,
+      hotel: t.sigiriyaCulturalStay,
+      hotelImg: sigiriyaRock,
+      hotelAlt: t.sigiriyaCulturalLocation,
+      notes: t.sigiriyaCulturalDescription,
     },
     {
       day: t.day3Title,
-      location: t.sigiriyaTitle,
+      location: t.kandyCulturalTitle,
       activities: [
-        t.sigiriyaTransfer,
-        t.sigiriyaClimb,
-        t.sigiriyaExplore,
-        t.sigiriyaVillage,
+        t.kandyCulturalTransfer,
+        t.kandyCulturalTemple,
+        t.kandyCulturalGardens,
+        t.kandyCulturalLake,
       ],
-      hotel: t.sigiriyaStay,
-      hotelImg: sigiriyaRock,
-      hotelAlt: t.sigiriyaLocation,
-      notes: t.sigiriyaDescription,
+      hotel: t.kandyCulturalStay,
+      hotelImg: kandyTemple,
+      hotelAlt: t.kandyCulturalLocation,
+      notes: t.kandyCulturalDescription,
     },
     {
       day: t.day4Title,
-      location: t.kandyTitle,
+      location: t.nuwaraEliyaCulturalTitle,
       activities: [
-        t.kandyTransfer,
-        t.kandyTemple,
-        t.kandyGardens,
-        t.kandyLake,
+        t.nuwaraEliyaCulturalTransfer,
+        t.nuwaraEliyaCulturalTea,
+        t.nuwaraEliyaCulturalLake,
+        t.nuwaraEliyaCulturalExplore,
       ],
-      hotel: t.kandyStay,
-      hotelImg: kandyTemple,
-      hotelAlt: t.kandyLocation,
-      notes: t.kandyDescription,
+      hotel: t.nuwaraEliyaCulturalStay,
+      hotelImg: nuwaraEliya,
+      hotelAlt: t.nuwaraEliyaCulturalLocation,
+      notes: t.nuwaraEliyaCulturalDescription,
     },
     {
       day: t.day5Title,
-      location: t.nuwaraEliyaTitle,
+      location: t.bentotaCulturalTitle,
       activities: [
-        t.nuwaraEliyaTransfer,
-        t.nuwaraEliyaTea,
-        t.nuwaraEliyaLake,
-        t.nuwaraEliyaExplore,
+        t.bentotaCulturalTransfer,
+        t.bentotaCulturalRiver,
+        t.bentotaCulturalBeach,
+        t.bentotaCulturalSpa,
       ],
-      hotel: t.nuwaraEliyaStay,
-      hotelImg: "https://source.unsplash.com/400x250/?tea-plantation,sri-lanka,nuwara-eliya",
-      hotelAlt: t.nuwaraEliyaLocation,
-      notes: t.nuwaraEliyaDescription,
+      hotel: t.bentotaCulturalStay,
+      hotelImg: bentota,
+      hotelAlt: t.bentotaCulturalLocation,
+      notes: t.bentotaCulturalDescription,
     },
     {
       day: t.day6Title,
-      location: t.ellaTitle,
+      location: t.colomboCulturalTitle,
       activities: [
-        t.ellaTrain,
-        t.ellaPeak,
-        t.ellaBridge,
-        t.ellaExplore,
+        t.colomboCulturalTransfer,
+        t.colomboCulturalFort,
+        t.colomboCulturalTemple,
+        t.colomboCulturalShopping,
       ],
-      hotel: t.ellaStay,
-      hotelImg: ellaTrain,
-      hotelAlt: t.ellaLocation,
-      notes: t.ellaDescription,
-    },
-    {
-      day: t.day7Title,
-      location: t.mirissaTitle,
-      activities: [
-        t.mirissaTransfer,
-        t.mirissaBeach,
-        t.mirissaWhale,
-        t.mirissaRelax,
-      ],
-      hotel: t.mirissaStay,
-      hotelImg: "https://source.unsplash.com/400x250/?beach,sri-lanka,mirissa",
-      hotelAlt: t.mirissaLocation,
-      notes: t.mirissaDescription,
-    },
-    {
-      day: t.day8Title,
-      location: t.departureTitle,
-      activities: [
-        t.departureBreakfast,
-        t.departureShopping,
-        t.departureTransfer,
-        t.departureAirport,
-      ],
-      hotel: t.departureStay,
-      hotelImg: katunayakeAirport,
-      hotelAlt: t.departureLocation,
-      notes: t.departureDescription,
+      hotel: t.colomboCulturalStay,
+      hotelImg: colombo,
+      hotelAlt: t.colomboCulturalLocation,
+      notes: t.colomboCulturalDescription,
     },
   ];
 
   return (
     <div className="itinerary-wrapper">
       <header className="itinerary-header">
-        <h1>{t.completeSriLankaTitle}</h1>
+        <h1>{t.culturalTriangleBeachCircuitTitle}</h1>
         <p className="intro-text">
-          {t.completeSriLankaSubtitle}
+          {t.culturalTriangleBeachCircuitSubtitle}
         </p>
       </header>
 
@@ -179,4 +152,4 @@ const FourteenDaySriLankaTrip = () => {
   );
 };
 
-export default FourteenDaySriLankaTrip;
+export default CulturalBeachTrip;

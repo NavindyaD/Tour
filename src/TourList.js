@@ -2,7 +2,11 @@ import React from "react";
 import TourCard from "./TourCard";
 import "./TourList.css";
 import snorkelingImg from './colombo.jpg';
-import sea from './sea.jpg'
+import sea from './sea.jpg';
+import classicImg from './classic.png';
+import wildlifeImg from './wildlife.png';
+import hillImg from './hill.png';
+import beachImg from './beach.png';
 import { useTranslation } from "./hooks/useTranslation";
 
 const TourList = () => {
@@ -15,7 +19,7 @@ const TourList = () => {
       price: 1850,
       duration: 14,
       tags: [t.completeSriLankaType, t.completeSriLankaHighlights, t.completeSriLankaCulture, t.completeSriLankaHistory, t.completeSriLankaNature, t.completeSriLankaBeach],
-      image: "https://source.unsplash.com/400x250/?sri-lanka,travel,landscape",
+      image: classicImg,
     },
     {
       title: t.wildlifeCulturalTitle,
@@ -23,7 +27,7 @@ const TourList = () => {
       price: 1450,
       duration: 10,
       tags: [t.wildlifeCulturalType, t.wildlifeCulturalHighlights, t.wildlifeCulturalWildlife, t.wildlifeCulturalCulture, t.wildlifeCulturalHistory, t.wildlifeCulturalNature],
-      image: "https://source.unsplash.com/400x250/?wildlife,safari,sri-lanka",
+      image: wildlifeImg,
     },
     {
       title: t.hillCountryBeachTitle,
@@ -31,7 +35,15 @@ const TourList = () => {
       price: 1200,
       duration: 8,
       tags: [t.hillCountryBeachType, t.hillCountryBeachHighlights, t.hillCountryBeachNature, t.hillCountryBeachBeach, t.hillCountryBeachCulture, t.hillCountryBeachAdventure],
-      image: "https://source.unsplash.com/400x250/?hill-country,beach,sri-lanka",
+      image: hillImg,
+    },
+    {
+      title: t.culturalTriangleBeachTitle,
+      country: "Sri Lanka",
+      price: 950,
+      duration: 6,
+      tags: [t.culturalTriangleBeachType, t.culturalTriangleBeachHighlights, t.culturalTriangleBeachCulture, t.culturalTriangleBeachHistory, t.culturalTriangleBeachBeach, t.culturalTriangleBeachRelaxation],
+      image: beachImg,
     },
     {
       title: t.fiveDayBudgetPackTitle,
@@ -77,7 +89,7 @@ const TourList = () => {
 
   return (
     <div className="tour-list">
-      {tourData.map((tour, index) => (
+      {tourData.slice(0, 4).map((tour, index) => (
         <TourCard key={index} {...tour} />
       ))}
     </div>

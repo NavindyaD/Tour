@@ -23,6 +23,7 @@ import FiveDayTrip from "./5daytrip";
 import FourteenDayTrip from "./14daytrip";
 import WildlifeTrip from "./wildlifetrip";
 import HillBeachTrip from "./hillbeachtrip";
+import CulturalBeachTrip from "./culturalbeachtrip";
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
               <Route path="/14daytrip" element={<FourteenDayTrip />} />
               <Route path="/wildlifetrip" element={<WildlifeTrip />} />
               <Route path="/hillbeachtrip" element={<HillBeachTrip />} />
+              <Route path="/culturalbeachtrip" element={<CulturalBeachTrip />} />
               {/* <Route path="/" element={<Home />} />
               <Route path="/destinations" element={<Destinations />} />
               <Route path="/contact" element={<Contact />} /> */}

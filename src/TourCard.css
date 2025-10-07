@@ -82,16 +82,6 @@
   white-space: nowrap;
 }
 
-.price {
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-.price span {
-  color: #0073e6;
-  font-size: 1.3rem;
-}
 
 .info-btn {
   background: #0073e6;

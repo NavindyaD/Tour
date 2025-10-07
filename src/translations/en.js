@@ -165,13 +165,13 @@ export const en = {
   workingHours: "Working Hours",
   workingHoursText: "Monday – Friday: 9:00 AM – 6:00 PM",
   
-  // 5-Day Highlights Tour
-  fiveDayHighlightsTitle: "5-Day Highlights of Sri Lanka",
+  // Highlights Tour
+  fiveDayHighlightsTitle: "Highlights of Sri Lanka",
   fiveDayHighlightsSubtitle: "Highlights: Katunayake, Sigiriya, Kandy, Ella, Galle. A compact journey through Sri Lanka's must-see destinations.",
   bookNow: "Book Now",
   
-  // Day 1 - Katunayake
-  day1Title: "Day 1",
+  // Katunayake
+  day1Title: "Arrival",
   katunayakeTitle: "Katunayake",
   katunayakeStay: "Comfortable stay near Katunayake",
   katunayakeActivities: "Activities",
@@ -182,8 +182,8 @@ export const en = {
   katunayakeLocation: "Katunayake - Bandaranaike International Airport",
   katunayakeDescription: "Start your Sri Lankan highlights with a convenient first night near the airport.",
   
-  // Day 2 - Sigiriya
-  day2Title: "Day 2",
+  // Sigiriya
+  day2Title: "Sigiriya",
   sigiriyaTitle: "Sigiriya",
   sigiriyaStay: "Guesthouse in Sigiriya",
   sigiriyaTransfer: "Transfer to Sigiriya",
@@ -193,8 +193,8 @@ export const en = {
   sigiriyaLocation: "Sigiriya Rock Fortress",
   sigiriyaDescription: "Iconic UNESCO World Heritage site with sweeping views.",
   
-  // Day 3 - Kandy
-  day3Title: "Day 3",
+  // Kandy
+  day3Title: "Kandy",
   kandyTitle: "Kandy",
   kandyStay: "Hotel in Kandy",
   kandyTransfer: "Transfer to Kandy",
@@ -204,8 +204,8 @@ export const en = {
   kandyLocation: "Temple of the Sacred Tooth Relic, Kandy",
   kandyDescription: "Cultural capital with sacred heritage and lush gardens.",
   
-  // Day 4 - Ella
-  day4Title: "Day 4",
+  // Ella
+  day4Title: "Ella",
   ellaTitle: "Ella",
   ellaStay: "Cozy stay in Ella",
   ellaTrain: "Scenic train journey to Ella",
@@ -215,8 +215,8 @@ export const en = {
   ellaLocation: "Scenic train near Ella",
   ellaDescription: "Cool-climate hill escape with stunning mountain scenery.",
   
-  // Day 5 - Galle
-  day5Title: "Day 5",
+  // Galle
+  day5Title: "Galle",
   galleTitle: "Galle",
   galleStay: "Hotel in Galle (or late departure)",
   galleTransfer: "Transfer to Galle",
@@ -227,14 +227,14 @@ export const en = {
   galleLocation: "Galle Fort ramparts and lighthouse",
   galleDescription: "Historic coastal charm to wrap up your highlights",
   
-  // 3-Day Colombo Tour
-  threeDayColomboTitle: "3-Day Colombo Trip - Sri Lanka",
+  // Colombo Tour
+  threeDayColomboTitle: "Colombo Trip - Sri Lanka",
   threeDayColomboSubtitle: "Experience the best of Colombo with luxury hotels, cultural visits, shopping, and relaxation by the ocean.",
   
-  // Day One - Colombo
-  dayOneTitle: "Day One",
-  dayTwoTitle: "Day Two", 
-  dayThreeTitle: "Day Three",
+  // Colombo
+  dayOneTitle: "Arrival",
+  dayTwoTitle: "City Tour", 
+  dayThreeTitle: "Departure",
   
   // Day One Activities
   colomboArrival: "Arrival at Bandaranaike International Airport",
@@ -261,8 +261,8 @@ export const en = {
   kingsbury: "The Kingsbury Colombo",
   
   // Tour Packages
-  fiveDayBudgetPackTitle: "5-Days Budget Pack (Highlights of Sri Lanka)",
-  fiveDayBudgetPackSubtitle: "5 Days",
+  fiveDayBudgetPackTitle: "Budget Pack (Highlights of Sri Lanka)",
+  fiveDayBudgetPackSubtitle: "Highlights",
   fiveDayBudgetPackFeatures: "🏨 ✈ 🚗 🍽",
   fiveDayBudgetPackType: "Budget",
   fiveDayBudgetPackHighlights: "Highlights",
@@ -272,8 +272,8 @@ export const en = {
   fiveDayBudgetPackPrice: "From US $650 Per Person",
   moreInformation: "More Information ➜",
   
-  threeDayColomboCityTitle: "3-Day Colombo City Experience",
-  threeDayColomboCitySubtitle: "3 Days",
+  threeDayColomboCityTitle: "Colombo City Experience",
+  threeDayColomboCitySubtitle: "City Tour",
   threeDayColomboCityFeatures: "🏨 ✈ 🚗 🍽",
   threeDayColomboCityType: "City Tour",
   threeDayColomboCityCulture: "Culture",
@@ -283,7 +283,7 @@ export const en = {
   threeDayColomboCityPrice: "From US $350 Per Person",
   
   familyTripTitle: "Family Trip to Sri Lanka",
-  familyTripSubtitle: "9 Days",
+  familyTripSubtitle: "Family Package",
   familyTripFeatures: "🏨 ✈ 🚗 🍽",
   familyTripWildlife: "Wild Life",
   familyTripNature: "Nature",
@@ -292,7 +292,7 @@ export const en = {
   familyTripPrice: "From US $850 Per Person",
   
   bestOfSriLankaTitle: "Best of Sri Lanka",
-  bestOfSriLankaSubtitle: "12 Days",
+  bestOfSriLankaSubtitle: "Comprehensive",
   bestOfSriLankaFeatures: "🏨 ✈ 🚗 🍽",
   bestOfSriLankaBeach: "Beach",
   bestOfSriLankaWildlife: "Wild Life",
@@ -301,7 +301,7 @@ export const en = {
   bestOfSriLankaPrice: "From US $1250 Per Person",
   
   romanticGetawayTitle: "Romantic Getaway in Sri Lanka",
-  romanticGetawaySubtitle: "15 Days",
+  romanticGetawaySubtitle: "Romantic Package",
   romanticGetawayFeatures: "🏨 ✈ 🚗 🍽",
   romanticGetawayNature: "Nature",
   romanticGetawayBeach: "Beach",
@@ -356,7 +356,7 @@ export const en = {
   
   // Complete Sri Lanka Circuit Tour
   completeSriLankaTitle: "Complete Sri Lanka Circuit",
-  completeSriLankaSubtitle: "14 Days",
+  completeSriLankaSubtitle: "Comprehensive",
   completeSriLankaFeatures: "🏨 ✈ 🚗 🍽",
   completeSriLankaType: "Comprehensive",
   completeSriLankaHighlights: "Highlights",
@@ -366,9 +366,9 @@ export const en = {
   completeSriLankaBeach: "Beach",
   completeSriLankaPrice: "From US $1850 Per Person",
   
-  // 14-Day Complete Sri Lanka Circuit Details
-  completeSriLankaCircuitTitle: "Complete Sri Lanka Circuit - 14 Days",
-  completeSriLankaCircuitSubtitle: "Experience the complete beauty of Sri Lanka with this comprehensive 14-day journey covering all major destinations.",
+  // Complete Sri Lanka Circuit Details
+  completeSriLankaCircuitTitle: "Complete Sri Lanka Circuit",
+  completeSriLankaCircuitSubtitle: "Experience the complete beauty of Sri Lanka with this comprehensive journey covering all major destinations.",
   
   // Day 2 - Anuradhapura
   ancientCityTitle: "Anuradhapura",
@@ -380,8 +380,8 @@ export const en = {
   ancientCityLocation: "Anuradhapura Ancient City",
   ancientCityDescription: "Discover Sri Lanka's ancient capital and UNESCO World Heritage site.",
   
-  // Day 5 - Nuwara Eliya
-  day5Title: "Day 5",
+  // Nuwara Eliya
+  day5Title: "Nuwara Eliya",
   nuwaraEliyaTitle: "Nuwara Eliya",
   nuwaraEliyaStay: "Hotel in Nuwara Eliya",
   nuwaraEliyaTransfer: "Transfer to Nuwara Eliya",
@@ -391,19 +391,19 @@ export const en = {
   nuwaraEliyaLocation: "Nuwara Eliya Tea Country",
   nuwaraEliyaDescription: "Experience the cool climate and tea country charm of Little England.",
   
-  // Day 6 - Ella
-  day6Title: "Day 6",
+  // Ella
+  day6Title: "Ella",
   
-  // Day 7 - Ella (Second Day)
-  day7Title: "Day 7",
+  // Ella (Second Day)
+  day7Title: "Ella Extended",
   ellaWaterfall: "Visit Ravana Falls",
   ellaTea: "Tea plantation tour",
   ellaRelax: "Relax and enjoy the mountain views",
   ellaLocal: "Local village experience",
   ellaDay2Description: "Second day in Ella to explore waterfalls and tea country.",
   
-  // Day 8 - Mirissa
-  day8Title: "Day 8",
+  // Mirissa
+  day8Title: "Mirissa",
   mirissaTitle: "Mirissa",
   mirissaStay: "Beach resort in Mirissa",
   mirissaTransfer: "Transfer to Mirissa",
@@ -413,26 +413,26 @@ export const en = {
   mirissaLocation: "Mirissa Beach",
   mirissaDescription: "Enjoy the beautiful beaches and whale watching opportunities.",
   
-  // Day 9 - Mirissa (Second Day)
-  day9Title: "Day 9",
+  // Mirissa (Second Day)
+  day9Title: "Mirissa Extended",
   mirissaSnorkel: "Snorkeling and water sports",
   mirissaDiving: "Scuba diving (optional)",
   mirissaSunset: "Sunset beach walk",
   mirissaDay2Description: "Second day in Mirissa for water activities and beach relaxation.",
   
-  // Day 10 - Galle
-  day10Title: "Day 10",
+  // Galle
+  day10Title: "Galle",
   
-  // Day 11 - Galle (Second Day)
-  day11Title: "Day 11",
+  // Galle (Second Day)
+  day11Title: "Galle Extended",
   galleShopping: "Shopping in Galle Fort",
   galleMuseum: "Visit Galle Maritime Museum",
   galleBeach: "Beach time at Unawatuna",
   galleDining: "Dining at fort restaurants",
   galleDay2Description: "Second day in Galle to explore more of the historic fort.",
   
-  // Day 12 - Bentota
-  day12Title: "Day 12",
+  // Bentota
+  day12Title: "Bentota",
   bentotaTitle: "Bentota",
   bentotaStay: "Resort in Bentota",
   bentotaTransfer: "Transfer to Bentota",
@@ -442,8 +442,8 @@ export const en = {
   bentotaLocation: "Bentota Beach Resort",
   bentotaDescription: "Relax at the beautiful beach resort with river activities.",
   
-  // Day 13 - Colombo
-  day13Title: "Day 13",
+  // Colombo
+  day13Title: "Colombo",
   colomboTitle: "Colombo",
   colomboStay: "Hotel in Colombo",
   colomboTransfer: "Transfer to Colombo",
@@ -453,8 +453,8 @@ export const en = {
   colomboLocation: "Colombo City",
   colomboDescription: "Explore the capital city's attractions and shopping.",
   
-  // Day 14 - Departure
-  day14Title: "Day 14",
+  // Departure
+  day14Title: "Departure",
   departureTitle: "Departure",
   departureStay: "Airport hotel or departure",
   departureBreakfast: "Final breakfast",
@@ -466,7 +466,7 @@ export const en = {
   
   // Wildlife & Cultural Heritage Tour
   wildlifeCulturalTitle: "Wildlife & Cultural Heritage Tour",
-  wildlifeCulturalSubtitle: "10 Days",
+  wildlifeCulturalSubtitle: "Wildlife & Culture",
   wildlifeCulturalFeatures: "🏨 ✈ 🚗 🍽",
   wildlifeCulturalType: "Wildlife & Culture",
   wildlifeCulturalHighlights: "Highlights",
@@ -477,9 +477,9 @@ export const en = {
   wildlifeCulturalBeach: "Beach",
   wildlifeCulturalPrice: "From US $1450 Per Person",
   
-  // 10-Day Wildlife & Cultural Heritage Details
-  wildlifeCulturalCircuitTitle: "Wildlife & Cultural Heritage Tour - 10 Days",
-  wildlifeCulturalCircuitSubtitle: "Experience Sri Lanka's wildlife, ancient cities, and cultural heritage in this comprehensive 10-day journey.",
+  // Wildlife & Cultural Heritage Details
+  wildlifeCulturalCircuitTitle: "Wildlife & Cultural Heritage Tour",
+  wildlifeCulturalCircuitSubtitle: "Experience Sri Lanka's wildlife, ancient cities, and cultural heritage in this comprehensive journey.",
   
   // Day 2 - Udawalawe
   udawalaweTitle: "Udawalawe",
@@ -573,7 +573,7 @@ export const en = {
   
   // Hill Country & Beach Adventure Tour
   hillCountryBeachTitle: "Hill Country & Beach Adventure",
-  hillCountryBeachSubtitle: "8 Days",
+  hillCountryBeachSubtitle: "Adventure",
   hillCountryBeachFeatures: "🏨 ✈ 🚗 🍽",
   hillCountryBeachType: "Adventure",
   hillCountryBeachHighlights: "Highlights",
@@ -584,9 +584,9 @@ export const en = {
   hillCountryBeachAdventure: "Adventure",
   hillCountryBeachPrice: "From US $1200 Per Person",
   
-  // 8-Day Hill Country & Beach Adventure Details
-  hillCountryBeachCircuitTitle: "Hill Country & Beach Adventure - 8 Days",
-  hillCountryBeachCircuitSubtitle: "Experience the best of Sri Lanka's hill country and beautiful beaches in this exciting 8-day adventure.",
+  // Hill Country & Beach Adventure Details
+  hillCountryBeachCircuitTitle: "Hill Country & Beach Adventure",
+  hillCountryBeachCircuitSubtitle: "Experience the best of Sri Lanka's hill country and beautiful beaches in this exciting adventure.",
   
   // Day 2 - Sigiriya
   sigiriyaAdventureTitle: "Sigiriya",
@@ -656,5 +656,72 @@ export const en = {
   colomboAdventureTemple: "Visit Gangaramaya Temple",
   colomboAdventureShopping: "Shopping and city tour",
   colomboAdventureLocation: "Colombo City",
-  colomboAdventureDescription: "Explore the capital city's attractions and prepare for departure."
+  colomboAdventureDescription: "Explore the capital city's attractions and prepare for departure.",
+  
+  // Cultural Triangle & Beach Relaxation Tour
+  culturalTriangleBeachTitle: "Cultural Triangle & Beach Relaxation",
+  culturalTriangleBeachSubtitle: "Culture & Beach",
+  culturalTriangleBeachFeatures: "🏨 ✈ 🚗 🍽",
+  culturalTriangleBeachType: "Culture & Beach",
+  culturalTriangleBeachHighlights: "Highlights",
+  culturalTriangleBeachCulture: "Culture",
+  culturalTriangleBeachHistory: "History",
+  culturalTriangleBeachBeach: "Beach",
+  culturalTriangleBeachNature: "Nature",
+  culturalTriangleBeachRelaxation: "Relaxation",
+  culturalTriangleBeachPrice: "From US $950 Per Person",
+  
+  // Cultural Triangle & Beach Relaxation Details
+  culturalTriangleBeachCircuitTitle: "Cultural Triangle & Beach Relaxation",
+  culturalTriangleBeachCircuitSubtitle: "Experience Sri Lanka's cultural heritage and relax on beautiful beaches in this perfect combination tour.",
+  
+  // Day 2 - Sigiriya
+  sigiriyaCulturalTitle: "Sigiriya",
+  sigiriyaCulturalStay: "Hotel in Sigiriya",
+  sigiriyaCulturalTransfer: "Transfer to Sigiriya",
+  sigiriyaCulturalClimb: "Climb the Sigiriya Rock Fortress",
+  sigiriyaCulturalExplore: "Explore water gardens and frescoes",
+  sigiriyaCulturalVillage: "Village experience",
+  sigiriyaCulturalLocation: "Sigiriya Rock Fortress",
+  sigiriyaCulturalDescription: "Iconic UNESCO World Heritage site with sweeping views.",
+  
+  // Day 3 - Kandy
+  kandyCulturalTitle: "Kandy",
+  kandyCulturalStay: "Hotel in Kandy",
+  kandyCulturalTransfer: "Transfer to Kandy",
+  kandyCulturalTemple: "Temple of the Sacred Tooth Relic",
+  kandyCulturalGardens: "Royal Botanical Gardens",
+  kandyCulturalLake: "Kandy Lake walk",
+  kandyCulturalLocation: "Temple of the Sacred Tooth Relic",
+  kandyCulturalDescription: "Cultural capital with sacred heritage and lush gardens.",
+  
+  // Day 4 - Nuwara Eliya
+  nuwaraEliyaCulturalTitle: "Nuwara Eliya",
+  nuwaraEliyaCulturalStay: "Hotel in Nuwara Eliya",
+  nuwaraEliyaCulturalTransfer: "Transfer to Nuwara Eliya",
+  nuwaraEliyaCulturalTea: "Tea plantation and factory tour",
+  nuwaraEliyaCulturalLake: "Gregory Lake boat ride",
+  nuwaraEliyaCulturalExplore: "Explore Little England",
+  nuwaraEliyaCulturalLocation: "Nuwara Eliya Tea Country",
+  nuwaraEliyaCulturalDescription: "Experience the cool climate and tea country charm of Little England.",
+  
+  // Day 5 - Bentota
+  bentotaCulturalTitle: "Bentota",
+  bentotaCulturalStay: "Beach resort in Bentota",
+  bentotaCulturalTransfer: "Transfer to Bentota",
+  bentotaCulturalRiver: "Bentota River safari",
+  bentotaCulturalBeach: "Beach activities and relaxation",
+  bentotaCulturalSpa: "Spa and wellness treatments",
+  bentotaCulturalLocation: "Bentota Beach Resort",
+  bentotaCulturalDescription: "Relax at the beautiful beach resort with river activities and spa treatments.",
+  
+  // Day 6 - Colombo
+  colomboCulturalTitle: "Colombo",
+  colomboCulturalStay: "Hotel in Colombo",
+  colomboCulturalTransfer: "Transfer to Colombo",
+  colomboCulturalFort: "Explore Colombo Fort",
+  colomboCulturalTemple: "Visit Gangaramaya Temple",
+  colomboCulturalShopping: "Shopping and city tour",
+  colomboCulturalLocation: "Colombo City",
+  colomboCulturalDescription: "Explore the capital city's attractions and prepare for departure."
 };

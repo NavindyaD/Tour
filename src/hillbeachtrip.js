@@ -8,6 +8,10 @@ import katunayakeAirport from './katunayakeAirport.jpg';
 import sigiriyaRock from './sigiriyaRock.jpg';
 import kandyTemple from './kandyTemple.jpg';
 import ellaTrain from './ellaTrain.jpg';
+import nuwaraeliya from './nuwaraeliya.png';
+import colo from './colo.png';
+import aru from './aru.png';
+import miri from './miri.png';
 
 const HillBeachTrip = () => {
   const navigate = useNavigate();
@@ -70,7 +74,7 @@ const HillBeachTrip = () => {
         t.nuwaraEliyaAdventureExplore,
       ],
       hotel: t.nuwaraEliyaAdventureStay,
-      hotelImg: "https://source.unsplash.com/400x250/?tea-plantation,sri-lanka,nuwara-eliya",
+      hotelImg: nuwaraeliya,
       hotelAlt: t.nuwaraEliyaAdventureLocation,
       notes: t.nuwaraEliyaAdventureDescription,
     },
@@ -98,7 +102,7 @@ const HillBeachTrip = () => {
         t.arugamBaySunset,
       ],
       hotel: t.arugamBayStay,
-      hotelImg: "https://source.unsplash.com/400x250/?arugam-bay,surfing,sri-lanka",
+      hotelImg: aru,
       hotelAlt: t.arugamBayLocation,
       notes: t.arugamBayDescription,
     },
@@ -112,7 +116,7 @@ const HillBeachTrip = () => {
         t.mirissaAdventureSnorkel,
       ],
       hotel: t.mirissaAdventureStay,
-      hotelImg: "https://source.unsplash.com/400x250/?mirissa,beach,sri-lanka",
+      hotelImg: miri,
       hotelAlt: t.mirissaAdventureLocation,
       notes: t.mirissaAdventureDescription,
     },
@@ -126,7 +130,7 @@ const HillBeachTrip = () => {
         t.colomboAdventureShopping,
       ],
       hotel: t.colomboAdventureStay,
-      hotelImg: "https://source.unsplash.com/400x250/?colombo,sri-lanka,capital",
+      hotelImg: colo,
       hotelAlt: t.colomboAdventureLocation,
       notes: t.colomboAdventureDescription,
     },

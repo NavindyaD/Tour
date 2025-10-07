@@ -165,13 +165,13 @@ export const ko = {
   workingHours: "근무 시간",
   workingHoursText: "월요일 – 금요일: 오전 9:00 – 오후 6:00",
   
-  // 5-Day Highlights Tour
-  fiveDayHighlightsTitle: "스리랑카 5일 하이라이트",
+  // Highlights Tour
+  fiveDayHighlightsTitle: "스리랑카 하이라이트",
   fiveDayHighlightsSubtitle: "하이라이트: 카투나야케, 시기리야, 캔디, 엘라, 갈레. 스리랑카의 필수 방문지를 통한 간결한 여행.",
   bookNow: "지금 예약",
   
-  // Day 1 - Katunayake
-  day1Title: "1일차",
+  // Katunayake
+  day1Title: "도착",
   katunayakeTitle: "카투나야케",
   katunayakeStay: "카투나야케 근처 편안한 숙박",
   katunayakeActivities: "활동",
@@ -182,8 +182,8 @@ export const ko = {
   katunayakeLocation: "카투나야케 - 반다라나이케 국제공항",
   katunayakeDescription: "공항 근처 편리한 첫 밤으로 스리랑카 하이라이트를 시작하세요.",
   
-  // Day 2 - Sigiriya
-  day2Title: "2일차",
+  // Sigiriya
+  day2Title: "시기리야",
   sigiriyaTitle: "시기리야",
   sigiriyaStay: "시기리야 게스트하우스",
   sigiriyaTransfer: "시기리야로 이동",
@@ -193,8 +193,8 @@ export const ko = {
   sigiriyaLocation: "시기리야 바위 요새",
   sigiriyaDescription: "장엄한 전망을 자랑하는 유네스코 세계문화유산.",
   
-  // Day 3 - Kandy
-  day3Title: "3일차",
+  // Kandy
+  day3Title: "캔디",
   kandyTitle: "캔디",
   kandyStay: "캔디 호텔",
   kandyTransfer: "캔디로 이동",
@@ -204,8 +204,8 @@ export const ko = {
   kandyLocation: "성치 불치 사원, 캔디",
   kandyDescription: "신성한 유산과 울창한 정원을 가진 문화 수도.",
   
-  // Day 4 - Ella
-  day4Title: "4일차",
+  // Ella
+  day4Title: "엘라",
   ellaTitle: "엘라",
   ellaStay: "엘라의 아늑한 숙박",
   ellaTrain: "엘라로의 경치 좋은 기차 여행",
@@ -215,8 +215,8 @@ export const ko = {
   ellaLocation: "엘라 근처 경치 좋은 기차",
   ellaDescription: "아름다운 산악 풍경을 자랑하는 시원한 기후의 언덕 휴양지.",
   
-  // Day 5 - Galle
-  day5Title: "5일차",
+  // Galle
+  day5Title: "갈레",
   galleTitle: "갈레",
   galleStay: "갈레 호텔 (또는 늦은 출발)",
   galleTransfer: "갈레로 이동",
@@ -227,14 +227,14 @@ export const ko = {
   galleLocation: "갈레 요새 성벽과 등대",
   galleDescription: "하이라이트를 마무리하는 역사적인 해안의 매력",
   
-  // 3-Day Colombo Tour
-  threeDayColomboTitle: "3일 콜롬보 여행 - 스리랑카",
+  // Colombo Tour
+  threeDayColomboTitle: "콜롬보 여행 - 스리랑카",
   threeDayColomboSubtitle: "럭셔리 호텔, 문화 방문, 쇼핑, 바다에서의 휴식을 통해 콜롬보의 최고를 경험하세요.",
   
-  // Day One - Colombo
-  dayOneTitle: "첫째 날",
-  dayTwoTitle: "둘째 날", 
-  dayThreeTitle: "셋째 날",
+  // Colombo
+  dayOneTitle: "도착",
+  dayTwoTitle: "시티 투어", 
+  dayThreeTitle: "출발",
   
   // Day One Activities
   colomboArrival: "반다라나이케 국제공항 도착",
@@ -261,8 +261,8 @@ export const ko = {
   kingsbury: "더 킹스버리 콜롬보",
   
   // Tour Packages
-  fiveDayBudgetPackTitle: "5일 예산 패키지 (스리랑카 하이라이트)",
-  fiveDayBudgetPackSubtitle: "5일",
+  fiveDayBudgetPackTitle: "예산 패키지 (스리랑카 하이라이트)",
+  fiveDayBudgetPackSubtitle: "하이라이트",
   fiveDayBudgetPackFeatures: "🏨 ✈ 🚗 🍽",
   fiveDayBudgetPackType: "예산",
   fiveDayBudgetPackHighlights: "하이라이트",
@@ -272,8 +272,8 @@ export const ko = {
   fiveDayBudgetPackPrice: "1인당 US $650부터",
   moreInformation: "더 많은 정보 ➜",
   
-  threeDayColomboCityTitle: "3일 콜롬보 시티 체험",
-  threeDayColomboCitySubtitle: "3일",
+  threeDayColomboCityTitle: "콜롬보 시티 체험",
+  threeDayColomboCitySubtitle: "시티 투어",
   threeDayColomboCityFeatures: "🏨 ✈ 🚗 🍽",
   threeDayColomboCityType: "시티 투어",
   threeDayColomboCityCulture: "문화",
@@ -283,7 +283,7 @@ export const ko = {
   threeDayColomboCityPrice: "1인당 US $350부터",
   
   familyTripTitle: "스리랑카 가족 여행",
-  familyTripSubtitle: "9일",
+  familyTripSubtitle: "가족 패키지",
   familyTripFeatures: "🏨 ✈ 🚗 🍽",
   familyTripWildlife: "야생동물",
   familyTripNature: "자연",
@@ -292,7 +292,7 @@ export const ko = {
   familyTripPrice: "1인당 US $850부터",
   
   bestOfSriLankaTitle: "스리랑카 베스트",
-  bestOfSriLankaSubtitle: "12일",
+  bestOfSriLankaSubtitle: "종합",
   bestOfSriLankaFeatures: "🏨 ✈ 🚗 🍽",
   bestOfSriLankaBeach: "해변",
   bestOfSriLankaWildlife: "야생동물",
@@ -301,7 +301,7 @@ export const ko = {
   bestOfSriLankaPrice: "1인당 US $1250부터",
   
   romanticGetawayTitle: "스리랑카 로맨틱 게토웨이",
-  romanticGetawaySubtitle: "15일",
+  romanticGetawaySubtitle: "로맨틱 패키지",
   romanticGetawayFeatures: "🏨 ✈ 🚗 🍽",
   romanticGetawayNature: "자연",
   romanticGetawayBeach: "해변",

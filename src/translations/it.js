@@ -165,13 +165,13 @@ export const it = {
   workingHours: "Orari di Lavoro",
   workingHoursText: "Lunedì – Venerdì: 9:00 AM – 6:00 PM",
   
-  // 5-Day Highlights Tour
-  fiveDayHighlightsTitle: "5 Giorni di Highlights dello Sri Lanka",
+  // Highlights Tour
+  fiveDayHighlightsTitle: "Highlights dello Sri Lanka",
   fiveDayHighlightsSubtitle: "Highlights: Katunayake, Sigiriya, Kandy, Ella, Galle. Un viaggio compatto attraverso le destinazioni imperdibili dello Sri Lanka.",
   bookNow: "Prenota Ora",
   
-  // Day 1 - Katunayake
-  day1Title: "Giorno 1",
+  // Katunayake
+  day1Title: "Arrivo",
   katunayakeTitle: "Katunayake",
   katunayakeStay: "Soggiorno confortevole vicino a Katunayake",
   katunayakeActivities: "Attività",
@@ -182,8 +182,8 @@ export const it = {
   katunayakeLocation: "Katunayake - Aeroporto Internazionale Bandaranaike",
   katunayakeDescription: "Inizia i tuoi highlights dello Sri Lanka con una comoda prima notte vicino all'aeroporto.",
   
-  // Day 2 - Sigiriya
-  day2Title: "Giorno 2",
+  // Sigiriya
+  day2Title: "Sigiriya",
   sigiriyaTitle: "Sigiriya",
   sigiriyaStay: "Guesthouse a Sigiriya",
   sigiriyaTransfer: "Trasferimento a Sigiriya",
@@ -193,8 +193,8 @@ export const it = {
   sigiriyaLocation: "Fortezza Rocciosa di Sigiriya",
   sigiriyaDescription: "Iconico sito del Patrimonio Mondiale UNESCO con viste panoramiche.",
   
-  // Day 3 - Kandy
-  day3Title: "Giorno 3",
+  // Kandy
+  day3Title: "Kandy",
   kandyTitle: "Kandy",
   kandyStay: "Hotel a Kandy",
   kandyTransfer: "Trasferimento a Kandy",
@@ -204,8 +204,8 @@ export const it = {
   kandyLocation: "Tempio della Sacra Reliquia del Dente, Kandy",
   kandyDescription: "Capitale culturale con patrimonio sacro e giardini lussureggianti.",
   
-  // Day 4 - Ella
-  day4Title: "Giorno 4",
+  // Ella
+  day4Title: "Ella",
   ellaTitle: "Ella",
   ellaStay: "Soggiorno accogliente a Ella",
   ellaTrain: "Viaggio panoramico in treno per Ella",
@@ -215,8 +215,8 @@ export const it = {
   ellaLocation: "Treno panoramico vicino a Ella",
   ellaDescription: "Fuga collinare dal clima fresco con paesaggi montani mozzafiato.",
   
-  // Day 5 - Galle
-  day5Title: "Giorno 5",
+  // Galle
+  day5Title: "Galle",
   galleTitle: "Galle",
   galleStay: "Hotel a Galle (o partenza tardiva)",
   galleTransfer: "Trasferimento a Galle",
@@ -227,14 +227,14 @@ export const it = {
   galleLocation: "Mura del Forte di Galle e faro",
   galleDescription: "Fascino costiero storico per concludere i tuoi highlights",
   
-  // 3-Day Colombo Tour
-  threeDayColomboTitle: "Viaggio di 3 giorni a Colombo - Sri Lanka",
+  // Colombo Tour
+  threeDayColomboTitle: "Viaggio a Colombo - Sri Lanka",
   threeDayColomboSubtitle: "Vivi il meglio di Colombo con hotel di lusso, visite culturali, shopping e relax sull'oceano.",
   
-  // Day One - Colombo
-  dayOneTitle: "Giorno Uno",
-  dayTwoTitle: "Giorno Due", 
-  dayThreeTitle: "Giorno Tre",
+  // Colombo
+  dayOneTitle: "Arrivo",
+  dayTwoTitle: "Tour della Città", 
+  dayThreeTitle: "Partenza",
   
   // Day One Activities
   colomboArrival: "Arrivo all'Aeroporto Internazionale Bandaranaike",
@@ -261,8 +261,8 @@ export const it = {
   kingsbury: "The Kingsbury Colombo",
   
   // Tour Packages
-  fiveDayBudgetPackTitle: "Pacchetto Budget 5 Giorni (Highlights dello Sri Lanka)",
-  fiveDayBudgetPackSubtitle: "5 Giorni",
+  fiveDayBudgetPackTitle: "Pacchetto Budget (Highlights dello Sri Lanka)",
+  fiveDayBudgetPackSubtitle: "Highlights",
   fiveDayBudgetPackFeatures: "🏨 ✈ 🚗 🍽",
   fiveDayBudgetPackType: "Budget",
   fiveDayBudgetPackHighlights: "Highlights",
@@ -272,8 +272,8 @@ export const it = {
   fiveDayBudgetPackPrice: "Da US $650 Per Persona",
   moreInformation: "Maggiori Informazioni ➜",
   
-  threeDayColomboCityTitle: "Esperienza Città di Colombo 3 Giorni",
-  threeDayColomboCitySubtitle: "3 Giorni",
+  threeDayColomboCityTitle: "Esperienza Città di Colombo",
+  threeDayColomboCitySubtitle: "Tour della Città",
   threeDayColomboCityFeatures: "🏨 ✈ 🚗 🍽",
   threeDayColomboCityType: "Tour della Città",
   threeDayColomboCityCulture: "Cultura",
@@ -283,7 +283,7 @@ export const it = {
   threeDayColomboCityPrice: "Da US $350 Per Persona",
   
   familyTripTitle: "Viaggio Famiglia in Sri Lanka",
-  familyTripSubtitle: "9 Giorni",
+  familyTripSubtitle: "Pacchetto Famiglia",
   familyTripFeatures: "🏨 ✈ 🚗 🍽",
   familyTripWildlife: "Fauna Selvatica",
   familyTripNature: "Natura",
@@ -292,7 +292,7 @@ export const it = {
   familyTripPrice: "Da US $850 Per Persona",
   
   bestOfSriLankaTitle: "Il Meglio dello Sri Lanka",
-  bestOfSriLankaSubtitle: "12 Giorni",
+  bestOfSriLankaSubtitle: "Completo",
   bestOfSriLankaFeatures: "🏨 ✈ 🚗 🍽",
   bestOfSriLankaBeach: "Spiaggia",
   bestOfSriLankaWildlife: "Fauna Selvatica",
@@ -301,7 +301,7 @@ export const it = {
   bestOfSriLankaPrice: "Da US $1250 Per Persona",
   
   romanticGetawayTitle: "Fuga Romantica in Sri Lanka",
-  romanticGetawaySubtitle: "15 Giorni",
+  romanticGetawaySubtitle: "Pacchetto Romantico",
   romanticGetawayFeatures: "🏨 ✈ 🚗 🍽",
   romanticGetawayNature: "Natura",
   romanticGetawayBeach: "Spiaggia",

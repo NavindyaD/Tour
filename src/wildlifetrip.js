@@ -8,6 +8,12 @@ import katunayakeAirport from './katunayakeAirport.jpg';
 import sigiriyaRock from './sigiriyaRock.jpg';
 import kandyTemple from './kandyTemple.jpg';
 import ellaTrain from './ellaTrain.jpg';
+import udawalawa from './udawalawa.png';
+import nuwaraeliya from './nuwaraeliya.png';
+import anu from './anu.png';
+import polo from './polo.png';
+import trinco from './trinco.png';
+import colo from './colo.png';
 
 const WildlifeTrip = () => {
   const navigate = useNavigate();
@@ -42,7 +48,7 @@ const WildlifeTrip = () => {
         t.udawalaweBirds,
       ],
       hotel: t.udawalaweStay,
-      hotelImg: "https://source.unsplash.com/400x250/?elephant,safari,sri-lanka",
+      hotelImg: udawalawa,
       hotelAlt: t.udawalaweLocation,
       notes: t.udawalaweDescription,
     },
@@ -70,7 +76,7 @@ const WildlifeTrip = () => {
         t.nuwaraEliyaWildlifeExplore,
       ],
       hotel: t.nuwaraEliyaWildlifeStay,
-      hotelImg: "https://source.unsplash.com/400x250/?tea-plantation,sri-lanka,nuwara-eliya",
+      hotelImg: nuwaraeliya,
       hotelAlt: t.nuwaraEliyaWildlifeLocation,
       notes: t.nuwaraEliyaWildlifeDescription,
     },
@@ -112,7 +118,7 @@ const WildlifeTrip = () => {
         t.anuradhapuraWildlifeMuseum,
       ],
       hotel: t.anuradhapuraWildlifeStay,
-      hotelImg: "https://source.unsplash.com/400x250/?ancient,temple,sri-lanka,anuradhapura",
+      hotelImg: anu,
       hotelAlt: t.anuradhapuraWildlifeLocation,
       notes: t.anuradhapuraWildlifeDescription,
     },
@@ -126,7 +132,7 @@ const WildlifeTrip = () => {
         t.polonnaruwaMuseum,
       ],
       hotel: t.polonnaruwaStay,
-      hotelImg: "https://source.unsplash.com/400x250/?ancient,ruins,sri-lanka,polonnaruwa",
+      hotelImg: polo,
       hotelAlt: t.polonnaruwaLocation,
       notes: t.polonnaruwaDescription,
     },
@@ -140,7 +146,7 @@ const WildlifeTrip = () => {
         t.trincomaleeFort,
       ],
       hotel: t.trincomaleeStay,
-      hotelImg: "https://source.unsplash.com/400x250/?beach,sri-lanka,trincomalee",
+      hotelImg: trinco,
       hotelAlt: t.trincomaleeLocation,
       notes: t.trincomaleeDescription,
     },
@@ -154,7 +160,7 @@ const WildlifeTrip = () => {
         t.colomboWildlifeShopping,
       ],
       hotel: t.colomboWildlifeStay,
-      hotelImg: "https://source.unsplash.com/400x250/?colombo,sri-lanka,capital",
+      hotelImg: colo,
       hotelAlt: t.colomboWildlifeLocation,
       notes: t.colomboWildlifeDescription,
     },

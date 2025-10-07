@@ -64,7 +64,6 @@ const ToursPage = () => {
             <div className="tour-content">
               <h2 className="tour-title">{tour.title}</h2>
               <p className="tour-duration"><strong>{t.duration}:</strong> {tour.duration}</p>
-              <p className="tour-price"><strong>{t.price}:</strong> {tour.price}</p>
               <p className="tour-description">{tour.description}</p>
               <button className="tour-btn">{t.viewDetails}</button>
             </div>

@@ -14,6 +14,8 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
       navigate("/wildlifetrip");
     } else if (title === t.hillCountryBeachTitle) {
       navigate("/hillbeachtrip");
+    } else if (title === t.culturalTriangleBeachTitle) {
+      navigate("/culturalbeachtrip");
     } else if (title === t.fiveDayBudgetPackTitle) {
       navigate("/5daytrip");
     } else if (title === t.threeDayColomboCityTitle) {
@@ -31,16 +33,12 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
       <div className="badge">{country}</div>
       <div className="stars">⭐⭐⭐⭐⭐</div>
       <img src={image} alt={title} className="tour-image" />
-      <div className="duration">
-        <span className="duration-badge">{duration} {t.days}</span>
-      </div>
       <div className="icons">🏨 ✈ 🚗 🍽</div>
       <div className="tags">
         {tags.map((tag, index) => (
           <span key={index} className="tag">{tag}</span>
         ))}
       </div>
-      <p className="price">{t.from} <span>US ${price}</span> {t.perPerson}</p>
       <button className="info-btn" onClick={handleMoreInfoClick}>
         {t.moreInformation}
       </button>
