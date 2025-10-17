@@ -191,6 +191,7 @@
   
   .itinerary-header {
     margin-bottom: 1.5rem;
+    padding-top: 6rem; /* Add space for fixed Book Now button */
   }
   
   .itinerary-header h1 {
@@ -260,7 +261,7 @@
   /* Adjust book now button for mobile */
   .book-now-wrapper.top-right {
     position: fixed;
-    top: 1rem;
+    top: 9rem;
     right: 0.75rem;
   }
   
@@ -277,6 +278,10 @@
   .itinerary-wrapper {
     padding: 0 0.75rem;
     margin: 0.75rem auto;
+  }
+  
+  .itinerary-header {
+    padding-top: 5.5rem; /* Add space for fixed Book Now button on small mobile */
   }
   
   .itinerary-header h1 {
@@ -326,7 +331,7 @@
   
   /* Adjust book now button for small mobile */
   .book-now-wrapper.top-right {
-    top: 0.75rem;
+    top: 8.5rem;
     right: 0.5rem;
   }
   

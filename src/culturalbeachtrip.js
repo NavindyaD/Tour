@@ -153,3 +153,4 @@ const CulturalBeachTrip = () => {
 };
 
 export default CulturalBeachTrip;
+
