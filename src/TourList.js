@@ -7,12 +7,18 @@ import classicImg from './classic.png';
 import wildlifeImg from './wildlife.png';
 import hillImg from './hill.png';
 import beachImg from './beach.png';
+// Unique images for each package
+import kandyTempleImg from './kandyTemple.jpg';
+import nuwaraEliyaImg from './nuwaraeliya.png';
+import sigiriyaImg from './sigiriyaRock.jpg';
+import pinnawalaImg from './pinnawala.jpg'; // Pinnawala Elephant Orphanage - using wildlife image
 import { useTranslation } from "./hooks/useTranslation";
 
 const TourList = () => {
   const { t } = useTranslation();
 
   const tourData = [
+    /*
     {
       title: t.completeSriLankaTitle,
       country: "Sri Lanka",
@@ -21,6 +27,7 @@ const TourList = () => {
       tags: [t.completeSriLankaType, t.completeSriLankaHighlights, t.completeSriLankaCulture, t.completeSriLankaHistory, t.completeSriLankaNature, t.completeSriLankaBeach],
       image: classicImg,
     },
+   
     {
       title: t.wildlifeCulturalTitle,
       country: "Sri Lanka",
@@ -53,6 +60,7 @@ const TourList = () => {
       tags: [t.fiveDayBudgetPackType, t.fiveDayBudgetPackHighlights, t.fiveDayBudgetPackCulture, t.fiveDayBudgetPackHistory, t.fiveDayBudgetPackNature],
       image: sea,
     },
+    
     {
       title: t.threeDayColomboCityTitle,
       country: "Sri Lanka",
@@ -84,6 +92,39 @@ const TourList = () => {
       duration: 15,
       tags: [t.romanticGetawayNature, t.romanticGetawayBeach, t.romanticGetawayWildlife, t.romanticGetawayHistory],
       image: "https://source.unsplash.com/400x250/?romantic,couple",
+    },
+     */
+    {
+      title: "Package 1",
+      country: "Sri Lanka",
+      price: 499,
+      duration: 3,
+      tags: ["Hotel", "Transport", "Cultural", "Shopping"],
+      image: kandyTempleImg, // Kandy cultural tour
+    },
+    {
+      title: "Package 2",
+      country: "Sri Lanka",
+      price: 699,
+      duration: 5,
+      tags: ["Hotel", "Transport", "Hill Country", "Tea Plantations"],
+      image: nuwaraEliyaImg, // Hill country & Nuwara Eliya
+    },
+    {
+      title: "Package 3",
+      country: "Sri Lanka",
+      price: 899,
+      duration: 7,
+      tags: ["Hotel", "Transport", "Sigiriya", "Heritage Sites"],
+      image: sigiriyaImg, // Cultural Triangle - Sigiriya
+    },
+    {
+      title: "Package 4",
+      country: "Sri Lanka",
+      price: 1099,
+      duration: 10,
+      tags: ["Hotel", "Transport", "Safari", "Wildlife"],
+      image: pinnawalaImg, // Pinnawala Elephant Orphanage
     },
   ];
 

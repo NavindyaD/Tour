@@ -28,6 +28,21 @@
   line-height: 1.5;
 }
 
+.package-info-section {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.package-info-section .intro-text {
+  margin: 0.75rem auto;
+}
+
 .itinerary-cards-container {
   display: flex;
   flex-direction: column;

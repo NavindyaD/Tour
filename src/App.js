@@ -24,6 +24,10 @@ import FourteenDayTrip from "./14daytrip";
 import WildlifeTrip from "./wildlifetrip";
 import HillBeachTrip from "./hillbeachtrip";
 import CulturalBeachTrip from "./culturalbeachtrip";
+import Package1Details from "./Package1Details";
+import Package2Details from "./Package2Details";
+import Package3Details from "./Package3Details";
+import Package4Details from "./Package4Details";
 
 function App() {
   return (
@@ -49,6 +53,10 @@ function App() {
               <Route path="/wildlifetrip" element={<WildlifeTrip />} />
               <Route path="/hillbeachtrip" element={<HillBeachTrip />} />
               <Route path="/culturalbeachtrip" element={<CulturalBeachTrip />} />
+              <Route path="/package1" element={<Package1Details />} />
+              <Route path="/package2" element={<Package2Details />} />
+              <Route path="/package3" element={<Package3Details />} />
+              <Route path="/package4" element={<Package4Details />} />
               {/* <Route path="/" element={<Home />} />
               <Route path="/destinations" element={<Destinations />} />
               <Route path="/contact" element={<Contact />} /> */}

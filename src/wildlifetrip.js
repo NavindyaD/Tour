@@ -192,7 +192,7 @@ const WildlifeTrip = () => {
             </div>
 
             <div className="card-content">
-              <h3>{t.katunayakeActivities}</h3>
+              <h3>{t.activities}</h3>
               <ul>
                 {activities.map((activity, i) => (
                   <li key={i}>{activity}</li>

@@ -160,6 +160,7 @@ export const en = {
   sophiaReview: "A seamless and unforgettable trip! The team was professional, and the itinerary was well thought out. I highly recommend Sri Yatra Travels to anyone visiting Sri Lanka.",
   
   // Common Labels
+  activities: "Activities",
   duration: "Duration",
   price: "Price",
   workingHours: "Working Hours",

@@ -9,6 +9,11 @@ import sigiriyaRock from './sigiriyaRock.jpg';
 import kandyTemple from './kandyTemple.jpg';
 import ellaTrain from './ellaTrain.jpg';
 import galleFort from './galleFort.jpg';
+import mirissaBeach from './beaches.jpg';
+import anuradhapura from './anu.png';
+import nuwaraEliya from './wildlife.png';
+import bentota from './bentota.jpg';
+import colombo from './colombo.jpg';
 
 const FourteenDaySriLankaTrip = () => {
   const navigate = useNavigate();
@@ -43,7 +48,7 @@ const FourteenDaySriLankaTrip = () => {
         t.ancientCityMuseum,
       ],
       hotel: t.ancientCityStay,
-      hotelImg: "https://source.unsplash.com/400x250/?ancient,temple,sri-lanka",
+      hotelImg: anuradhapura,
       hotelAlt: t.ancientCityLocation,
       notes: t.ancientCityDescription,
     },
@@ -85,7 +90,7 @@ const FourteenDaySriLankaTrip = () => {
         t.nuwaraEliyaExplore,
       ],
       hotel: t.nuwaraEliyaStay,
-      hotelImg: "https://source.unsplash.com/400x250/?tea-plantation,sri-lanka,nuwara-eliya",
+      hotelImg: nuwaraEliya,
       hotelAlt: t.nuwaraEliyaLocation,
       notes: t.nuwaraEliyaDescription,
     },
@@ -113,7 +118,7 @@ const FourteenDaySriLankaTrip = () => {
         t.mirissaRelax,
       ],
       hotel: t.mirissaStay,
-      hotelImg: "https://source.unsplash.com/400x250/?beach,sri-lanka,mirissa",
+      hotelImg: mirissaBeach,
       hotelAlt: t.mirissaLocation,
       notes: t.mirissaDescription,
     },
@@ -159,7 +164,7 @@ const FourteenDaySriLankaTrip = () => {
             </div>
 
             <div className="card-content">
-              <h3>{t.katunayakeActivities}</h3>
+              <h3>{t.activities}</h3>
               <ul>
                 {activities.map((activity, i) => (
                   <li key={i}>{activity}</li>
@@ -169,6 +174,10 @@ const FourteenDaySriLankaTrip = () => {
                 src={hotelImg}
                 alt={hotelAlt}
                 className="hotel-image"
+                onError={(e) => {
+                  console.log('Image failed to load:', hotelImg);
+                  e.target.style.display = 'none';
+                }}
               />
               <p className="notes">{notes}</p>
             </div>

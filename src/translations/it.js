@@ -160,6 +160,7 @@ export const it = {
   sophiaReview: "Un viaggio senza problemi e indimenticabile! Il team è stato professionale e l'itinerario ben pensato. Consiglio vivamente Sri Yatra Travels a chiunque visiti lo Sri Lanka.",
   
   // Common Labels
+  activities: "Attività",
   duration: "Durata",
   price: "Prezzo",
   workingHours: "Orari di Lavoro",
@@ -352,5 +353,234 @@ export const it = {
   
   step4Title: "4. Ricevi la Conferma del Tuo Viaggio",
   step4FillingForm: "Compilazione del modulo web",
-  step4Satisfaction: "Soddisfazione garantita al 100%"
+  step4Satisfaction: "Soddisfazione garantita al 100%",
+  
+  // Complete Sri Lanka Circuit Tour
+  completeSriLankaTitle: "Circuito Completo dello Sri Lanka",
+  completeSriLankaSubtitle: "Completo",
+  completeSriLankaFeatures: "🏨 ✈ 🚗 🍽",
+  completeSriLankaType: "Completo",
+  completeSriLankaHighlights: "Punti Salienti",
+  completeSriLankaCulture: "Cultura",
+  completeSriLankaHistory: "Storia",
+  completeSriLankaNature: "Natura",
+  completeSriLankaBeach: "Spiaggia",
+  completeSriLankaPrice: "Da US $1850 Per Persona",
+  
+  // Complete Sri Lanka Circuit Details
+  completeSriLankaCircuitTitle: "Circuito Completo dello Sri Lanka",
+  completeSriLankaCircuitSubtitle: "Sperimenta la bellezza completa dello Sri Lanka con questo viaggio completo che copre tutte le destinazioni principali.",
+  
+  // Day 2 - Anuradhapura
+  ancientCityTitle: "Anuradhapura",
+  ancientCityStay: "Hotel ad Anuradhapura",
+  ancientCityTransfer: "Trasferimento ad Anuradhapura",
+  ancientCityExplore: "Esplora le rovine antiche e gli stupa",
+  ancientCityTemple: "Visita l'albero Sri Maha Bodhi",
+  ancientCityMuseum: "Visita il Museo Archeologico",
+  ancientCityLocation: "Città Antica di Anuradhapura",
+  ancientCityDescription: "Scopri l'antica capitale dello Sri Lanka e il sito del patrimonio mondiale dell'UNESCO.",
+  
+  // Nuwara Eliya
+  day5Title: "Nuwara Eliya",
+  nuwaraEliyaTitle: "Nuwara Eliya",
+  nuwaraEliyaStay: "Hotel a Nuwara Eliya",
+  nuwaraEliyaTransfer: "Trasferimento a Nuwara Eliya",
+  nuwaraEliyaTea: "Tour delle piantagioni di tè e della fabbrica",
+  nuwaraEliyaLake: "Giro in barca sul Lago Gregory",
+  nuwaraEliyaExplore: "Esplora la Piccola Inghilterra",
+  nuwaraEliyaLocation: "Paese del Tè di Nuwara Eliya",
+  nuwaraEliyaDescription: "Sperimenta il clima fresco e il fascino del paese del tè della Piccola Inghilterra.",
+  
+  // Ella (Second Day)
+  day6Title: "Ella",
+  day7Title: "Ella Estesa",
+  ellaWaterfall: "Visita le Cascate di Ravana",
+  ellaTea: "Tour delle piantagioni di tè",
+  ellaRelax: "Rilassati e goditi le viste montane",
+  ellaLocal: "Esperienza del villaggio locale",
+  ellaDay2Description: "Secondo giorno a Ella per esplorare cascate e paese del tè.",
+  
+  // Mirissa
+  day8Title: "Mirissa",
+  mirissaTitle: "Mirissa",
+  mirissaStay: "Resort sulla spiaggia a Mirissa",
+  mirissaTransfer: "Trasferimento a Mirissa",
+  mirissaBeach: "Rilassati sulla spiaggia di Mirissa",
+  mirissaWhale: "Tour di avvistamento balene (stagionale)",
+  mirissaRelax: "Rilassamento sulla spiaggia e tramonto",
+  mirissaLocation: "Spiaggia di Mirissa",
+  mirissaDescription: "Goditi le belle spiagge e le opportunità di avvistamento balene.",
+  
+  // Mirissa (Second Day)
+  day9Title: "Mirissa Estesa",
+  mirissaSnorkel: "Snorkeling e sport acquatici",
+  mirissaDiving: "Immersioni subacquee (opzionale)",
+  mirissaSunset: "Passeggiata sulla spiaggia al tramonto",
+  mirissaDay2Description: "Secondo giorno a Mirissa per attività acquatiche e relax sulla spiaggia.",
+  
+  // Galle
+  day10Title: "Galle",
+  
+  // Galle (Second Day)
+  day11Title: "Galle Estesa",
+  galleShopping: "Shopping nel Forte di Galle",
+  galleMuseum: "Visita il Museo Marittimo di Galle",
+  galleBeach: "Tempo sulla spiaggia a Unawatuna",
+  galleDining: "Cena nei ristoranti del forte",
+  galleDay2Description: "Secondo giorno a Galle per esplorare di più il forte storico.",
+  
+  // Bentota
+  day12Title: "Bentota",
+  bentotaTitle: "Bentota",
+  bentotaStay: "Resort a Bentota",
+  bentotaTransfer: "Trasferimento a Bentota",
+  bentotaRiver: "Safari sul fiume Bentota",
+  bentotaBeach: "Attività sulla spiaggia",
+  bentotaSpa: "Trattamenti spa e benessere",
+  bentotaLocation: "Resort sulla spiaggia di Bentota",
+  bentotaDescription: "Rilassati nel bellissimo resort sulla spiaggia con attività fluviali.",
+  
+  // Colombo
+  day13Title: "Colombo",
+  colomboTitle: "Colombo",
+  colomboStay: "Hotel a Colombo",
+  colomboTransfer: "Trasferimento a Colombo",
+  colomboFort: "Esplora il Forte di Colombo",
+  colomboTemple: "Visita il Tempio di Gangaramaya",
+  colomboShopping: "Shopping a Odel e Barefoot",
+  colomboLocation: "Città di Colombo",
+  colomboDescription: "Esplora le attrazioni della capitale e lo shopping.",
+  
+  // Departure
+  day14Title: "Partenza",
+  departureTitle: "Partenza",
+  departureStay: "Hotel aeroporto o partenza",
+  departureBreakfast: "Ultima colazione",
+  departureShopping: "Shopping dell'ultimo minuto",
+  departureTransfer: "Trasferimento all'aeroporto",
+  departureAirport: "Partenza dall'Aeroporto Internazionale di Bandaranaike",
+  departureLocation: "Aeroporto Internazionale di Bandaranaike",
+  departureDescription: "Ultimo giorno con trasferimento aeroporto e partenza.",
+  
+  // Wildlife & Cultural Heritage Details
+  wildlifeCulturalCircuitTitle: "Tour della Fauna Selvatica e del Patrimonio Culturale",
+  wildlifeCulturalCircuitSubtitle: "Sperimenta la fauna selvatica, le città antiche e il patrimonio culturale dello Sri Lanka in questo viaggio completo.",
+  
+  // Day 2 - Udawalawe
+  udawalaweTitle: "Udawalawe",
+  udawalaweStay: "Lodge safari a Udawalawe",
+  udawalaweTransfer: "Trasferimento a Udawalawe",
+  udawalaweSafari: "Safari nel Parco Nazionale di Udawalawe",
+  udawalaweElephants: "Osservazione degli elefanti e fotografia",
+  udawalaweBirds: "Tour di birdwatching",
+  udawalaweLocation: "Parco Nazionale di Udawalawe",
+  udawalaweDescription: "Sperimenta la fauna selvatica dello Sri Lanka con elefanti, uccelli e altri animali nel loro habitat naturale.",
+  
+  // Day 3 - Ella
+  ellaWildlifeTitle: "Ella",
+  ellaWildlifeStay: "Hotel a Ella",
+  ellaWildlifeTransfer: "Trasferimento a Ella",
+  ellaWildlifeTrain: "Viaggio panoramico in treno a Ella",
+  ellaWildlifePeak: "Escursione al Picco di Adamo",
+  ellaWildlifeBridge: "Punto panoramico del Ponte delle Nove Arcate",
+  ellaWildlifeLocation: "Stazione di montagna di Ella",
+  ellaWildlifeDescription: "Esplora la bella regione montuosa con viste panoramiche sulle montagne e piantagioni di tè.",
+  
+  // Day 4 - Nuwara Eliya
+  nuwaraEliyaWildlifeTitle: "Nuwara Eliya",
+  nuwaraEliyaWildlifeStay: "Hotel a Nuwara Eliya",
+  nuwaraEliyaWildlifeTransfer: "Trasferimento a Nuwara Eliya",
+  nuwaraEliyaWildlifeTea: "Tour della piantagione di tè e della fabbrica",
+  nuwaraEliyaWildlifeLake: "Giro in barca sul Lago Gregory",
+  nuwaraEliyaWildlifeExplore: "Esplora la Piccola Inghilterra",
+  nuwaraEliyaWildlifeLocation: "Paese del tè di Nuwara Eliya",
+  nuwaraEliyaWildlifeDescription: "Sperimenta il clima fresco e il fascino del paese del tè della Piccola Inghilterra.",
+  
+  // Day 5 - Kandy
+  kandyWildlifeTitle: "Kandy",
+  kandyWildlifeStay: "Hotel a Kandy",
+  kandyWildlifeTransfer: "Trasferimento a Kandy",
+  kandyWildlifeTemple: "Tempio della Sacra Reliquia del Dente",
+  kandyWildlifeGardens: "Giardini Botanici Reali",
+  kandyWildlifeLake: "Passeggiata sul Lago di Kandy",
+  kandyWildlifeLocation: "Tempio della Sacra Reliquia del Dente",
+  kandyWildlifeDescription: "Capitale culturale con patrimonio sacro e giardini lussureggianti.",
+  
+  // Day 6 - Sigiriya
+  sigiriyaWildlifeTitle: "Sigiriya",
+  sigiriyaWildlifeStay: "Hotel a Sigiriya",
+  sigiriyaWildlifeTransfer: "Trasferimento a Sigiriya",
+  sigiriyaWildlifeClimb: "Scalata della Fortezza Rocciosa di Sigiriya",
+  sigiriyaWildlifeExplore: "Esplorazione dei giardini acquatici e degli affreschi",
+  sigiriyaWildlifeVillage: "Esperienza del villaggio o giro in bicicletta (opzionale)",
+  sigiriyaWildlifeLocation: "Fortezza Rocciosa di Sigiriya",
+  sigiriyaWildlifeDescription: "Iconico sito del Patrimonio Mondiale UNESCO con viste panoramiche.",
+  
+  // Day 7 - Anuradhapura
+  anuradhapuraWildlifeTitle: "Anuradhapura",
+  anuradhapuraWildlifeStay: "Hotel a Anuradhapura",
+  anuradhapuraWildlifeTransfer: "Trasferimento ad Anuradhapura",
+  anuradhapuraWildlifeExplore: "Esplora le rovine antiche e gli stupa",
+  anuradhapuraWildlifeTemple: "Visita l'albero Sri Maha Bodhi",
+  anuradhapuraWildlifeMuseum: "Visita il Museo Archeologico",
+  anuradhapuraWildlifeLocation: "Città antica di Anuradhapura",
+  anuradhapuraWildlifeDescription: "Scopri l'antica capitale dello Sri Lanka e il sito del Patrimonio Mondiale UNESCO.",
+  
+  // Day 8 - Polonnaruwa
+  polonnaruwaTitle: "Polonnaruwa",
+  polonnaruwaStay: "Hotel a Polonnaruwa",
+  polonnaruwaTransfer: "Trasferimento a Polonnaruwa",
+  polonnaruwaExplore: "Esplorazione delle rovine antiche",
+  polonnaruwaGalVihara: "Visita a Gal Vihara",
+  polonnaruwaMuseum: "Visita al Museo di Polonnaruwa",
+  polonnaruwaLocation: "Città antica di Polonnaruwa",
+  polonnaruwaDescription: "Esplora l'antica capitale con rovine ben conservate e sculture.",
+  
+  // Day 9 - Trincomalee
+  trincomaleeTitle: "Trincomalee",
+  trincomaleeStay: "Hotel a Trincomalee",
+  trincomaleeTransfer: "Trasferimento a Trincomalee",
+  trincomaleeBeach: "Relax sulla spiaggia di Nilaveli",
+  trincomaleeWhale: "Tour di avvistamento balene (stagionale)",
+  trincomaleeFort: "Esplorazione del Forte Frederick",
+  trincomaleeLocation: "Spiaggia di Nilaveli, Trincomalee",
+  trincomaleeDescription: "Goditi le belle spiagge e le opportunità di avvistamento balene.",
+  
+  // Day 10 - Colombo
+  colomboWildlifeTitle: "Colombo",
+  colomboWildlifeStay: "Hotel a Colombo",
+  colomboWildlifeTransfer: "Trasferimento a Colombo",
+  colomboWildlifeFort: "Esplorazione del Forte di Colombo",
+  colomboWildlifeTemple: "Visita al Tempio di Gangaramaya",
+  colomboWildlifeShopping: "Shopping a Odel e Beirafoot Gallery",
+  colomboWildlifeLocation: "Città di Colombo",
+  colomboWildlifeDescription: "Esplora le attrazioni della capitale e lo shopping.",
+  
+  // Wildlife Cultural Tour
+  wildlifeCulturalTitle: "Tour della Fauna Selvatica e del Patrimonio Culturale",
+  wildlifeCulturalType: "Fauna Selvatica e Cultura",
+  wildlifeCulturalHighlights: "Attrazioni",
+  wildlifeCulturalWildlife: "Fauna Selvatica",
+  wildlifeCulturalCulture: "Cultura",
+  wildlifeCulturalHistory: "Storia",
+  wildlifeCulturalNature: "Natura",
+  
+  // Hill Country Beach Tour
+  hillCountryBeachTitle: "Tour della Regione Montuosa e delle Spiagge",
+  hillCountryBeachType: "Regione Montuosa e Spiagge",
+  hillCountryBeachHighlights: "Attrazioni",
+  hillCountryBeachNature: "Natura",
+  hillCountryBeachBeach: "Spiaggia",
+  hillCountryBeachCulture: "Cultura",
+  hillCountryBeachAdventure: "Avventura",
+  
+  // Cultural Triangle Beach Tour
+  culturalTriangleBeachTitle: "Tour del Triangolo Culturale e delle Spiagge",
+  culturalTriangleBeachType: "Triangolo Culturale e Spiagge",
+  culturalTriangleBeachHighlights: "Attrazioni",
+  culturalTriangleBeachCulture: "Cultura",
+  culturalTriangleBeachHistory: "Storia",
+  culturalTriangleBeachBeach: "Spiaggia",
+  culturalTriangleBeachRelaxation: "Relax"
 };

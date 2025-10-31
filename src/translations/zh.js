@@ -164,6 +164,7 @@ export const zh = {
   sophiaReview: "一次无缝且难忘的旅行！团队很专业，行程安排得很好。强烈推荐任何访问斯里兰卡的人选择斯里亚特拉旅游。",
   
   // Common Labels
+  activities: "活动",
   duration: "持续时间",
   price: "价格",
   workingHours: "工作时间",
@@ -356,5 +357,234 @@ export const zh = {
   
   step4Title: "4. 收到您的旅行确认",
   step4FillingForm: "填写网络表格",
-  step4Satisfaction: "100%满意保证"
+  step4Satisfaction: "100%满意保证",
+  
+  // Complete Sri Lanka Circuit Tour
+  completeSriLankaTitle: "完整的斯里兰卡环线游",
+  completeSriLankaSubtitle: "全面",
+  completeSriLankaFeatures: "🏨 ✈ 🚗 🍽",
+  completeSriLankaType: "全面",
+  completeSriLankaHighlights: "亮点",
+  completeSriLankaCulture: "文化",
+  completeSriLankaHistory: "历史",
+  completeSriLankaNature: "自然",
+  completeSriLankaBeach: "海滩",
+  completeSriLankaPrice: "每人US $1850起",
+  
+  // Complete Sri Lanka Circuit Details
+  completeSriLankaCircuitTitle: "完整的斯里兰卡环线游",
+  completeSriLankaCircuitSubtitle: "通过这个涵盖所有主要目的地的全面旅程，体验斯里兰卡的完整美丽。",
+  
+  // Day 2 - Anuradhapura
+  ancientCityTitle: "阿努拉德普勒",
+  ancientCityStay: "阿努拉德普勒酒店",
+  ancientCityTransfer: "转至阿努拉德普勒",
+  ancientCityExplore: "探索古代遗址和佛塔",
+  ancientCityTemple: "参观圣菩提树",
+  ancientCityMuseum: "参观考古博物馆",
+  ancientCityLocation: "阿努拉德普勒古城",
+  ancientCityDescription: "发现斯里兰卡的古都联合国教科文组织世界遗产地。",
+  
+  // Nuwara Eliya
+  day5Title: "努沃勒埃利耶",
+  nuwaraEliyaTitle: "努沃勒埃利耶",
+  nuwaraEliyaStay: "努沃勒埃利耶酒店",
+  nuwaraEliyaTransfer: "转至努沃勒埃利耶",
+  nuwaraEliyaTea: "茶园和工厂游览",
+  nuwaraEliyaLake: "格雷戈里湖乘船",
+  nuwaraEliyaExplore: "探索小英格兰",
+  nuwaraEliyaLocation: "努沃勒埃利耶茶乡",
+  nuwaraEliyaDescription: "体验小英格兰凉爽的气候和茶乡的魅力。",
+  
+  // Ella (Second Day)
+  day6Title: "埃拉",
+  day7Title: "埃拉延长",
+  ellaWaterfall: "参观拉瓦纳瀑布",
+  ellaTea: "茶园游览",
+  ellaRelax: "放松并享受山景",
+  ellaLocal: "当地村庄体验",
+  ellaDay2Description: "在埃拉的第二天探索瀑布和茶乡。",
+  
+  // Mirissa
+  day8Title: "米瑞莎",
+  mirissaTitle: "米瑞莎",
+  mirissaStay: "米瑞莎海滩度假村",
+  mirissaTransfer: "转至米瑞莎",
+  mirissaBeach: "在米瑞莎海滩放松",
+  mirissaWhale: "观鲸之旅（季节性）",
+  mirissaRelax: "海滩放松和日落",
+  mirissaLocation: "米瑞莎海滩",
+  mirissaDescription: "享受美丽的海滩和观鲸机会。",
+  
+  // Mirissa (Second Day)
+  day9Title: "米瑞莎延长",
+  mirissaSnorkel: "浮潜和水上运动",
+  mirissaDiving: "水肺潜水（可选）",
+  mirissaSunset: "日落海滩漫步",
+  mirissaDay2Description: "在米瑞莎的第二天进行水上活动和海滩放松。",
+  
+  // Galle
+  day10Title: "加勒",
+  
+  // Galle (Second Day)
+  day11Title: "加勒延长",
+  galleShopping: "在加勒堡购物",
+  galleMuseum: "参观加勒海事博物馆",
+  galleBeach: "在乌纳瓦图纳海滩时光",
+  galleDining: "在堡垒餐厅用餐",
+  galleDay2Description: "在加勒的第二天进一步探索历史堡垒。",
+  
+  // Bentota
+  day12Title: "本托塔",
+  bentotaTitle: "本托塔",
+  bentotaStay: "本托塔度假村",
+  bentotaTransfer: "转至本托塔",
+  bentotaRiver: "本托塔河游猎",
+  bentotaBeach: "海滩活动",
+  bentotaSpa: "水疗和健康护理",
+  bentotaLocation: "本托塔海滩度假村",
+  bentotaDescription: "在美丽的海滩度假村放松，享受河流活动。",
+  
+  // Colombo
+  day13Title: "科伦坡",
+  colomboTitle: "科伦坡",
+  colomboStay: "科伦坡酒店",
+  colomboTransfer: "转至科伦坡",
+  colomboFort: "探索科伦坡堡",
+  colomboTemple: "参观甘加拉马雅寺",
+  colomboShopping: "在奥德尔和赤脚购物",
+  colomboLocation: "科伦坡市",
+  colomboDescription: "探索首都的景点和购物。",
+  
+  // Departure
+  day14Title: "出发",
+  departureTitle: "出发",
+  departureStay: "机场酒店或出发",
+  departureBreakfast: "最后早餐",
+  departureShopping: "最后购物",
+  departureTransfer: "转至机场",
+  departureAirport: "从班达拉奈克国际机场出发",
+  departureLocation: "班达拉奈克国际机场",
+  departureDescription: "最后一天，转至机场并出发。",
+  
+  // Wildlife & Cultural Heritage Details
+  wildlifeCulturalCircuitTitle: "野生动物和文化遗产之旅",
+  wildlifeCulturalCircuitSubtitle: "在这次全面的旅程中体验斯里兰卡的野生动物、古城和文化遗产。",
+  
+  // Day 2 - Udawalawe
+  udawalaweTitle: "乌达瓦拉维",
+  udawalaweStay: "乌达瓦拉维野生动物园旅馆",
+  udawalaweTransfer: "转至乌达瓦拉维",
+  udawalaweSafari: "乌达瓦拉维国家公园野生动物园",
+  udawalaweElephants: "大象观察和摄影",
+  udawalaweBirds: "观鸟之旅",
+  udawalaweLocation: "乌达瓦拉维国家公园",
+  udawalaweDescription: "在自然栖息地中与大象、鸟类和其他动物一起体验斯里兰卡的野生动物。",
+  
+  // Day 3 - Ella
+  ellaWildlifeTitle: "埃拉",
+  ellaWildlifeStay: "埃拉酒店",
+  ellaWildlifeTransfer: "转至埃拉",
+  ellaWildlifeTrain: "前往埃拉的风景火车之旅",
+  ellaWildlifePeak: "小亚当峰徒步",
+  ellaWildlifeBridge: "九拱桥观景点",
+  ellaWildlifeLocation: "埃拉山站",
+  ellaWildlifeDescription: "探索美丽的山区，欣赏壮丽的山景和茶园。",
+  
+  // Day 4 - Nuwara Eliya
+  nuwaraEliyaWildlifeTitle: "努沃勒埃利耶",
+  nuwaraEliyaWildlifeStay: "努沃勒埃利耶酒店",
+  nuwaraEliyaWildlifeTransfer: "转至努沃勒埃利耶",
+  nuwaraEliyaWildlifeTea: "茶园和工厂之旅",
+  nuwaraEliyaWildlifeLake: "格雷戈里湖乘船",
+  nuwaraEliyaWildlifeExplore: "探索小英格兰",
+  nuwaraEliyaWildlifeLocation: "努沃勒埃利耶茶乡",
+  nuwaraEliyaWildlifeDescription: "体验小英格兰的凉爽气候和茶乡的魅力。",
+  
+  // Day 5 - Kandy
+  kandyWildlifeTitle: "康提",
+  kandyWildlifeStay: "康提酒店",
+  kandyWildlifeTransfer: "转至康提",
+  kandyWildlifeTemple: "佛牙寺",
+  kandyWildlifeGardens: "皇家植物园",
+  kandyWildlifeLake: "康提湖漫步",
+  kandyWildlifeLocation: "佛牙寺",
+  kandyWildlifeDescription: "拥有神圣遗产和郁郁葱葱花园的文化首都。",
+  
+  // Day 6 - Sigiriya
+  sigiriyaWildlifeTitle: "锡吉里耶",
+  sigiriyaWildlifeStay: "锡吉里耶酒店",
+  sigiriyaWildlifeTransfer: "转至锡吉里耶",
+  sigiriyaWildlifeClimb: "攀登锡吉里耶岩石堡垒",
+  sigiriyaWildlifeExplore: "探索水花园和壁画",
+  sigiriyaWildlifeVillage: "村庄体验或自行车骑行（可选）",
+  sigiriyaWildlifeLocation: "锡吉里耶岩石堡垒",
+  sigiriyaWildlifeDescription: "具有全景景观的标志性联合国教科文组织世界遗产。",
+  
+  // Day 7 - Anuradhapura
+  anuradhapuraWildlifeTitle: "阿努拉达普拉",
+  anuradhapuraWildlifeStay: "阿努拉达普拉酒店",
+  anuradhapuraWildlifeTransfer: "转至阿努拉达普拉",
+  anuradhapuraWildlifeExplore: "探索古代遗址和佛塔",
+  anuradhapuraWildlifeTemple: "参观斯里马哈菩提树",
+  anuradhapuraWildlifeMuseum: "参观考古博物馆",
+  anuradhapuraWildlifeLocation: "阿努拉达普拉古城",
+  anuradhapuraWildlifeDescription: "发现斯里兰卡的古代首都和联合国教科文组织世界遗产。",
+  
+  // Day 8 - Polonnaruwa
+  polonnaruwaTitle: "波隆纳鲁瓦",
+  polonnaruwaStay: "波隆纳鲁瓦酒店",
+  polonnaruwaTransfer: "转至波隆纳鲁瓦",
+  polonnaruwaExplore: "探索古代遗址",
+  polonnaruwaGalVihara: "参观伽尔维哈拉",
+  polonnaruwaMuseum: "参观波隆纳鲁瓦博物馆",
+  polonnaruwaLocation: "波隆纳鲁瓦古城",
+  polonnaruwaDescription: "探索保存完好的遗址和雕塑的古代首都。",
+  
+  // Day 9 - Trincomalee
+  trincomaleeTitle: "亭可马里",
+  trincomaleeStay: "亭可马里酒店",
+  trincomaleeTransfer: "转至亭可马里",
+  trincomaleeBeach: "在尼拉韦利海滩放松",
+  trincomaleeWhale: "观鲸之旅（季节性）",
+  trincomaleeFort: "探索弗雷德里克堡",
+  trincomaleeLocation: "尼拉韦利海滩，亭可马里",
+  trincomaleeDescription: "享受美丽的海滩和观鲸机会。",
+  
+  // Day 10 - Colombo
+  colomboWildlifeTitle: "科伦坡",
+  colomboWildlifeStay: "科伦坡酒店",
+  colomboWildlifeTransfer: "转至科伦坡",
+  colomboWildlifeFort: "探索科伦坡堡",
+  colomboWildlifeTemple: "参观甘加拉马亚寺",
+  colomboWildlifeShopping: "在奥德尔和贝拉富特画廊购物",
+  colomboWildlifeLocation: "科伦坡市",
+  colomboWildlifeDescription: "探索首都的景点和购物。",
+  
+  // Wildlife Cultural Tour
+  wildlifeCulturalTitle: "野生动物和文化遗产之旅",
+  wildlifeCulturalType: "野生动物和文化",
+  wildlifeCulturalHighlights: "亮点",
+  wildlifeCulturalWildlife: "野生动物",
+  wildlifeCulturalCulture: "文化",
+  wildlifeCulturalHistory: "历史",
+  wildlifeCulturalNature: "自然",
+  
+  // Hill Country Beach Tour
+  hillCountryBeachTitle: "山区和海滩之旅",
+  hillCountryBeachType: "山区和海滩",
+  hillCountryBeachHighlights: "亮点",
+  hillCountryBeachNature: "自然",
+  hillCountryBeachBeach: "海滩",
+  hillCountryBeachCulture: "文化",
+  hillCountryBeachAdventure: "冒险",
+  
+  // Cultural Triangle Beach Tour
+  culturalTriangleBeachTitle: "文化三角区和海滩之旅",
+  culturalTriangleBeachType: "文化三角区和海滩",
+  culturalTriangleBeachHighlights: "亮点",
+  culturalTriangleBeachCulture: "文化",
+  culturalTriangleBeachHistory: "历史",
+  culturalTriangleBeachBeach: "海滩",
+  culturalTriangleBeachRelaxation: "放松"
 };

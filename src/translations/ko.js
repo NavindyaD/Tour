@@ -160,6 +160,7 @@ export const ko = {
   sophiaReview: "원활하고 잊을 수 없는 여행이었습니다! 팀이 전문적이었고, 일정이 잘 생각되어 있었습니다. 스리랑카를 방문하는 모든 사람에게 스리 야트라 여행사를 강력히 추천합니다.",
   
   // Common Labels
+  activities: "활동",
   duration: "기간",
   price: "가격",
   workingHours: "근무 시간",
@@ -352,5 +353,234 @@ export const ko = {
   
   step4Title: "4. 여행 확인서 수신",
   step4FillingForm: "웹 양식 작성",
-  step4Satisfaction: "100% 만족 보장"
+  step4Satisfaction: "100% 만족 보장",
+  
+  // Complete Sri Lanka Circuit Tour
+  completeSriLankaTitle: "완전한 스리랑카 순회",
+  completeSriLankaSubtitle: "포괄적",
+  completeSriLankaFeatures: "🏨 ✈ 🚗 🍽",
+  completeSriLankaType: "포괄적",
+  completeSriLankaHighlights: "하이라이트",
+  completeSriLankaCulture: "문화",
+  completeSriLankaHistory: "역사",
+  completeSriLankaNature: "자연",
+  completeSriLankaBeach: "해변",
+  completeSriLankaPrice: "1인당 US $1850부터",
+  
+  // Complete Sri Lanka Circuit Details
+  completeSriLankaCircuitTitle: "완전한 스리랑카 순회",
+  completeSriLankaCircuitSubtitle: "모든 주요 목적지를 다루는 포괄적인 여행으로 스리랑카의 완전한 아름다움을 경험하세요.",
+  
+  // Day 2 - Anuradhapura
+  ancientCityTitle: "아누라다푸라",
+  ancientCityStay: "아누라다푸라 호텔",
+  ancientCityTransfer: "아누라다푸라로 이동",
+  ancientCityExplore: "고대 유적과 스투파 탐험",
+  ancientCityTemple: "스리 마하 보디 나무 방문",
+  ancientCityMuseum: "고고학 박물관 방문",
+  ancientCityLocation: "아누라다푸라 고대 도시",
+  ancientCityDescription: "스리랑카의 고대 수도이자 유네스코 세계유산을 발견하세요.",
+  
+  // Nuwara Eliya
+  day5Title: "누와라엘리야",
+  nuwaraEliyaTitle: "누와라엘리야",
+  nuwaraEliyaStay: "누와라엘리야 호텔",
+  nuwaraEliyaTransfer: "누와라엘리야로 이동",
+  nuwaraEliyaTea: "차 농장 및 공장 투어",
+  nuwaraEliyaLake: "그레고리 호수 보트 타기",
+  nuwaraEliyaExplore: "작은 잉글랜드 탐험",
+  nuwaraEliyaLocation: "누와라엘리야 차 나라",
+  nuwaraEliyaDescription: "작은 잉글랜드의 시원한 기후와 차 나라의 매력을 경험하세요.",
+  
+  // Ella (Second Day)
+  day6Title: "엘라",
+  day7Title: "엘라 연장",
+  ellaWaterfall: "라바나 폭포 방문",
+  ellaTea: "차 농장 투어",
+  ellaRelax: "휴식과 산 경치 감상",
+  ellaLocal: "현지 마을 체험",
+  ellaDay2Description: "폭포와 차 나라를 탐험하기 위한 엘라의 두 번째 날.",
+  
+  // Mirissa
+  day8Title: "미리사",
+  mirissaTitle: "미리사",
+  mirissaStay: "미리사 해변 리조트",
+  mirissaTransfer: "미리사로 이동",
+  mirissaBeach: "미리사 해변에서 휴식",
+  mirissaWhale: "고래 관찰 투어 (계절적)",
+  mirissaRelax: "해변 휴식과 일몰",
+  mirissaLocation: "미리사 해변",
+  mirissaDescription: "아름다운 해변과 고래 관찰 기회를 즐기세요.",
+  
+  // Mirissa (Second Day)
+  day9Title: "미리사 연장",
+  mirissaSnorkel: "스노클링과 수상 스포츠",
+  mirissaDiving: "스쿠버 다이빙 (선택사항)",
+  mirissaSunset: "일몰 해변 산책",
+  mirissaDay2Description: "수상 활동과 해변 휴식을 위한 미리사의 두 번째 날.",
+  
+  // Galle
+  day10Title: "갈레",
+  
+  // Galle (Second Day)
+  day11Title: "갈레 연장",
+  galleShopping: "갈레 요새에서 쇼핑",
+  galleMuseum: "갈레 해양 박물관 방문",
+  galleBeach: "우나와투나에서 해변 시간",
+  galleDining: "요새 레스토랑에서 식사",
+  galleDay2Description: "역사적인 요새를 더 탐험하기 위한 갈레의 두 번째 날.",
+  
+  // Bentota
+  day12Title: "벤토타",
+  bentotaTitle: "벤토타",
+  bentotaStay: "벤토타 리조트",
+  bentotaTransfer: "벤토타로 이동",
+  bentotaRiver: "벤토타 강 사파리",
+  bentotaBeach: "해변 활동",
+  bentotaSpa: "스파 및 웰니스 트리트먼트",
+  bentotaLocation: "벤토타 해변 리조트",
+  bentotaDescription: "강 활동과 함께 아름다운 해변 리조트에서 휴식하세요.",
+  
+  // Colombo
+  day13Title: "콜롬보",
+  colomboTitle: "콜롬보",
+  colomboStay: "콜롬보 호텔",
+  colomboTransfer: "콜롬보로 이동",
+  colomboFort: "콜롬보 요새 탐험",
+  colomboTemple: "간가라마야 사원 방문",
+  colomboShopping: "오델과 베어풋에서 쇼핑",
+  colomboLocation: "콜롬보 시",
+  colomboDescription: "수도의 명소와 쇼핑을 탐험하세요.",
+  
+  // Departure
+  day14Title: "출발",
+  departureTitle: "출발",
+  departureStay: "공항 호텔 또는 출발",
+  departureBreakfast: "마지막 아침식사",
+  departureShopping: "마지막 순간 쇼핑",
+  departureTransfer: "공항으로 이동",
+  departureAirport: "반다라나이케 국제공항에서 출발",
+  departureLocation: "반다라나이케 국제공항",
+  departureDescription: "공항 이동과 출발이 있는 마지막 날.",
+  
+  // Wildlife & Cultural Heritage Details
+  wildlifeCulturalCircuitTitle: "야생동물 및 문화유산 투어",
+  wildlifeCulturalCircuitSubtitle: "이 포괄적인 여행에서 스리랑카의 야생동물, 고대 도시, 문화유산을 경험하세요.",
+  
+  // Day 2 - Udawalawe
+  udawalaweTitle: "우다왈라웨",
+  udawalaweStay: "우다왈라웨 사파리 로지",
+  udawalaweTransfer: "우다왈라웨로 이동",
+  udawalaweSafari: "우다왈라웨 국립공원 사파리",
+  udawalaweElephants: "코끼리 관찰 및 사진 촬영",
+  udawalaweBirds: "조류 관찰 투어",
+  udawalaweLocation: "우다왈라웨 국립공원",
+  udawalaweDescription: "자연 서식지에서 코끼리, 새, 기타 동물들과 함께 스리랑카의 야생동물을 경험하세요.",
+  
+  // Day 3 - Ella
+  ellaWildlifeTitle: "엘라",
+  ellaWildlifeStay: "엘라 호텔",
+  ellaWildlifeTransfer: "엘라로 이동",
+  ellaWildlifeTrain: "엘라로 가는 경치 좋은 기차 여행",
+  ellaWildlifePeak: "리틀 아담스 피크 하이킹",
+  ellaWildlifeBridge: "나인 아치 브리지 전망대",
+  ellaWildlifeLocation: "엘라 힐 스테이션",
+  ellaWildlifeDescription: "장관의 산 경치와 차 농장과 함께 아름다운 산간 지역을 탐험하세요.",
+  
+  // Day 4 - Nuwara Eliya
+  nuwaraEliyaWildlifeTitle: "누와라엘리야",
+  nuwaraEliyaWildlifeStay: "누와라엘리야 호텔",
+  nuwaraEliyaWildlifeTransfer: "누와라엘리야로 이동",
+  nuwaraEliyaWildlifeTea: "차 농장 및 공장 투어",
+  nuwaraEliyaWildlifeLake: "그레고리 호수 보트 타기",
+  nuwaraEliyaWildlifeExplore: "리틀 잉글랜드 탐험",
+  nuwaraEliyaWildlifeLocation: "누와라엘리야 차의 나라",
+  nuwaraEliyaWildlifeDescription: "리틀 잉글랜드의 시원한 기후와 차의 나라의 매력을 경험하세요.",
+  
+  // Day 5 - Kandy
+  kandyWildlifeTitle: "캔디",
+  kandyWildlifeStay: "캔디 호텔",
+  kandyWildlifeTransfer: "캔디로 이동",
+  kandyWildlifeTemple: "성치 사리 사원",
+  kandyWildlifeGardens: "로얄 식물원",
+  kandyWildlifeLake: "캔디 호수 산책",
+  kandyWildlifeLocation: "성치 사리 사원",
+  kandyWildlifeDescription: "신성한 유산과 무성한 정원이 있는 문화 수도.",
+  
+  // Day 6 - Sigiriya
+  sigiriyaWildlifeTitle: "시기리야",
+  sigiriyaWildlifeStay: "시기리야 호텔",
+  sigiriyaWildlifeTransfer: "시기리야로 이동",
+  sigiriyaWildlifeClimb: "시기리야 록 포트레스 등반",
+  sigiriyaWildlifeExplore: "수원과 프레스코 탐험",
+  sigiriyaWildlifeVillage: "마을 체험 또는 자전거 타기 (선택사항)",
+  sigiriyaWildlifeLocation: "시기리야 록 포트레스",
+  sigiriyaWildlifeDescription: "파노라믹 전망이 있는 상징적인 유네스코 세계유산.",
+  
+  // Day 7 - Anuradhapura
+  anuradhapuraWildlifeTitle: "아누라다푸라",
+  anuradhapuraWildlifeStay: "아누라다푸라 호텔",
+  anuradhapuraWildlifeTransfer: "아누라다푸라로 이동",
+  anuradhapuraWildlifeExplore: "고대 유적과 스투파 탐험",
+  anuradhapuraWildlifeTemple: "스리 마하 보디 나무 방문",
+  anuradhapuraWildlifeMuseum: "고고학 박물관 방문",
+  anuradhapuraWildlifeLocation: "아누라다푸라 고대 도시",
+  anuradhapuraWildlifeDescription: "스리랑카의 고대 수도이자 유네스코 세계유산을 발견하세요.",
+  
+  // Day 8 - Polonnaruwa
+  polonnaruwaTitle: "폴론나루와",
+  polonnaruwaStay: "폴론나루와 호텔",
+  polonnaruwaTransfer: "폴론나루와로 이동",
+  polonnaruwaExplore: "고대 유적 탐험",
+  polonnaruwaGalVihara: "갈 비하라 방문",
+  polonnaruwaMuseum: "폴론나루와 박물관 방문",
+  polonnaruwaLocation: "폴론나루와 고대 도시",
+  polonnaruwaDescription: "잘 보존된 유적과 조각상과 함께 고대 수도를 탐험하세요.",
+  
+  // Day 9 - Trincomalee
+  trincomaleeTitle: "트린코말리",
+  trincomaleeStay: "트린코말리 호텔",
+  trincomaleeTransfer: "트린코말리로 이동",
+  trincomaleeBeach: "닐라벨리 해변에서 휴식",
+  trincomaleeWhale: "고래 관찰 투어 (계절적)",
+  trincomaleeFort: "프레드릭 요새 탐험",
+  trincomaleeLocation: "닐라벨리 해변, 트린코말리",
+  trincomaleeDescription: "아름다운 해변과 고래 관찰 기회를 즐기세요.",
+  
+  // Day 10 - Colombo
+  colomboWildlifeTitle: "콜롬보",
+  colomboWildlifeStay: "콜롬보 호텔",
+  colomboWildlifeTransfer: "콜롬보로 이동",
+  colomboWildlifeFort: "콜롬보 요새 탐험",
+  colomboWildlifeTemple: "간가라마야 사원 방문",
+  colomboWildlifeShopping: "오델과 베이라풋 갤러리에서 쇼핑",
+  colomboWildlifeLocation: "콜롬보 시",
+  colomboWildlifeDescription: "수도의 명소와 쇼핑을 탐험하세요.",
+  
+  // Wildlife Cultural Tour
+  wildlifeCulturalTitle: "야생동물 및 문화유산 투어",
+  wildlifeCulturalType: "야생동물 및 문화",
+  wildlifeCulturalHighlights: "하이라이트",
+  wildlifeCulturalWildlife: "야생동물",
+  wildlifeCulturalCulture: "문화",
+  wildlifeCulturalHistory: "역사",
+  wildlifeCulturalNature: "자연",
+  
+  // Hill Country Beach Tour
+  hillCountryBeachTitle: "산간 지역 및 해변 투어",
+  hillCountryBeachType: "산간 지역 및 해변",
+  hillCountryBeachHighlights: "하이라이트",
+  hillCountryBeachNature: "자연",
+  hillCountryBeachBeach: "해변",
+  hillCountryBeachCulture: "문화",
+  hillCountryBeachAdventure: "모험",
+  
+  // Cultural Triangle Beach Tour
+  culturalTriangleBeachTitle: "문화 삼각지대 및 해변 투어",
+  culturalTriangleBeachType: "문화 삼각지대 및 해변",
+  culturalTriangleBeachHighlights: "하이라이트",
+  culturalTriangleBeachCulture: "문화",
+  culturalTriangleBeachHistory: "역사",
+  culturalTriangleBeachBeach: "해변",
+  culturalTriangleBeachRelaxation: "휴식"
 };

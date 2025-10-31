@@ -164,6 +164,7 @@ export const ar = {
   sophiaReview: "رحلة سلسة ولا تُنسى! كان الفريق مهنياً، والجدول الزمني مدروس بشكل جيد. أنصح بشدة بشركة سري ياترا للسفر لأي شخص يزور سريلانكا.",
   
   // Common Labels
+  activities: "الأنشطة",
   duration: "المدة",
   price: "السعر",
   workingHours: "ساعات العمل",
@@ -356,5 +357,234 @@ export const ar = {
   
   step4Title: "4. احصل على تأكيد رحلتك",
   step4FillingForm: "ملء النموذج الإلكتروني",
-  step4Satisfaction: "ضمان الرضا 100%"
+  step4Satisfaction: "ضمان الرضا 100%",
+  
+  // Complete Sri Lanka Circuit Tour
+  completeSriLankaTitle: "دائرة سريلانكا الكاملة",
+  completeSriLankaSubtitle: "شامل",
+  completeSriLankaFeatures: "🏨 ✈ 🚗 🍽",
+  completeSriLankaType: "شامل",
+  completeSriLankaHighlights: "الأبرز",
+  completeSriLankaCulture: "الثقافة",
+  completeSriLankaHistory: "التاريخ",
+  completeSriLankaNature: "الطبيعة",
+  completeSriLankaBeach: "الشاطئ",
+  completeSriLankaPrice: "من US $1850 للشخص",
+  
+  // Complete Sri Lanka Circuit Details
+  completeSriLankaCircuitTitle: "دائرة سريلانكا الكاملة",
+  completeSriLankaCircuitSubtitle: "اختبروا الجمال الكامل لسريلانكا مع هذه الرحلة الشاملة التي تغطي جميع الوجهات الرئيسية.",
+  
+  // Day 2 - Anuradhapura
+  ancientCityTitle: "أنورادابورا",
+  ancientCityStay: "فندق في أنورادابورا",
+  ancientCityTransfer: "النقل إلى أنورادابورا",
+  ancientCityExplore: "استكشاف الآثار القديمة والأستوبا",
+  ancientCityTemple: "زيارة شجرة سري مها بودي",
+  ancientCityMuseum: "زيارة المتحف الأثري",
+  ancientCityLocation: "مدينة أنورادابورا القديمة",
+  ancientCityDescription: "اكتشفوا العاصمة القديمة لسريلانكا وموقع التراث العالمي لليونسكو.",
+  
+  // Nuwara Eliya
+  day5Title: "نوارا إيليا",
+  nuwaraEliyaTitle: "نوارا إيليا",
+  nuwaraEliyaStay: "فندق في نوارا إيليا",
+  nuwaraEliyaTransfer: "النقل إلى نوارا إيليا",
+  nuwaraEliyaTea: "جولة مزارع الشاي والمصنع",
+  nuwaraEliyaLake: "ركوب قارب في بحيرة غريغوري",
+  nuwaraEliyaExplore: "استكشاف إنجلترا الصغيرة",
+  nuwaraEliyaLocation: "بلد الشاي في نوارا إيليا",
+  nuwaraEliyaDescription: "اختبروا المناخ البارد وسحر بلد الشاي في إنجلترا الصغيرة.",
+  
+  // Ella (Second Day)
+  day6Title: "إيلا",
+  day7Title: "إيلا الممتدة",
+  ellaWaterfall: "زيارة شلالات رافانا",
+  ellaTea: "جولة مزارع الشاي",
+  ellaRelax: "الاسترخاء والاستمتاع بمناظر الجبال",
+  ellaLocal: "تجربة القرية المحلية",
+  ellaDay2Description: "اليوم الثاني في إيلا لاستكشاف الشلالات وبلد الشاي.",
+  
+  // Mirissa
+  day8Title: "ميريسا",
+  mirissaTitle: "ميريسا",
+  mirissaStay: "منتجع شاطئي في ميريسا",
+  mirissaTransfer: "النقل إلى ميريسا",
+  mirissaBeach: "الاسترخاء على شاطئ ميريسا",
+  mirissaWhale: "جولة مشاهدة الحيتان (موسمية)",
+  mirissaRelax: "الاسترخاء على الشاطئ وغروب الشمس",
+  mirissaLocation: "شاطئ ميريسا",
+  mirissaDescription: "استمتعوا بالشواطئ الجميلة وفرص مشاهدة الحيتان.",
+  
+  // Mirissa (Second Day)
+  day9Title: "ميريسا الممتدة",
+  mirissaSnorkel: "الغوص والرياضات المائية",
+  mirissaDiving: "الغوص العميق (اختياري)",
+  mirissaSunset: "نزهة شاطئية عند غروب الشمس",
+  mirissaDay2Description: "اليوم الثاني في ميريسا للأنشطة المائية والاسترخاء على الشاطئ.",
+  
+  // Galle
+  day10Title: "جالي",
+  
+  // Galle (Second Day)
+  day11Title: "جالي الممتدة",
+  galleShopping: "التسوق في قلعة جالي",
+  galleMuseum: "زيارة متحف جالي البحري",
+  galleBeach: "وقت الشاطئ في أوناواتونا",
+  galleDining: "العشاء في مطاعم القلعة",
+  galleDay2Description: "اليوم الثاني في جالي لاستكشاف المزيد من القلعة التاريخية.",
+  
+  // Bentota
+  day12Title: "بينتوتا",
+  bentotaTitle: "بينتوتا",
+  bentotaStay: "منتجع في بينتوتا",
+  bentotaTransfer: "النقل إلى بينتوتا",
+  bentotaRiver: "سفاري نهر بينتوتا",
+  bentotaBeach: "أنشطة الشاطئ",
+  bentotaSpa: "العلاجات الصحية والسبا",
+  bentotaLocation: "منتجع شاطئ بينتوتا",
+  bentotaDescription: "استرخوا في المنتجع الشاطئي الجميل مع أنشطة النهر.",
+  
+  // Colombo
+  day13Title: "كولومبو",
+  colomboTitle: "كولومبو",
+  colomboStay: "فندق في كولومبو",
+  colomboTransfer: "النقل إلى كولومبو",
+  colomboFort: "استكشاف قلعة كولومبو",
+  colomboTemple: "زيارة معبد جانجارامايا",
+  colomboShopping: "التسوق في أوديل وبيرفوت",
+  colomboLocation: "مدينة كولومبو",
+  colomboDescription: "استكشفوا معالم العاصمة والتسوق.",
+  
+  // Departure
+  day14Title: "المغادرة",
+  departureTitle: "المغادرة",
+  departureStay: "فندق المطار أو المغادرة",
+  departureBreakfast: "الإفطار الأخير",
+  departureShopping: "التسوق في اللحظة الأخيرة",
+  departureTransfer: "النقل إلى المطار",
+  departureAirport: "المغادرة من مطار باندارانايكي الدولي",
+  departureLocation: "مطار باندارانايكي الدولي",
+  departureDescription: "اليوم الأخير مع النقل إلى المطار والمغادرة.",
+  
+  // Wildlife & Cultural Heritage Details
+  wildlifeCulturalCircuitTitle: "جولة الحياة البرية والتراث الثقافي",
+  wildlifeCulturalCircuitSubtitle: "اختبر الحياة البرية والمدن القديمة والتراث الثقافي لسريلانكا في هذه الرحلة الشاملة.",
+  
+  // Day 2 - Udawalawe
+  udawalaweTitle: "أوداوالاوا",
+  udawalaweStay: "نزل سفاري في أوداوالاوا",
+  udawalaweTransfer: "النقل إلى أوداوالاوا",
+  udawalaweSafari: "سفاري في حديقة أوداوالاوا الوطنية",
+  udawalaweElephants: "مراقبة الأفيال والتصوير",
+  udawalaweBirds: "جولة مراقبة الطيور",
+  udawalaweLocation: "حديقة أوداوالاوا الوطنية",
+  udawalaweDescription: "اختبر الحياة البرية في سريلانكا مع الأفيال والطيور والحيوانات الأخرى في موطنها الطبيعي.",
+  
+  // Day 3 - Ella
+  ellaWildlifeTitle: "إيلا",
+  ellaWildlifeStay: "فندق في إيلا",
+  ellaWildlifeTransfer: "النقل إلى إيلا",
+  ellaWildlifeTrain: "رحلة قطار خلابة إلى إيلا",
+  ellaWildlifePeak: "نزهة إلى قمة آدم الصغيرة",
+  ellaWildlifeBridge: "نقطة مراقبة جسر الأقواس التسعة",
+  ellaWildlifeLocation: "محطة إيلا الجبلية",
+  ellaWildlifeDescription: "استكشف البلد الجبلي الجميل مع مناظر جبلية خلابة ومزارع الشاي.",
+  
+  // Day 4 - Nuwara Eliya
+  nuwaraEliyaWildlifeTitle: "نوارا إيليا",
+  nuwaraEliyaWildlifeStay: "فندق في نوارا إيليا",
+  nuwaraEliyaWildlifeTransfer: "النقل إلى نوارا إيليا",
+  nuwaraEliyaWildlifeTea: "جولة في مزرعة الشاي والمصنع",
+  nuwaraEliyaWildlifeLake: "رحلة قارب في بحيرة غريغوري",
+  nuwaraEliyaWildlifeExplore: "استكشف إنجلترا الصغيرة",
+  nuwaraEliyaWildlifeLocation: "بلد الشاي نوارا إيليا",
+  nuwaraEliyaWildlifeDescription: "اختبر المناخ البارد وسحر بلد الشاي في إنجلترا الصغيرة.",
+  
+  // Day 5 - Kandy
+  kandyWildlifeTitle: "كاندي",
+  kandyWildlifeStay: "فندق في كاندي",
+  kandyWildlifeTransfer: "النقل إلى كاندي",
+  kandyWildlifeTemple: "معبد الأسنان المقدسة",
+  kandyWildlifeGardens: "الحدائق النباتية الملكية",
+  kandyWildlifeLake: "نزهة حول بحيرة كاندي",
+  kandyWildlifeLocation: "معبد الأسنان المقدسة",
+  kandyWildlifeDescription: "العاصمة الثقافية مع التراث المقدس والحدائق الخصبة.",
+  
+  // Day 6 - Sigiriya
+  sigiriyaWildlifeTitle: "سيجيريا",
+  sigiriyaWildlifeStay: "فندق في سيجيريا",
+  sigiriyaWildlifeTransfer: "النقل إلى سيجيريا",
+  sigiriyaWildlifeClimb: "تسلق قلعة صخرة سيجيريا",
+  sigiriyaWildlifeExplore: "استكشاف الحدائق المائية والجداريات",
+  sigiriyaWildlifeVillage: "تجربة القرية أو رحلة دراجة (اختياري)",
+  sigiriyaWildlifeLocation: "قلعة صخرة سيجيريا",
+  sigiriyaWildlifeDescription: "موقع تراث عالمي أيقوني لليونسكو مع إطلالات بانورامية.",
+  
+  // Day 7 - Anuradhapura
+  anuradhapuraWildlifeTitle: "أنورادابورا",
+  anuradhapuraWildlifeStay: "فندق في أنورادابورا",
+  anuradhapuraWildlifeTransfer: "النقل إلى أنورادابورا",
+  anuradhapuraWildlifeExplore: "استكشاف الآثار القديمة والأستوبا",
+  anuradhapuraWildlifeTemple: "زيارة شجرة سري ماها بودي",
+  anuradhapuraWildlifeMuseum: "زيارة المتحف الأثري",
+  anuradhapuraWildlifeLocation: "المدينة القديمة أنورادابورا",
+  anuradhapuraWildlifeDescription: "اكتشف العاصمة القديمة لسريلانكا وموقع التراث العالمي لليونسكو.",
+  
+  // Day 8 - Polonnaruwa
+  polonnaruwaTitle: "بولوناروا",
+  polonnaruwaStay: "فندق في بولوناروا",
+  polonnaruwaTransfer: "النقل إلى بولوناروا",
+  polonnaruwaExplore: "استكشاف الآثار القديمة",
+  polonnaruwaGalVihara: "زيارة غال فيهارا",
+  polonnaruwaMuseum: "زيارة متحف بولوناروا",
+  polonnaruwaLocation: "المدينة القديمة بولوناروا",
+  polonnaruwaDescription: "استكشف العاصمة القديمة مع الآثار والمنحوتات المحفوظة جيداً.",
+  
+  // Day 9 - Trincomalee
+  trincomaleeTitle: "ترينكومالي",
+  trincomaleeStay: "فندق في ترينكومالي",
+  trincomaleeTransfer: "النقل إلى ترينكومالي",
+  trincomaleeBeach: "الاسترخاء على شاطئ نيلافيلي",
+  trincomaleeWhale: "جولة مراقبة الحيتان (موسمية)",
+  trincomaleeFort: "استكشاف حصن فريدريك",
+  trincomaleeLocation: "شاطئ نيلافيلي، ترينكومالي",
+  trincomaleeDescription: "استمتع بالشواطئ الجميلة وفرص مراقبة الحيتان.",
+  
+  // Day 10 - Colombo
+  colomboWildlifeTitle: "كولومبو",
+  colomboWildlifeStay: "فندق في كولومبو",
+  colomboWildlifeTransfer: "النقل إلى كولومبو",
+  colomboWildlifeFort: "استكشاف حصن كولومبو",
+  colomboWildlifeTemple: "زيارة معبد جانجارامايا",
+  colomboWildlifeShopping: "التسوق في أوديل وبيرافوت جاليري",
+  colomboWildlifeLocation: "مدينة كولومبو",
+  colomboWildlifeDescription: "استكشف معالم العاصمة والتسوق.",
+  
+  // Wildlife Cultural Tour
+  wildlifeCulturalTitle: "جولة الحياة البرية والتراث الثقافي",
+  wildlifeCulturalType: "الحياة البرية والثقافة",
+  wildlifeCulturalHighlights: "المعالم البارزة",
+  wildlifeCulturalWildlife: "الحياة البرية",
+  wildlifeCulturalCulture: "الثقافة",
+  wildlifeCulturalHistory: "التاريخ",
+  wildlifeCulturalNature: "الطبيعة",
+  
+  // Hill Country Beach Tour
+  hillCountryBeachTitle: "جولة البلد الجبلي والشواطئ",
+  hillCountryBeachType: "البلد الجبلي والشواطئ",
+  hillCountryBeachHighlights: "المعالم البارزة",
+  hillCountryBeachNature: "الطبيعة",
+  hillCountryBeachBeach: "الشاطئ",
+  hillCountryBeachCulture: "الثقافة",
+  hillCountryBeachAdventure: "المغامرة",
+  
+  // Cultural Triangle Beach Tour
+  culturalTriangleBeachTitle: "جولة المثلث الثقافي والشواطئ",
+  culturalTriangleBeachType: "المثلث الثقافي والشواطئ",
+  culturalTriangleBeachHighlights: "المعالم البارزة",
+  culturalTriangleBeachCulture: "الثقافة",
+  culturalTriangleBeachHistory: "التاريخ",
+  culturalTriangleBeachBeach: "الشاطئ",
+  culturalTriangleBeachRelaxation: "الاسترخاء"
 };
