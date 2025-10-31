@@ -5,56 +5,57 @@ import pinnawalaImg from "./elephants.png";
 import peradeniyaImg from "./nelligala.jpg";
 import nuwaraEliyaImg from "./greg.jpg";
 import exploreImg from "./ambe.jpg";
+import { useTranslation } from "./hooks/useTranslation";
 
 const Package2Details = () => {
   const navigate = useNavigate();
+  const { t } = useTranslation();
 
   const handleBookNow = () => {
     navigate("/buy");
   };
 
   const packageInfo = {
-    duration: "4 nights 5 days",
-    charges: "Hotel and transport charges only",
-    hotel: "4 star hotel include bed, dinner & breakfast",
-    price: "Two person per day $335"
+    duration: t.package2Duration,
+    charges: t.package2Charges,
+    hotel: t.package2Hotel,
+    price: t.package2Price
   };
 
   const days = [
     {
-      day: "Day 1",
+      day: t.package2Day1,
       activities: [
-        "Pinnawala",
-        "Kandy temple",
-        "Kandy dance"
+        t.package2Day1Activity1,
+        t.package2Day1Activity2,
+        t.package2Day1Activity3
       ],
       image: pinnawalaImg,
       alt: "Pinnawala Elephant Orphanage"
     },
     {
-      day: "Day 2",
+      day: t.package2Day2,
       activities: [
-        "Gem, spices and bathik shopping",
-        "Peradeniya garden",
-        "Nelligala"
-        
+        t.package2Day2Activity1,
+        t.package2Day2Activity2,
+        t.package2Day2Activity3
       ],
       image: peradeniyaImg,
       alt: "Peradeniya Garden"
     },
     {
-      day: "Day 3",
+      day: t.package2Day3,
       activities: [
-        "Nuwara Eliya",
-        "Gregory Park"
+        t.package2Day3Activity1,
+        t.package2Day3Activity2
       ],
       image: nuwaraEliyaImg,
       alt: "Nuwara Eliya"
     },
     {
-      day: "Day 4",
+      day: t.package2Day4,
       activities: [
-        "Ambewela farm"
+        t.package2Day4Activity1
       ],
       image: exploreImg,
       alt: "Farm and Exploration"
@@ -64,7 +65,7 @@ const Package2Details = () => {
   return (
     <div className="itinerary-wrapper">
       <header className="itinerary-header">
-        <h1>Package 2 - Sri Lanka</h1>
+        <h1>{t.package2Title}</h1>
         <div className="package-info-section">
           <p className="intro-text">
             <strong>{packageInfo.duration}</strong>
@@ -82,7 +83,7 @@ const Package2Details = () => {
       {/* Book Now button above itinerary, right aligned */}
       <div className="book-now-wrapper top-right">
         <button className="book-now-button" onClick={handleBookNow}>
-          Book Now
+          {t.bookNow}
         </button>
       </div>
 
@@ -101,7 +102,7 @@ const Package2Details = () => {
                   className="activity-image"
                 />
               )}
-              <h3>Activities</h3>
+              <h3>{t.package2Activities}</h3>
               <ul>
                 {activities.map((activity, i) => (
                   <li key={i}>{activity}</li>

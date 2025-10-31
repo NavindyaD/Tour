@@ -3,6 +3,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background: #ffffff;
 }
 
 .App-logo {
@@ -44,18 +45,26 @@
 main {
   flex: 1;
   padding-top: 80px; /* Account for fixed navbar */
+  background: #fafbfc;
+  min-height: calc(100vh - 80px);
 }
 
 /* Mobile-specific adjustments */
 @media (max-width: 768px) {
   main {
-    padding-top: 70px;
+    padding-top: 72px;
   }
 }
 
 @media (max-width: 480px) {
   main {
-    padding-top: 65px;
+    padding-top: 68px;
+  }
+}
+
+@media (max-width: 360px) {
+  main {
+    padding-top: 66px;
   }
 }
 
@@ -114,21 +123,29 @@ main {
 }
 
 .btn-primary {
-  background-color: #0073e6;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   color: white;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-  background-color: #005bb5;
+  background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+  transform: translateY(-2px);
 }
 
 .btn-secondary {
-  background-color: #6c757d;
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
   color: white;
+  box-shadow: 0 4px 15px rgba(79, 172, 254, 0.4);
+  transition: all 0.3s ease;
 }
 
 .btn-secondary:hover {
-  background-color: #545b62;
+  background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+  box-shadow: 0 6px 20px rgba(79, 172, 254, 0.6);
+  transform: translateY(-2px);
 }
 
 @media (max-width: 768px) {

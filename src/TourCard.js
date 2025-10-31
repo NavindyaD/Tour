@@ -41,7 +41,12 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
       <div className="badge">{country}</div>
       <div className="stars">★★★★★</div>
       <img src={image} alt={title} className="tour-image" />
-      <div className="icons">🏨 ✈️ 🚗 🍽️</div>
+      <div className="icons">
+        <span>🏨</span>
+        <span>✈️</span>
+        <span>🚗</span>
+        <span>🍽️</span>
+      </div>
       <div className="tags">
         {tags.map((tag, index) => (
           <span key={index} className="tag">{tag}</span>
