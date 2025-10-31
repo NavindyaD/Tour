@@ -58,6 +58,11 @@
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 1rem;
+  image-rendering: auto;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .why-card-title {

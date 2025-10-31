@@ -1,6 +1,10 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./Itinerary.css";
+import pinnawalaImg from "./elephants.png";
+import peradeniyaImg from "./nelligala.jpg";
+import nuwaraEliyaImg from "./greg.jpg";
+import exploreImg from "./ambe.jpg";
 
 const Package2Details = () => {
   const navigate = useNavigate();
@@ -23,29 +27,37 @@ const Package2Details = () => {
         "Pinnawala",
         "Kandy temple",
         "Kandy dance"
-      ]
+      ],
+      image: pinnawalaImg,
+      alt: "Pinnawala Elephant Orphanage"
     },
     {
       day: "Day 2",
       activities: [
         "Gem, spices and bathik shopping",
-        "Peraddeniya garden",
+        "Peradeniya garden",
         "Nelligala"
         
-      ]
+      ],
+      image: peradeniyaImg,
+      alt: "Peradeniya Garden"
     },
     {
       day: "Day 3",
       activities: [
         "Nuwara Eliya",
         "Gregory Park"
-      ]
+      ],
+      image: nuwaraEliyaImg,
+      alt: "Nuwara Eliya"
     },
     {
       day: "Day 4",
       activities: [
-        "Abewela farm"
-      ]
+        "Ambewela farm"
+      ],
+      image: exploreImg,
+      alt: "Farm and Exploration"
     }
   ];
 
@@ -75,13 +87,20 @@ const Package2Details = () => {
       </div>
 
       <div className="itinerary-cards-container">
-        {days.map(({ day, activities }, index) => (
+        {days.map(({ day, activities, image, alt }, index) => (
           <div key={index} className="itinerary-card">
             <div className="card-header">
               <div className="day-badge">{day}</div>
             </div>
 
             <div className="card-content">
+              {image && (
+                <img 
+                  src={image} 
+                  alt={alt || `${day} activities`} 
+                  className="activity-image"
+                />
+              )}
               <h3>Activities</h3>
               <ul>
                 {activities.map((activity, i) => (

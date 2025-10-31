@@ -121,6 +121,27 @@
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
   object-fit: cover;
   height: auto;
+  image-rendering: auto;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.activity-image {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 1rem 0 1.5rem 0;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  object-fit: cover;
+  height: 250px;
+  display: block;
+  image-rendering: auto;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .notes {
@@ -193,6 +214,10 @@
   
   .hotel-image {
     max-width: 450px;
+  }
+  
+  .activity-image {
+    height: 220px;
   }
 }
 
@@ -267,6 +292,11 @@
   .hotel-image {
     max-width: 100%;
     margin: 0.75rem 0;
+  }
+  
+  .activity-image {
+    height: 200px;
+    margin: 0.75rem 0 1rem 0;
   }
   
   .notes {

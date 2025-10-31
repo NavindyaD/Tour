@@ -53,6 +53,11 @@
     object-fit: cover;
     margin-bottom: 1rem;
     border: 3px solid #2563eb;
+    image-rendering: auto;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
   }
   
   .testimonial-content {
