@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Tour/static/css/main.979979d3.css",
-    "main.js": "/Tour/static/js/main.b23b7dcb.js",
-    "static/js/453.ed3810f9.chunk.js": "/Tour/static/js/453.ed3810f9.chunk.js",
+    "main.css": "/Tour/static/css/main.61e8592d.css",
+    "main.js": "/Tour/static/js/main.c1ba98ea.js",
+    "static/js/453.68693753.chunk.js": "/Tour/static/js/453.68693753.chunk.js",
     "static/media/tour.jpeg": "/Tour/static/media/tour.2b6055045ae45d79540f.jpeg",
     "static/media/anu.png": "/Tour/static/media/anu.6cf1f9f0338692acbd88.png",
     "static/media/classic.png": "/Tour/static/media/classic.e8543b27dd0ebf301e10.png",
@@ -12,31 +12,41 @@
     "static/media/colo.png": "/Tour/static/media/colo.8496ae8584c739a815c4.png",
     "static/media/polo.png": "/Tour/static/media/polo.97339f36ec1f0cb73bf7.png",
     "static/media/miri.png": "/Tour/static/media/miri.2aaeb795d22b579e6db5.png",
+    "static/media/elephants.png": "/Tour/static/media/elephants.0148f00f825236dd07a9.png",
     "static/media/bentota.png": "/Tour/static/media/bentota.9b4477b1e6c3c89c71bb.png",
     "static/media/wildlife.png": "/Tour/static/media/wildlife.455740974dc242ff2020.png",
     "static/media/udawalawa.png": "/Tour/static/media/udawalawa.50a0eaae3976ffafc2cc.png",
     "static/media/aru.png": "/Tour/static/media/aru.5f3c41d6ceebd63115de.png",
     "static/media/hill.png": "/Tour/static/media/hill.1f025354697317f7ed5d.png",
+    "static/media/sell.jpg": "/Tour/static/media/sell.3ea6bedbbb80ee68446b.jpg",
+    "static/media/pera.jpg": "/Tour/static/media/pera.34c1b360e9028772ec3a.jpg",
     "static/media/sigiriyaRock.jpg": "/Tour/static/media/sigiriyaRock.f1b4dc9de0b5e6d3693e.jpg",
+    "static/media/wax.jpg": "/Tour/static/media/wax.2d3aa7c26af2413f7293.jpg",
     "static/media/hotel2.jpg": "/Tour/static/media/hotel2.a1bb95f0c1e1b8aa0901.jpg",
     "static/media/ellaTrain.jpg": "/Tour/static/media/ellaTrain.45c423677c9ddc9fa9fd.jpg",
+    "static/media/gadaladeniya.jpg": "/Tour/static/media/gadaladeniya.46818f3df63e5f3684a6.jpg",
     "static/media/guide.jpg": "/Tour/static/media/guide.a958b8711391365f7988.jpg",
     "static/media/explore.jpg": "/Tour/static/media/explore.4907e2ce6d07f33d3654.jpg",
     "static/media/kandyTemple.jpg": "/Tour/static/media/kandyTemple.fbb4c344da7ba97d598d.jpg",
+    "static/media/Ktemple.png": "/Tour/static/media/Ktemple.9cdb0c6a564a8d2f620f.png",
     "static/media/Personalized Travel Planning.jpg": "/Tour/static/media/Personalized Travel Planning.4b9a6960d7708e8d7834.jpg",
+    "static/media/dambulla.jpg": "/Tour/static/media/dambulla.dc28f60fee8da5783dc8.jpg",
     "static/media/katunayakeAirport.jpg": "/Tour/static/media/katunayakeAirport.a62ee3f81694fb96ce24.jpg",
+    "static/media/safari.jpg": "/Tour/static/media/safari.becf9b767cda659208cc.jpg",
     "static/media/desti.jpg": "/Tour/static/media/desti.5e6036873eb33c6b0d4e.jpg",
+    "static/media/nelligala.jpg": "/Tour/static/media/nelligala.6c4435664d27d9e838e4.jpg",
+    "static/media/pinnawala.jpg": "/Tour/static/media/pinnawala.3ab5f9dc65f8886176ab.jpg",
     "static/media/hotel1.jpg": "/Tour/static/media/hotel1.49917303908707b0f3de.jpg",
     "static/media/sea.jpg": "/Tour/static/media/sea.88ba49ccb713fbd6534f.jpg",
     "static/media/bentota.jpg": "/Tour/static/media/bentota.d94a7b5c596c40e1a267.jpg",
     "static/media/lux.jpg": "/Tour/static/media/lux.d9cc429060f3bde2bcc4.jpg",
     "index.html": "/Tour/index.html",
-    "main.979979d3.css.map": "/Tour/static/css/main.979979d3.css.map",
-    "main.b23b7dcb.js.map": "/Tour/static/js/main.b23b7dcb.js.map",
-    "453.ed3810f9.chunk.js.map": "/Tour/static/js/453.ed3810f9.chunk.js.map"
+    "main.61e8592d.css.map": "/Tour/static/css/main.61e8592d.css.map",
+    "main.c1ba98ea.js.map": "/Tour/static/js/main.c1ba98ea.js.map",
+    "453.68693753.chunk.js.map": "/Tour/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.979979d3.css",
-    "static/js/main.b23b7dcb.js"
+    "static/css/main.61e8592d.css",
+    "static/js/main.c1ba98ea.js"
   ]
 }
