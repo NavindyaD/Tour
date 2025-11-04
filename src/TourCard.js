@@ -8,13 +8,13 @@ const TourCard = ({ title, country, price, duration, tags, image }) => {
   const { t } = useTranslation();
 
   const handleMoreInfoClick = () => {
-    if (title === "Package 1") {
+    if (title === t.package1 || title === "Package 1") {
       navigate("/package1");
-    } else if (title === "Package 2") {
+    } else if (title === t.package2 || title === "Package 2") {
       navigate("/package2");
-    } else if (title === "Package 3") {
+    } else if (title === t.package3 || title === "Package 3") {
       navigate("/package3");
-    } else if (title === "Package 4") {
+    } else if (title === t.package4 || title === "Package 4") {
       navigate("/package4");
     } else if (title === t.completeSriLankaTitle) {
       navigate("/14daytrip");

@@ -668,5 +668,23 @@ export const ar = {
   package4Day3Activity1: "سيجيريا",
   package4Day4: "اليوم 4",
   package4Day4Activity1: "سفاري هابارانا",
-  package4Activities: "الأنشطة"
+  package4Activities: "الأنشطة",
+  
+  // Package tags
+  hotel: "الفندق",
+  transport: "النقل",
+  cultural: "ثقافي",
+  shopping: "التسوق",
+  hillCountry: "البلد الجبلي",
+  teaPlantations: "مزارع الشاي",
+  sigiriya: "سيجيريا",
+  heritageSites: "مواقع التراث",
+  safari: "السفاري",
+  wildlife: "الحياة البرية",
+  
+  // Package titles (short version for cards)
+  package1: "الحزمة 1",
+  package2: "الحزمة 2",
+  package3: "الحزمة 3",
+  package4: "الحزمة 4",
 };

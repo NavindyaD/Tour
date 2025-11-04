@@ -95,35 +95,35 @@ const TourList = () => {
     },
      */
     {
-      title: "Package 1",
+      title: t.package1,
       country: "Sri Lanka",
       price: 499,
       duration: 3,
-      tags: ["Hotel", "Transport", "Cultural", "Shopping"],
+      tags: [t.hotel, t.transport, t.cultural, t.shopping],
       image: kandyTempleImg, // Kandy cultural tour
     },
     {
-      title: "Package 2",
+      title: t.package2,
       country: "Sri Lanka",
       price: 699,
       duration: 5,
-      tags: ["Hotel", "Transport", "Hill Country", "Tea Plantations"],
+      tags: [t.hotel, t.transport, t.hillCountry, t.teaPlantations],
       image: nuwaraEliyaImg, // Hill country & Nuwara Eliya
     },
     {
-      title: "Package 3",
+      title: t.package3,
       country: "Sri Lanka",
       price: 899,
       duration: 7,
-      tags: ["Hotel", "Transport", "Sigiriya", "Heritage Sites"],
+      tags: [t.hotel, t.transport, t.sigiriya, t.heritageSites],
       image: sigiriyaImg, // Cultural Triangle - Sigiriya
     },
     {
-      title: "Package 4",
+      title: t.package4,
       country: "Sri Lanka",
       price: 1099,
       duration: 10,
-      tags: ["Hotel", "Transport", "Safari", "Wildlife"],
+      tags: [t.hotel, t.transport, t.safari, t.wildlife],
       image: pinnawalaImg, // Pinnawala Elephant Orphanage
     },
   ];

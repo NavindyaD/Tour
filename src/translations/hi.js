@@ -668,5 +668,23 @@ export const hi = {
   package4Day3Activity1: "सिगिरिया",
   package4Day4: "दिन 4",
   package4Day4Activity1: "हबराना सफारी",
-  package4Activities: "गतिविधियां"
+  package4Activities: "गतिविधियां",
+  
+  // Package tags
+  hotel: "होटल",
+  transport: "परिवहन",
+  cultural: "सांस्कृतिक",
+  shopping: "खरीदारी",
+  hillCountry: "पहाड़ी देश",
+  teaPlantations: "चाय बागान",
+  sigiriya: "सिगिरिया",
+  heritageSites: "विरासत स्थल",
+  safari: "सफारी",
+  wildlife: "वन्यजीव",
+  
+  // Package titles (short version for cards)
+  package1: "पैकेज 1",
+  package2: "पैकेज 2",
+  package3: "पैकेज 3",
+  package4: "पैकेज 4",
 };

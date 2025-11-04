@@ -668,5 +668,23 @@ export const zh = {
   package4Day3Activity1: "狮子岩",
   package4Day4: "第4天",
   package4Day4Activity1: "哈巴拉纳野生动物园",
-  package4Activities: "活动"
+  package4Activities: "活动",
+  
+  // Package tags
+  hotel: "酒店",
+  transport: "交通",
+  cultural: "文化",
+  shopping: "购物",
+  hillCountry: "山地",
+  teaPlantations: "茶园",
+  sigiriya: "狮子岩",
+  heritageSites: "遗产地",
+  safari: "野生动物园",
+  wildlife: "野生动物",
+  
+  // Package titles (short version for cards)
+  package1: "套餐 1",
+  package2: "套餐 2",
+  package3: "套餐 3",
+  package4: "套餐 4",
 };

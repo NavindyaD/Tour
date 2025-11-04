@@ -668,5 +668,23 @@ export const ru = {
   package4Day3Activity1: "Сигирия",
   package4Day4: "День 4",
   package4Day4Activity1: "Сафари Хабарана",
-  package4Activities: "Мероприятия"
+  package4Activities: "Мероприятия",
+  
+  // Package tags
+  hotel: "Отель",
+  transport: "Транспорт",
+  cultural: "Культура",
+  shopping: "Шопинг",
+  hillCountry: "Горная страна",
+  teaPlantations: "Чайные плантации",
+  sigiriya: "Сигирия",
+  heritageSites: "Объекты наследия",
+  safari: "Сафари",
+  wildlife: "Дикая природа",
+  
+  // Package titles (short version for cards)
+  package1: "Пакет 1",
+  package2: "Пакет 2",
+  package3: "Пакет 3",
+  package4: "Пакет 4",
 };

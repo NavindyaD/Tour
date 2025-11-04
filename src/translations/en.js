@@ -806,5 +806,23 @@ export const en = {
   package4Day3Activity1: "Sigiriya",
   package4Day4: "Day 4",
   package4Day4Activity1: "Habarana Safari",
-  package4Activities: "Activities"
+  package4Activities: "Activities",
+  
+  // Package tags
+  hotel: "Hotel",
+  transport: "Transport",
+  cultural: "Cultural",
+  shopping: "Shopping",
+  hillCountry: "Hill Country",
+  teaPlantations: "Tea Plantations",
+  sigiriya: "Sigiriya",
+  heritageSites: "Heritage Sites",
+  safari: "Safari",
+  wildlife: "Wildlife",
+  
+  // Package titles (short version for cards)
+  package1: "Package 1",
+  package2: "Package 2",
+  package3: "Package 3",
+  package4: "Package 4",
 };

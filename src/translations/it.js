@@ -664,5 +664,23 @@ export const it = {
   package4Day3Activity1: "Sigiriya",
   package4Day4: "Giorno 4",
   package4Day4Activity1: "Safari Habarana",
-  package4Activities: "Attività"
+  package4Activities: "Attività",
+  
+  // Package tags
+  hotel: "Hotel",
+  transport: "Trasporto",
+  cultural: "Culturale",
+  shopping: "Shopping",
+  hillCountry: "Paese delle Colline",
+  teaPlantations: "Piantagioni di Tè",
+  sigiriya: "Sigiriya",
+  heritageSites: "Siti Patrimonio",
+  safari: "Safari",
+  wildlife: "Fauna Selvatica",
+  
+  // Package titles (short version for cards)
+  package1: "Pacchetto 1",
+  package2: "Pacchetto 2",
+  package3: "Pacchetto 3",
+  package4: "Pacchetto 4",
 };

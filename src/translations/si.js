@@ -664,5 +664,23 @@ export const si = {
   package4Day3Activity1: "සීගිරිය",
   package4Day4: "දින 4",
   package4Day4Activity1: "හබරණ සෆාරි",
-  package4Activities: "ක්‍රියාකාරකම්"
+  package4Activities: "ක්‍රියාකාරකම්",
+  
+  // Package tags
+  hotel: "හෝටලය",
+  transport: "ප්‍රවාහනය",
+  cultural: "සංස්කෘතික",
+  shopping: "සාප්පු ගැනීම",
+  hillCountry: "උණුසුම් ප්‍රදේශය",
+  teaPlantations: "තේ වතු",
+  sigiriya: "සීගිරිය",
+  heritageSites: "උරුම ස්ථාන",
+  safari: "සෆාරි",
+  wildlife: "වන සතුන්",
+  
+  // Package titles (short version for cards)
+  package1: "පැකේජ 1",
+  package2: "පැකේජ 2",
+  package3: "පැකේජ 3",
+  package4: "පැකේජ 4",
 };

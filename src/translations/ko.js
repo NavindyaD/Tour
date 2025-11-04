@@ -664,5 +664,23 @@ export const ko = {
   package4Day3Activity1: "시기리야",
   package4Day4: "4일차",
   package4Day4Activity1: "하바라나 사파리",
-  package4Activities: "활동"
+  package4Activities: "활동",
+  
+  // Package tags
+  hotel: "호텔",
+  transport: "교통",
+  cultural: "문화",
+  shopping: "쇼핑",
+  hillCountry: "산악 지역",
+  teaPlantations: "차 재배지",
+  sigiriya: "시기리야",
+  heritageSites: "유산지",
+  safari: "사파리",
+  wildlife: "야생동물",
+  
+  // Package titles (short version for cards)
+  package1: "패키지 1",
+  package2: "패키지 2",
+  package3: "패키지 3",
+  package4: "패키지 4",
 };
